@@ -113,8 +113,9 @@ useEffect(() => {
                     x="0px"
                     y="0px"
                     viewBox="0 0 511.808 511.808"
-                    className="w-5 h-6 icon icon-cart"
+                    className="w-5 h-6 icon icon-cart text-white"
                     id="icon-cart"
+                    fill="#ffffff"
                   >
                     <g>
                       <g>

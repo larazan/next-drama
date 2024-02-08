@@ -19,7 +19,7 @@ export default function Register() {
       <GoTop />
       <NewsFeed />
 
-      <div className="flex h-max py-8 md:py-20 bg-white ">
+      <div className="flex h-max py-8 md:py-20 bg-[#0a1016] ">
         <div className="flex  w-full2">
           <div className="max-w-full xl:max-w-[1800px] mx-auto flex flex-col justify-center items-center">
             <div className="flex flex-col md:flex-row w-full space-y-3 md:divide-x-2 px-10 md:space-y-0 max-w-full">
@@ -27,12 +27,12 @@ export default function Register() {
                 <div className="md:pr-[72px] md:max-w-[50%] md:w-[50%] pb-[48px] md:pb-0 ">
                   <div>
                     <div>
-                      <h2 className="text-2xl md:text-4xl text-black font-bold">
+                      <h2 className="text-2xl md:text-4xl text-white font-bold">
                         Create your account
                       </h2>
                     </div>
                     <div className="mt-5 lg:mt-6">
-                      <div className="text-md lg:text-h5 text-black font-sans leading-5 lg:leading-7">
+                      <div className="text-md lg:text-h5 text-white font-sans leading-5 lg:leading-7">
                         <div>
                           <div>
                             <p className="font-sans">
@@ -49,7 +49,7 @@ export default function Register() {
                         <div className="mt-4 lg:mt-5">
                           <div className="pl-4">
                             <label
-                              className="text-h6-mobile text-storm font-sans text-black"
+                              className="text-h6-mobile text-storm font-sans text-white"
                               for="register-first-name"
                             >
                               First name
@@ -58,7 +58,7 @@ export default function Register() {
                           <div className="mt-2">
                             <input
                               id="register-first-name"
-                              className="rounded-full border-neutral border-2 w-full h-[48px] px-7 text-body-md text-black font-sans leading-4 placeholder:text-dovegray"
+                              className="rounded-full border-neutral bg-transparent border-2 w-full h-[48px] px-7 text-body-md text-white font-sans leading-4 placeholder:text-dovegray"
                               placeholder="First name"
                               type="text"
                               name="firstName"
@@ -69,7 +69,7 @@ export default function Register() {
                         <div className="mt-4 lg:mt-5">
                           <div className="pl-4">
                             <label
-                              className="text-h6-mobile text-storm font-sans text-black"
+                              className="text-h6-mobile text-storm font-sans text-white"
                               for="register-last-name"
                             >
                               Last name
@@ -78,7 +78,7 @@ export default function Register() {
                           <div className="mt-2">
                             <input
                               id="register-last-name"
-                              className="rounded-full border-neutral border-2 w-full h-[48px] px-7 text-body-md text-black font-sans leading-4 placeholder:text-dovegray"
+                              className="rounded-full border-neutral bg-transparent border-2 w-full h-[48px] px-7 text-body-md text-white font-sans leading-4 placeholder:text-dovegray"
                               placeholder="Last name"
                               type="text"
                               name="lastName"
@@ -89,7 +89,7 @@ export default function Register() {
                         <div className="mt-4 lg:mt-5">
                           <div className="pl-4">
                             <label
-                              className="text-h6-mobile text-storm font-sans text-black"
+                              className="text-h6-mobile text-storm font-sans text-white"
                               for="login-email"
                             >
                               Email
@@ -99,7 +99,7 @@ export default function Register() {
                             <input
                               type="text"
                               id="login-email"
-                              className="rounded-full border-neutral border-2 w-full h-[48px] px-7 text-body-md text-black font-sans leading-4 placeholder:text-dovegray"
+                              className="rounded-full border-neutral bg-transparent border-2 w-full h-[48px] px-7 text-body-md text-white font-sans leading-4 placeholder:text-dovegray"
                               placeholder="Email"
                               name="email"
                               value=""
@@ -109,7 +109,7 @@ export default function Register() {
                         <div className="mt-4 lg:mt-5">
                           <div className="pl-4">
                             <label
-                              className="text-h6-mobile text-storm font-sans text-black"
+                              className="text-h6-mobile text-storm font-sans text-white"
                               for="login-password"
                             >
                               Password
@@ -119,7 +119,7 @@ export default function Register() {
                             <input
                               type="password"
                               id="login-password"
-                              className="rounded-full border-neutral border-2 w-full h-[48px] px-7 text-body-md text-black font-sans leading-4 placeholder:text-dovegray"
+                              className="rounded-full border-neutral bg-transparent border-2 w-full h-[48px] px-7 text-body-md text-white font-sans leading-4 placeholder:text-dovegray"
                               placeholder="Password"
                               name="password"
                               value=""
@@ -133,7 +133,7 @@ export default function Register() {
                             aria-checked="false"
                             data-state="unchecked"
                             value="on"
-                            className="h-6 w-6 border-2 border-black rounded shrink-0"
+                            className="h-6 w-6 border-2 border-white rounded shrink-0"
                           ></button>
                           <input
                             type="checkbox"
@@ -143,7 +143,7 @@ export default function Register() {
                             value="on"
                             style={{ transform: 'translateX(-100%)', position: 'absolute', pointerEvents: 'none', opacity: 0, margin: '0px', width: '24px', height: '24px'}}
                           />
-                          <div className="text-md-mobile text-black font-sans ml-[11px] cursor-pointer leading-tight">
+                          <div className="text-md-mobile text-white font-sans ml-[11px] cursor-pointer leading-tight">
                             <div>
                               <div>
                                 <p className="font-sans">
@@ -171,7 +171,7 @@ export default function Register() {
                         <div className="pt-6">
                           <button
                             type="submit"
-                            className="text-md font-bold rounded-full transition-[all] duration-300 ease-out cursor-pointer bg-black text-white border-2 border-black hover:bg-white hover:text-black hover:border-solid py-3 px-7 w-full"
+                            className="text-md font-bold rounded-full transition-[all] duration-300 ease-out cursor-pointer bg-[#00dc89] text-black border-2 border-black hover:bg-white hover:text-black hover:border-solid py-3 px-7 w-full"
                           >
                             Create Account
                           </button>
@@ -180,7 +180,7 @@ export default function Register() {
                       <div className="flex justify-center pt-9">
                         <Link
                           href="/login"
-                          className="text-body-md text-black font-bold animated-underline animated-underline-black pb-[2px]"
+                          className="text-md text-white font-bold animated-underline after:bg-[#000] before:bg-[#fff] pb-[2px]"
                         >
                           Return to login
                         </Link>
@@ -193,12 +193,12 @@ export default function Register() {
 
                 <div className="md:max-w-[50%] md:w-[50%] md:pl-[72px] pt-[48px] md:pt-0 ">
                   <div>
-                    <h2 className="text-2xl md:text-4xl font-bold text-black font-headings">
+                    <h2 className="text-2xl md:text-4xl font-bold text-white font-headings">
                     Already have an account?
                     </h2>
                   </div>
                   <div className="mt-5 md:mt-6">
-                    <div className="text-md md:text-lg text-black font-semibold leading-5 md:leading-6">
+                    <div className="text-md md:text-lg text-white font-semibold leading-5 md:leading-6">
                       <div>
                         <div>
                           <p className="font-sans">
@@ -212,7 +212,7 @@ export default function Register() {
                   <div className="mt-9">
                     <Link
                       href="/login"
-                      className="flex items-center justify-center bg-white text-black border-2 border-black border-solid  text-md font-bold rounded-full text-center h-[48px] px-7 w-full md:w-auto transition-[all] duration-300 ease-out hover:bg-black hover:text-white"
+                      className="flex items-center justify-center bg-white text-black border-2 border-black border-solid  text-md font-bold rounded-full text-center h-[48px] px-7 w-full md:w-auto transition-[all] duration-300 ease-out hover:bg-[#00dc89] hover:text-black"
                     >
                       Login
                     </Link>

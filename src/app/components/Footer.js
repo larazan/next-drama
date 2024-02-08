@@ -561,7 +561,7 @@ const Footer = () => {
 
         <div>
           <div className="text-sm mb-4 text-white/60">FOR GUESTS</div>
-          <ul className="space-y-6 text-base text-white">
+          <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
               <a href="/blog" target="_self">
                 Blog
@@ -591,7 +591,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-sm mb-4 text-white/60">FOR PARTNERS</div>
-          <ul className="space-y-6 text-base text-white">
+          <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
               <a href="/operated" target="_self">
                 Wander Operated
@@ -621,7 +621,7 @@ const Footer = () => {
         </div>
         <div>
           <div className="text-sm mb-4 text-white/60">FOR EVERYONE</div>
-          <ul className="space-y-6 text-base text-white">
+          <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
               <a href="/about" target="_self">
                 About

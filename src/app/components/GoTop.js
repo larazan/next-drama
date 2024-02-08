@@ -32,7 +32,7 @@ import React, { useEffect, useState } from "react";
         {isVisible && (
           <div
             onClick={scrollToTop}
-            className="fixed flex space-x-2 px-3 py-1 lg:px-4 lg:py-4 items-center text-white rounded-full bg-[#404040] top-20 hover:bg-[#00dc89] hover:text-black lg:top-20 lg:right-5 cursor-pointer border border-white"
+            className="fixed flex space-x-2 px-3 py-1 lg:px-4 lg:py-4 items-center text-black rounded-full bg-[#00dc89] top-20 hover:bg-white hover:border-[#404040] hover:text-black lg:top-20 lg:right-5 cursor-pointer border border-[#00dc89]"
           >
             <div className="font-semibold text-sm">Scroll to top</div>
             {/* <svg

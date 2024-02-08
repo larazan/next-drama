@@ -6,6 +6,8 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import GoTop from "../components/GoTop";
+import SubscribeForm from "../components/SubscribeForm";
+import NewsFeed from "../components/NewsFeed";
 
 export default function Return() {
   return (
@@ -18,15 +20,16 @@ export default function Return() {
 
       <Header />
       <GoTop />
+      <NewsFeed />
 
-      <div className="flex bg-white min-h-screen">
+      <div className="flex bg-[#0a1016] min-h-screen">
         <div className="mx-auto sm:container md:py-20 md:px-0 relative grid grid-cols-12 gap-6 ">
           <div className="col-span-12 md:col-span-4 bg-brand-light px-6 py-10 lg:p-6">
             <nav className="sticky top-28">
               <ul className="grid gap-y-1">
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/warranty"
                     
                   >
@@ -35,7 +38,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/policies/refund-policy"
                   >
                     Refund &amp; Return policy
@@ -43,7 +46,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/policies/terms-of-service"
                   >
                     Terms Of Service
@@ -51,7 +54,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800 underline  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white underline  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/policies/privacy-policy"
                   >
                     Privacy Policy
@@ -59,7 +62,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="https://risegardens.com/pages/shipping-policy"
                   >
                     Shipping Policy
@@ -67,7 +70,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/shipping-protection-terms-conditions"
                   >
                     Shipping protection
@@ -75,7 +78,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/membership-terms-conditions"
                   >
                     Membership Terms
@@ -83,7 +86,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/loyalty-terms-and-conditions"
                   >
                     Loyalty Terms
@@ -91,7 +94,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/email-sign-up-disc ml-6ount-terms-conditions"
                   >
                     Email Sign Up disc ml-6ount
@@ -99,7 +102,7 @@ export default function Return() {
                 </li>
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/referral-program-terms-condition"
                   >
                     Referral Program
@@ -109,7 +112,7 @@ export default function Return() {
                 
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/accessibility-statement"
                   >
                     Accessibility Statement
@@ -118,7 +121,7 @@ export default function Return() {
                
                 <li>
                   <a
-                    className=" text-gray-800  text-base lg:text-lg hover:text-[#32917b]"
+                    className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/ccpa-opt-out"
                   >
                     Do Not Sell My Personal Information
@@ -132,14 +135,14 @@ export default function Return() {
             className="col-span-12 md:col-span-8 px-6 pb-10 lg:p-0 "
           >
             <article>
-              <h1 className="text-center text-gray-800 text-3xl hidden">
+              <h1 className="text-center text-white text-3xl hidden">
                 Privacy policy
               </h1>
               <div className="prose prose-h2:mt-0">
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Rise Gardens Privacy Policy</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     This Privacy Policy describes how Rise Gardens LLC handles
                     personal data we collect online (e.g., through our websites)
@@ -151,16 +154,16 @@ export default function Return() {
                     available to you with respect to our handling of your data.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>&nbsp;</b>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Information We Collect</b>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Information we collect directly from you</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We collect the information you provide directly to us, such
                     as when you open an account, place an order, ask to receive
@@ -168,7 +171,7 @@ export default function Return() {
                     personal data we may collect directly from you include:
                   </span>
                 </p>
-                <ul className="text-gray-900 list-disc ml-6">
+                <ul className="text-white list-disc ml-6">
                   <li>
                     <span style={{ fontWeight: 400 }}></span>
                     <span style={{ fontWeight: 400 }}>
@@ -204,20 +207,20 @@ export default function Return() {
                     </span>
                   </li>
                 </ul>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Information about your use of our Services</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We collect information about your use of the Services, such
                     as the products you buy or express interest in.
                   </span>
                 </p>
 
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Information we collect from other sources</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     When you access the Services through a social network, we
                     collect information from the social network in accordance
@@ -230,10 +233,10 @@ export default function Return() {
                     that refer you to Rise Gardens.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Information we collect by automated means</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     When you visit our sites, we collect certain information
                     automatically. To collect this information, we may use
@@ -249,7 +252,7 @@ export default function Return() {
                     visitors to our websites;
                   </span>
                 </p>
-                <ul className="text-gray-900 list-disc ml-6">
+                <ul className="text-white list-disc ml-6">
                   <li>
                     <span style={{ fontWeight: 400 }}></span>
                     <span style={{ fontWeight: 400 }}>
@@ -281,7 +284,7 @@ export default function Return() {
                     </span>
                   </li>
                 </ul>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We may associate this information with your Rise Gardens
                     account if you have one, the device you use to connect to
@@ -289,11 +292,11 @@ export default function Return() {
                     to engage with Rise Gardens.
                   </span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}></span>
                   <b>Advertising and Analytics Services Provided by Others</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We may allow others to provide analytics services and serve
                     advertisements on our behalf across the internet and in
@@ -317,10 +320,10 @@ export default function Return() {
                   </a>
                   <span style={{ fontWeight: 400 }}>.</span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>How We Use Your Information</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We may use the information we collect to deliver the
                     products you request, to maintain and customize your account
@@ -329,7 +332,7 @@ export default function Return() {
                     to:
                   </span>
                 </p>
-                <ul className="text-gray-900 list-disc ml-6">
+                <ul className="text-white list-disc ml-6">
                   <li>
                     <span style={{ fontWeight: 400 }}></span>
                     <span style={{ fontWeight: 400 }}>
@@ -373,16 +376,16 @@ export default function Return() {
                     </span>
                   </li>
                 </ul>
-                <p className="text-gray-900">&nbsp;</p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="text-white">&nbsp;</p>
+                <p className="pt-4 pb-2 text-white">
                   <b>How We Share Your Information</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We may share the information we collect:
                   </span>
                 </p>
-                <ul className="text-gray-900 list-disc ml-6">
+                <ul className="text-white list-disc ml-6">
                   <li>
                     <span style={{ fontWeight: 400 }}></span>
                     <span style={{ fontWeight: 400 }}>
@@ -429,7 +432,7 @@ export default function Return() {
                     </span>
                   </li>
                 </ul>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     When you provide a product review or other user content,
                     that content will be publicly posted. Other users may be
@@ -437,7 +440,7 @@ export default function Return() {
                     you post.
                   </span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     If you are in the United States, we may share information
                     about you with select third parties so that they can
@@ -453,13 +456,13 @@ export default function Return() {
                     <span style={{ fontWeight: 400 }}>@risegardens.com</span>
                   </a>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Your Rights and Choices</b>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Managing or deleting your Rise Gardens account</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     You may review, update, or modify your account information,
                     including profile and contact information, at any time by
@@ -473,10 +476,10 @@ export default function Return() {
                     <span style={{ fontWeight: 400 }}>@risegardens.com</span>
                   </a>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Opting out of email marketing</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     You may unsubscribe from our promotional emails at any time
                     by following the instructions included in those emails. If
@@ -486,10 +489,10 @@ export default function Return() {
                     legal terms).
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Restricting cookies</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     Most web browsers are set to accept cookies by default. You
                     can usually choose to set your browser to remove or reject
@@ -498,10 +501,10 @@ export default function Return() {
                     functionality of our websites.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Children</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     Our Services are not designed for children and do not
                     knowingly collect personal data from children. If you have
@@ -519,10 +522,10 @@ export default function Return() {
                     databases.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Data Transfers and Privacy Shield</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     Rise Gardens is headquartered in the United States, and we
                     have operations and entities in the United States. As such,
@@ -534,7 +537,7 @@ export default function Return() {
                     it.
                   </span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     Under certain conditions, you may be able to invoke binding
                     arbitration to resolve your complaint. Rise Gardens is
@@ -542,10 +545,10 @@ export default function Return() {
                     Federal Trade Commission.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Links to Other Websites and Third-Party Content</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We may provide links to third-party websites, services, and
                     applications, such as Facebook, that are not operated or
@@ -557,7 +560,7 @@ export default function Return() {
                     before providing any information to or through them.
                   </span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     The Services may include an activity feed, social media
                     buttons and widgets, such as the Facebook &quot;Like&quot; button or
@@ -566,10 +569,10 @@ export default function Return() {
                     third-party service that provides the feature.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Data Retention</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     Our retention periods for personal data are based on
                     business needs and legal requirements. We retain personal
@@ -581,10 +584,10 @@ export default function Return() {
                     expired.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Changes to Our Privacy Policy</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     We may change this Privacy Policy from time to time. If we
                     do so, we will post the updated policy on our sites and will
@@ -595,10 +598,10 @@ export default function Return() {
                     practices.
                   </span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>California Privacy Rights</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     California law permits residents of California to request
                     notice of how their information is shared with third parties
@@ -617,10 +620,10 @@ export default function Return() {
                   </a>
                   <span style={{ fontWeight: 400 }}>.</span>
                 </p>
-                <p className="pt-4 pb-2 text-gray-900">
+                <p className="pt-4 pb-2 text-white">
                   <b>Contacting Rise Gardens</b>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>
                     If you have questions or concerns regarding this Privacy
                     Policy, or would like to update your preferences or
@@ -629,27 +632,27 @@ export default function Return() {
                     respond to your request.
                   </span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>Rise Gardens LLC</span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>3732 Oakton Street</span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <span style={{ fontWeight: 400 }}>Skokie, IL 60076</span>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <a href="mailto:support@risegardens.com" target="_blank">
                     <span style={{ fontWeight: 400 }}>
                       support@risegardens.com
                     </span>
                   </a>
                 </p>
-                <p className="text-gray-900">&nbsp;</p>
-                <p className="text-gray-900">
+                <p className="text-white">&nbsp;</p>
+                <p className="text-white">
                   <strong>SMS Marketing</strong>
                 </p>
-                <p className="text-gray-900">
+                <p className="text-white">
                   <em>
                     We value your privacy and the information you consent to
                     share in relation to our SMS marketing service. We use this
@@ -663,8 +666,8 @@ export default function Return() {
                   </em>
                   <br />
                 </p>
-                <p className="text-gray-900">&nbsp;</p>
-                <p className='text-gray-900' dir="ltr">
+                <p className="text-white">&nbsp;</p>
+                <p className='text-white' dir="ltr">
                   <em>
                     Our website uses cookies to keep track of items you put into
                     your shopping cart, including when you have abandoned your
@@ -678,6 +681,7 @@ export default function Return() {
         </div>
       </div>
 
+<SubscribeForm />
       <Footer />
     </>
   );

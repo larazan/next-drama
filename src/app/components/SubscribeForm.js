@@ -3,23 +3,23 @@ import React from 'react'
  const SubscribeForm = () => {
   return (
     <>
-       <div className="relative flex bg-white py-2 ">
+       <div className="relative flex bg-white py-2 bg-gradient-to-l from-[#152724] via-[#162129] to-[#171b2d]">
         <div className="flex justify-center items-center mx-auto w-11/12 md:w-10/12  ">
           <div className="flex w-full flex-col md:flex-row md:py-8 ">
             <div className="w-full ">
-              <div className="w-full px-4 py-6 md:p-8 bg-white border-t-2 ">
+              <div className="w-full px-4 py-6 md:p-8 bg-transparent border-t-2 ">
                 <div className="flex flex-col space-y-5">
-                  <h3 className="text-center uppercase text-lg md:text-xl text-gray-900 font-semibold leading-tight">
+                  <h3 className="text-center uppercase text-lg md:text-xl text-white font-semibold leading-tight">
                   Get our latest updates and 10% off your first order
                   </h3>
 
                   <div className="flex">
                     <input
-                      className="w-full py-3 px-4 text-sm bg-white border border-gray-400 placeholder:text-center focus:outline-none outline-none focus:border-[#00634b] text-gray-800 font-mabry"
+                      className="w-full py-3 px-4 text-sm bg-[#0a1016] border border-gray-400 placeholder:text-center focus:outline-none outline-none focus:border-[#00634b] text-white font-mabry"
                       type="email"
                       placeholder="Enter email here"
                     />
-                    <button className=" py-2 px-4 bg-white font-semibold text-sm tracking-wider text-gray-900 border-y border-r border-gray-400 uppercase transition duration-200 hover:bg-gray-900 hover:border-gray-900 hover:text-white">
+                    <button className=" py-2 px-4 bg-[#00dc89] font-semibold text-sm tracking-wider text-black border-y border-r border-[#00dc89] uppercase transition duration-200 hover:bg-white hover:border-gray-400 hover:text-black">
                       Subscribe
                     </button>
                   </div>
@@ -30,7 +30,7 @@ import React from 'react'
                     </span>
                   </div>
                   <div className="flex space-x-3 mx-auto w-11/12 justify-center">
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full px-2.5 py-1 transition duration-500 ease-in-out text-white hover:text-black hover:scale-1052 hover:bg-[#00dc89] cursor-pointer">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -43,7 +43,7 @@ import React from 'react'
                         ></path>
                       </svg>
                     </div>
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full px-2.5 py-1 transition duration-500 ease-in-out text-white hover:text-black hover:scale-1052 hover:bg-[#00dc89] cursor-pointer">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -56,7 +56,7 @@ import React from 'react'
                         ></path>
                       </svg>
                     </div>
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full px-2.5 py-1 transition duration-500 ease-in-out text-white hover:text-black hover:scale-1052 hover:bg-[#00dc89] cursor-pointer">
                       <svg
                         aria-hidden="true"
                         focusable="false"
@@ -69,7 +69,7 @@ import React from 'react'
                         ></path>
                       </svg>
                     </div>
-                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-gray-900 hover:text-white hover:scale-1052 hover:bg-gray-900 cursor-pointer">
+                    <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-white hover:text-black hover:scale-1052 hover:bg-[#00dc89] cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
                     </div>
                   </div>

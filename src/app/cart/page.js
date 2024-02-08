@@ -28,6 +28,9 @@ export default function Cart() {
       <Header />
       <GoTop />
 
+      <div className="flex h-12 md:h-14 bg-[#081118] w-full max-w-screen-xl">
+
+</div>
       <div className="w-full py-1  md:py-10 bg-white">
         <div className={`w-full max-w-[1280px] px-5 md:px-10 mx-auto`}>
           {/* HEADING AND PARAGRAPH START */}

@@ -55,7 +55,7 @@ const NewsFeed = () => {
 
   return (
     <>
-    <div className="flex h-10 md:h-14 bg-[#081118] w-full max-w-screen-xl">
+    <div className="flex h-12 md:h-14 bg-[#081118] w-full max-w-screen-xl">
 
     </div>
       <div className="md:border-b border-sold-out/50 bg-[#f9f9f9]">
