@@ -5,30 +5,6 @@ import free from "@/assets/icons/Free-Shipping.svg"
 import gua from "@/assets/icons/60DayIcon.svg"
 
 
-
-import mercedes from "@/assets/icons/mercedes.png"
-import alpine from "@/assets/icons/alpine.png"
-import haas from "@/assets/icons/haas.png"
-import redbull from "@/assets/icons/redbul.png"
-import mclaren from "@/assets/icons/mclaren.png"
-import aston from "@/assets/icons/aston.png"
-import ferrari from "@/assets/icons/mercedes.png"
-import alpha from "@/assets/icons/alpha.png"
-import william from "@/assets/icons/wiliam.png"
-import sauber from "@/assets/icons/sauber.png"
-
-import car_mercedes from "@/assets/cars/mercedes.png"
-import car_alpine from "@/assets/cars/alpine.png"
-import car_haas from "@/assets/cars/haas.png"
-import car_redbull from "@/assets/cars/redbul.png"
-import car_mclaren from "@/assets/cars/mclaren.png"
-import car_aston from "@/assets/cars/aston.png"
-import car_ferrari from "@/assets/cars/mercedes.png"
-import car_alpha from "@/assets/cars/sauber.png"
-import car_william from "@/assets/cars/wiliam.png"
-import car_sauber from "@/assets/cars/sauber.png"
-
-
 const Guarantee = () => {
 
 

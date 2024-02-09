@@ -3,7 +3,7 @@ import React from 'react'
 const BreadcrumbArticle = () => {
   return (
     <>
-        <section className="py-2 md:bg-white md:py-4 md:text-sm">
+        <section className="py-2 bg-transparent md:py-4 md:text-sm">
         <div className="grid-container px-0 lg:px-0">
           <nav aria-label="breadcrumbs">
             <div className="relative w-full">
@@ -11,20 +11,29 @@ const BreadcrumbArticle = () => {
               <ul className="scrollbar-fix flex flex-row flex-nowrap justify-start overflow-x-scroll no-scrollbar">
                 <li className="">
                   <a
-                    className="whitespace-nowrap text-sm font-semibold hover:underline text-[#f36b82]"
+                    className="whitespace-nowrap text-sm font-semibold hover:underline text-black text-[11px] uppercase leading-3 tracking-[2px] opacity-70"
                     href="/"
                   >
-                    Health
+                    News
                   </a>
                 </li>
                 
                 
-                <li className='before:inline before:px-2 before:text-sm before:content-[">"] text-[#f36b82]'>
+                <li className='before:inline before:px-1 before:text-sm before:content-[">"] text-black text-[11px] font-medium uppercase leading-3 tracking-[2px] opacity-70'>
                   <a
-                    className="whitespace-nowrap text-sm font-semibold hover:underline text-[#f36b82]"
+                    className="whitespace-nowrap text-sm font-semibold hover:underline text-black text-[11px] uppercase leading-3 tracking-[2px] opacity-70"
                     href="/"
                   >
-                    Mental Health
+                    Movies
+                  </a>
+                </li>
+
+                <li className='before:inline before:px-1 before:text-sm before:content-[">"] text-black text-[11px] font-medium uppercase leading-3 tracking-[2px] opacity-70'>
+                  <a
+                    className="whitespace-nowrap text-sm font-semibold hover:underline text-black text-[11px] uppercase leading-3 tracking-[2px] opacity-70"
+                    href="/"
+                  >
+                    Taxi driver 
                   </a>
                 </li>
                 

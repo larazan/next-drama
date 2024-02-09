@@ -58,7 +58,7 @@ const NewsFeed = () => {
     <div className="flex h-12 md:h-14 bg-[#081118] w-full max-w-screen-xl">
 
     </div>
-      <div className="md:border-b border-sold-out/50 bg-[#f9f9f9]">
+      <div className="md:border-b border-sold-out/50 bg-[#ebedff]">
         <div className="grid-container overflow-x-hidden px-3 py-2 md:py-3 lg:px-0 lg:py-4">
           <div
             // style={{ transform: 'translateX(-200%)' }}

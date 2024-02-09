@@ -7,7 +7,7 @@ import React from 'react'
         <div className="flex justify-center items-center mx-auto w-11/12 md:w-10/12  ">
           <div className="flex w-full flex-col md:flex-row md:py-8 ">
             <div className="w-full ">
-              <div className="w-full px-4 py-6 md:p-8 bg-transparent border-t-2 ">
+              <div className="w-full px-4 py-6 md:p-8 bg-transparent ">
                 <div className="flex flex-col space-y-5">
                   <h3 className="text-center uppercase text-lg md:text-xl text-white font-semibold leading-tight">
                   Get our latest updates and 10% off your first order
@@ -15,11 +15,11 @@ import React from 'react'
 
                   <div className="flex">
                     <input
-                      className="w-full py-3 px-4 text-sm bg-[#0a1016] border border-gray-400 placeholder:text-center focus:outline-none outline-none focus:border-[#00634b] text-white font-mabry"
+                      className="w-full py-3 px-4 text-sm bg-[#0a1016] border border-gray-400 rounded-l-full placeholder:text-center focus:outline-none outline-none focus:border-[#00634b] text-white font-mabry"
                       type="email"
                       placeholder="Enter email here"
                     />
-                    <button className=" py-2 px-4 bg-[#00dc89] font-semibold text-sm tracking-wider text-black border-y border-r border-[#00dc89] uppercase transition duration-200 hover:bg-white hover:border-gray-400 hover:text-black">
+                    <button className=" py-2 px-4 bg-[#00dc89] font-semibold text-sm tracking-wider rounded-r-full text-black border-y border-r border-[#00dc89] uppercase transition duration-200 hover:bg-white hover:border-gray-400 hover:text-black">
                       Subscribe
                     </button>
                   </div>

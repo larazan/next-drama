@@ -34,7 +34,7 @@ const SortSelect = () => {
 
   return (
     <>
-      <div className="flex z-20">
+      <div className="flex z-10">
         <div className="w-[170px] relative flex group bg-white " ref={autoRef}>
           <button className="w-full rounded-l-md px-2 text-sm text-gray-900 py-1.5 group-hover:bg-[#ffc84e]/20 group-hover:text-gray-700" onClick={toggling}>
             {selectedOption || "sort by"}

@@ -1,18 +1,16 @@
-"use client"
-
 import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import product1 from "@/assets/products/product1.png";
-import product2 from "@/assets/products/product2.png";
-import product3 from "@/assets/products/product3.png";
-import product4 from "@/assets/products/product4.png";
-import product5 from "@/assets/products/product5.png";
-import product6 from "@/assets/products/product6.png";
-import product7 from "@/assets/products/product7.png";
-import product8 from "@/assets/products/product8.png";
-import product9 from "@/assets/products/product9.png";
+import product1 from "@/assets/gallery/gallery1.png";
+import product2 from "@/assets/gallery/gallery2.png";
+import product3 from "@/assets/gallery/gallery3.png";
+import product4 from "@/assets/gallery/gallery4.png";
+import product5 from "@/assets/gallery/gallery5.png";
+import product6 from "@/assets/gallery/gallery6.png";
+import product7 from "@/assets/gallery/gallery7.png";
+import product8 from "@/assets/gallery/gallery8.png";
+import product9 from "@/assets/gallery/gallery9.png";
 
 
 const Recommended = () => {
@@ -125,9 +123,9 @@ const Recommended = () => {
   return (
     <>
       <div className="flex w-full py-6 px-5 bg-white">
-        <div className="flex flex-col space-y-5 w-full">
+        <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
-            <p className=" text-lg font-bold md:text-3xl lg:text-2xl text-black">
+            <p className=" text-lg font-bold md:text-xl lg:text-2xl text-[#023e55]">
             You might also like
             </p>
             <div className="flex space-x-0">
@@ -190,8 +188,8 @@ const Recommended = () => {
               ref={scrl}
               onScroll={scrollCheck}
             >
-              {productData.map((data, index) => 
-                 (
+              {productData.map((data, index) => {
+                return (
                   <div
                     className="relative overflow-hidden md:transform md:transition-all cursor-pointer w-[200px] shrink-0 grow-0 snap-start lg:w-[197px] mr-3"
                     key={index}
@@ -232,7 +230,7 @@ const Recommended = () => {
                             fill="#1a171b"
                             fill-rule="nonzero"
                             stroke="#000"
-                            strokeWidth=".5"
+                            stroke-width=".5"
                           ></path>
                         </svg>
                       </button>
@@ -282,8 +280,8 @@ const Recommended = () => {
                   //       </div>
                   //     </div>
                   //   </div>
-                )
-              )}
+                );
+              })}
             </div>
           </div>
         </div>

@@ -6,10 +6,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import slide5 from "@/assets/slides/slide5.png";
-import slide6 from "@/assets/slides/slide6.png";
-import slide7 from "@/assets/slides/slide7.png";
-import slide8 from "@/assets/slides/slide8.png";
+import slide5 from "@/assets/slides/slide1.png";
+import slide6 from "@/assets/slides/slide2.png";
+import slide7 from "@/assets/slides/slide3.png";
 
 const Slideshow = () => {
   const settings = {
@@ -20,8 +19,7 @@ const Slideshow = () => {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 4000,
-    lazyLoad: 'progressive',
-    arrow: false,
+    
   };
 
   const slides = [
@@ -34,29 +32,23 @@ const Slideshow = () => {
     {
       url: slide7,
     },
-    {
-      url: slide8,
-    },
+   
   ];
 
   return (
     <>
-    
-      <div className="max-w-[1400px] bg-white overflow-hidden no-scrollbar overflow-x-auto h-full w-full2 mx-auto  relative2 group2">
-        <div className="w-full2 h-full2  bg-center2 bg-cover2 object-cover2 duration-500">
+      <div className="max-w-[1400px] h-full w-full m-auto py-0 px-0 relative group overflow-hidden">
+        <div className="w-full h-full rounded-2xl bg-center bg-cover2 object-cover duration-500">
           <Slider {...settings}>
             {slides.map((data, index) => {
               return (
-                <div className="w-full2" key={index}>
-                  <Image src={data.url} alt="" className="object-cover md:h-full w-full2"  />
-                </div>
+                <Image src={data.url} alt="" className="md:h-full w-full" key={index} />
               );
             })}
           </Slider>
         </div>
      
       </div>
-      
     </>
   );
 };
