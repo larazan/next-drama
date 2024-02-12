@@ -50,7 +50,7 @@ import movie43 from "@/assets/movies/movie43.jpg";
 import movie44 from "@/assets/movies/movie44.jpg";
 
 
-export default function TrendingHome() {
+export default function NewRelease() {
   let scrl = useRef(null);
   const shiftN = 230;
   const [scrollX, setscrollX] = useState(0);
@@ -85,102 +85,102 @@ export default function TrendingHome() {
   const movieData = [
     {
       title: "the penthouse",
-      img: movie1,
+      img: movie21,
       year: 2020
     },
     {
       title: "long time no sex",
-      img: movie2,
+      img: movie22,
       year: 2020
     },
     {
       title: "a shop for killer",
-      img: movie3,
+      img: movie23,
       year: 2020
     },
     {
       title: "marry my husband",
-      img: movie4,
+      img: movie24,
       year: 2020
     },
     {
       title: "taxi driver",
-      img: movie5,
+      img: movie25,
       year: 2020
     },
     {
       title: "knight flower",
-      img: movie6,
+      img: movie26,
       year: 2020
     },
     {
       title: "sweet home",
-      img: movie7,
+      img: movie27,
       year: 2020
     },
     {
       title: "gyeongseong creature",
-      img: movie8,
+      img: movie28,
       year: 2020
     },
     {
       title: "the worst of evil",
-      img: movie9,
+      img: movie29,
       year: 2020
     },
     {
       title: "vincenzo",
-      img: movie10,
+      img: movie30,
       year: 2020
     },
     {
       title: "killing vote",
-      img: movie11,
+      img: movie31,
       year: 2020
     },
     {
       title: "moving",
-      img: movie12,
+      img: movie32,
       year: 2020
     },
     {
       title: "revenant",
-      img: movie13,
+      img: movie33,
       year: 2020
     },
     {
       title: "lies hidden in my garden",
-      img: movie14,
+      img: movie34,
       year: 2020
     },
     {
       title: "the glory",
-      img: movie15,
+      img: movie35,
       year: 2020
     },
     {
       title: "connect",
-      img: movie16,
+      img: movie36,
       year: 2020
     },
     {
       title: "hospital playlist",
-      img: movie17,
+      img: movie37,
       year: 2020
     },
     {
       title: "the queen umbrella",
-      img: movie18,
+      img: movie38,
       year: 2020
     },
     {
       title: "one dollar lawyer",
-      img: movie19,
+      img: movie39,
       year: 2020
     },
     {
       title: "my name",
-      img: movie20,
+      img: movie40,
       year: 2020
     },
   ]
@@ -193,7 +193,7 @@ export default function TrendingHome() {
             <div className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"> 
               <div className="flex">
               <p className=" text-lg font-bold md:text-2xl lg:text-2xl">
-              Trending
+              Latest Releases
               </p>
               <div className="pl-1 items-end pb-1.5 flex group-hover:hidden">
               <svg

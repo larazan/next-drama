@@ -8,6 +8,9 @@ import SubscribeForm from "./components/SubscribeForm";
 import Chat from "./components/Chat";
 import Hero from "./components/Hero";
 import CookieConsent from "./components/CookieConsent";
+import TrendingHome from "./components/TrendingHome";
+import NewRelease from "./components/NewRelease";
+import ActressList from "./components/ActressList";
 
 export default function Home() {
   return (
@@ -23,6 +26,9 @@ export default function Home() {
     <Hero />
     <Chat />
 
+    <TrendingHome />
+    <NewRelease />
+    <ActressList />
     <SubscribeForm />
     <CookieConsent />
     <Footer />
