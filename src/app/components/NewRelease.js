@@ -247,7 +247,7 @@ export default function NewRelease() {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-5 h-5 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -272,7 +272,7 @@ export default function NewRelease() {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-5 h-5 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -297,7 +297,7 @@ export default function NewRelease() {
                   className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                   key={index}
                 >
-                  <div className="flex w-[230px] ">
+                  <div className="flex w-[160px] md:w-[230px] ">
                     <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
                       <Link href="/breeds/angora" className="relative">
                         <Image

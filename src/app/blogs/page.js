@@ -355,48 +355,42 @@ export default function Blogs() {
                   </div>
                 </div>
               </div>
-              <nav class="no-scrollbar mb-10 hidden grid-flow-col items-center justify-start gap-0 pb-3 md:grid md:gap-3 md:overflow-x-auto md:pb-0">
+              <nav class="no-scrollbar mb-10 hidden grid-flow-col items-center justify-start gap-0 pb-3 md:grid md:gap-1 md:overflow-x-auto md:pb-0">
                 <a
                   class="whitespace-nowrap rounded-full px-4 py-1 capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg  bg-black font-medium text-white hover:bg-[#212121]"
                   href="/blog"
                 >
-                  All blogs
+                  All News
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 hover:bg-pink-300"
+                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/real-estate-investing"
                 >
-                  Real Estate Investing
+                  TV/Film
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 hover:bg-pink-300"
+                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/help-center"
                 >
-                  Help Center
+                  Music
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 hover:bg-pink-300"
+                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/announcements"
                 >
-                  announcements
+                  Celebs
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 hover:bg-pink-300"
+                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/community"
                 >
-                  community
+                  Fashion
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 hover:bg-pink-300"
+                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/guides"
                 >
-                  guides
-                </a>
-                <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 hover:bg-pink-300"
-                  href="/blogs/travel"
-                >
-                  travel
+                  Forum
                 </a>
               </nav>
               {/* <div class="grid grid-cols-1 items-start justify-start gap-8 md:grid-cols-2">
@@ -660,9 +654,12 @@ export default function Blogs() {
                   </div>
                 </div>
               </div> */}
-              <div class="py-14 grid grid-cols-1 gap-8 sm:grid-cols-2 md:my-20 md:grid-cols-2 lg:grid-cols-4 ">
+              <div class="py-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:pb-16 md:grid-cols-3 lg:grid-cols-4 ">
                 <div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <div class="relative block h-48 w-full overflow-hidden rounded-lg">
                       <Image
                         src={blog1}
@@ -682,31 +679,40 @@ export default function Blogs() {
                       </a>
                     </div>
                   </div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <h3 class="line-clamp-2 text-xl font-extrabold leading-6">
                       Wander Vail Valley: Complete Guide
                     </h3>
                   </a>
-                  <p class="mb-4 mt-3 line-clamp-2 text-gr-300 opacity-80">
+                  <p class="mb-4 mt-3 line-clamp-2 text-gr-300 opacity-80 leading-tight">
                     Looking for the best spas, restaurants, bars, and
                     experiences
                   </p>
-                  <div class="flex items-center text-gr-300">
-                    <div class="relative">
+                  <div className="flex flex-col space-y-1 ">
+                    <div class="flex items-center space-x-2 relative">
                       <Image
                         src={ava}
                         alt=""
-                        class="w-8 h-8 rounded-full object-cover"
+                        class="w-7 h-7 rounded-full object-cover"
                       />
+                      <p className="text-sm font-semibold text-[#757575]">
+                        By Brigitt Earley
+                      </p>
                     </div>
-                    <div class="ml-4 leading-3">
-                      <h4 class="text-sm leading-tight font-semibold">Jill</h4>
-                      {/* <span class="text-xs opacity-70">CEO</span> */}
-                    </div>
+
+                    <span className="text-xs text-gray-900">
+                      January 6, 2024
+                    </span>
                   </div>
                 </div>
                 <div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <div class="relative block h-48 w-full overflow-hidden rounded-lg">
                       <Image
                         src={blog2}
@@ -726,7 +732,10 @@ export default function Blogs() {
                       </a>
                     </div>
                   </div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <h3 class="line-clamp-2 text-xl font-extrabold leading-6">
                       Wander Vail Valley: Complete Guide
                     </h3>
@@ -735,22 +744,28 @@ export default function Blogs() {
                     Looking for the best spas, restaurants, bars, and
                     experiences
                   </p>
-                  <div class="flex items-center text-gr-300">
-                    <div class="relative">
+                  <div className="flex flex-col space-y-1 ">
+                    <div class="flex items-center space-x-2 relative">
                       <Image
                         src={ava}
                         alt=""
-                        class="w-8 h-8 rounded-full object-cover"
+                        class="w-7 h-7 rounded-full object-cover"
                       />
+                      <p className="text-sm font-semibold text-[#757575]">
+                        By Brigitt Earley
+                      </p>
                     </div>
-                    <div class="ml-4 leading-3">
-                      <h4 class="text-sm leading-tight font-semibold">Jill</h4>
-                      {/* <span class="text-xs opacity-70">CEO</span> */}
-                    </div>
+
+                    <span className="text-xs text-gray-900">
+                      January 6, 2024
+                    </span>
                   </div>
                 </div>
                 <div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <div class="relative block h-48 w-full overflow-hidden rounded-lg">
                       <Image
                         src={blog3}
@@ -770,7 +785,10 @@ export default function Blogs() {
                       </a>
                     </div>
                   </div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <h3 class="line-clamp-2 text-xl font-extrabold leading-6">
                       Wander Vail Valley: Complete Guide
                     </h3>
@@ -779,22 +797,28 @@ export default function Blogs() {
                     Looking for the best spas, restaurants, bars, and
                     experiences
                   </p>
-                  <div class="flex items-center text-gr-300">
-                    <div class="relative">
+                  <div className="flex flex-col space-y-1 ">
+                    <div class="flex items-center space-x-2 relative">
                       <Image
                         src={ava}
                         alt=""
-                        class="w-8 h-8 rounded-full object-cover"
+                        class="w-7 h-7 rounded-full object-cover"
                       />
+                      <p className="text-sm font-semibold text-[#757575]">
+                        By Brigitt Earley
+                      </p>
                     </div>
-                    <div class="ml-4 leading-3">
-                      <h4 class="text-sm leading-tight font-semibold">Jill</h4>
-                      {/* <span class="text-xs opacity-70">CEO</span> */}
-                    </div>
+
+                    <span className="text-xs text-gray-900">
+                      January 6, 2024
+                    </span>
                   </div>
                 </div>
                 <div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <div class="relative block h-48 w-full overflow-hidden rounded-lg">
                       <Image
                         src={blog4}
@@ -814,7 +838,10 @@ export default function Blogs() {
                       </a>
                     </div>
                   </div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <h3 class="line-clamp-2 text-xl font-extrabold leading-6">
                       Wander Vail Valley: Complete Guide
                     </h3>
@@ -823,22 +850,28 @@ export default function Blogs() {
                     Looking for the best spas, restaurants, bars, and
                     experiences
                   </p>
-                  <div class="flex items-center text-gr-300">
-                    <div class="relative">
+                  <div className="flex flex-col space-y-1 ">
+                    <div class="flex items-center space-x-2 relative">
                       <Image
                         src={ava}
                         alt=""
-                        class="w-8 h-8 rounded-full object-cover"
+                        class="w-7 h-7 rounded-full object-cover"
                       />
+                      <p className="text-sm font-semibold text-[#757575]">
+                        By Brigitt Earley
+                      </p>
                     </div>
-                    <div class="ml-4 leading-3">
-                      <h4 class="text-sm leading-tight font-semibold">Jill</h4>
-                      {/* <span class="text-xs opacity-70">CEO</span> */}
-                    </div>
+
+                    <span className="text-xs text-gray-900">
+                      January 6, 2024
+                    </span>
                   </div>
                 </div>
                 <div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <div class="relative block h-48 w-full overflow-hidden rounded-lg">
                       <Image
                         src={blog5}
@@ -858,7 +891,10 @@ export default function Blogs() {
                       </a>
                     </div>
                   </div>
-                  <a class="hover:underline" href="/blogs/celebrating-two-years">
+                  <a
+                    class="hover:underline"
+                    href="/blogs/celebrating-two-years"
+                  >
                     <h3 class="line-clamp-2 text-xl font-extrabold leading-6">
                       Wander Vail Valley: Complete Guide
                     </h3>
@@ -867,18 +903,21 @@ export default function Blogs() {
                     Looking for the best spas, restaurants, bars, and
                     experiences
                   </p>
-                  <div class="flex items-center text-gr-300">
-                    <div class="relative">
+                  <div className="flex flex-col space-y-1 ">
+                    <div class="flex items-center space-x-2 relative">
                       <Image
                         src={ava}
                         alt=""
-                        class="w-8 h-8 rounded-full object-cover"
+                        class="w-7 h-7 rounded-full object-cover"
                       />
+                      <p className="text-sm font-semibold text-[#757575]">
+                        By Brigitt Earley
+                      </p>
                     </div>
-                    <div class="ml-4 leading-3">
-                      <h4 class="text-sm leading-tight font-semibold">Jill</h4>
-                      {/* <span class="text-xs opacity-70">CEO</span> */}
-                    </div>
+
+                    <span className="text-xs text-gray-900">
+                      January 6, 2024
+                    </span>
                   </div>
                 </div>
               </div>

@@ -187,7 +187,7 @@ export default function TrendingHome() {
 
   return (
     <>
-       <div className="flex w-full py-6 px-5 bg-[#0a1016]">
+       <div className="flex w-full mt-16 md:mt-0 py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
             <div className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"> 
@@ -247,7 +247,7 @@ export default function TrendingHome() {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-5 h-5 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -272,7 +272,7 @@ export default function TrendingHome() {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-5 h-5 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -297,7 +297,7 @@ export default function TrendingHome() {
                   className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                   key={index}
                 >
-                  <div className="flex w-[230px] ">
+                  <div className="flex w-[160px] md:w-[230px] ">
                     <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
                       <Link href="/breeds/angora" className="relative">
                         <Image
