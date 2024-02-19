@@ -297,7 +297,7 @@ export default function Category() {
             
               <div class="py-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:pb-16 md:grid-cols-3 lg:grid-cols-4 divide-y md:divide-y-0 divide-gray-300">
                 {newsData.map((data,index) => (
-                    <div className="pt-5 md:pt-0">
+                    <div className="pt-5 md:pt-0" key={index}>
                   <a
                     class="hover:underline"
                     href="/blogs/celebrating-two-years"

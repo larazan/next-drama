@@ -4,54 +4,20 @@ import React, { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import movie1 from "@/assets/movies/movie1.jpg";
-import movie2 from "@/assets/movies/movie2.jpg";
-import movie3 from "@/assets/movies/movie3.jpg";
-import movie4 from "@/assets/movies/movie4.jpg";
-import movie5 from "@/assets/movies/movie5.jpg";
-import movie6 from "@/assets/movies/movie6.jpg";
-import movie7 from "@/assets/movies/movie7.jpg";
-import movie8 from "@/assets/movies/movie8.jpg";
-import movie9 from "@/assets/movies/movie9.jpg";
-import movie10 from "@/assets/movies/movie10.jpg";
-import movie11 from "@/assets/movies/movie11.jpg";
-import movie12 from "@/assets/movies/movie12.jpg";
-import movie13 from "@/assets/movies/movie13.jpg";
-import movie14 from "@/assets/movies/movie14.jpg";
-import movie15 from "@/assets/movies/movie15.jpg";
-import movie16 from "@/assets/movies/movie16.jpg";
-import movie17 from "@/assets/movies/movie17.jpg";
-import movie18 from "@/assets/movies/movie18.jpg";
-import movie19 from "@/assets/movies/movie19.jpg";
-import movie20 from "@/assets/movies/movie20.jpg";
-import movie21 from "@/assets/movies/movie21.jpg";
-import movie22 from "@/assets/movies/movie22.jpg";
-import movie23 from "@/assets/movies/movie23.jpg";
-import movie24 from "@/assets/movies/movie24.jpg";
-import movie25 from "@/assets/movies/movie25.jpg";
-import movie26 from "@/assets/movies/movie26.jpg";
-import movie27 from "@/assets/movies/movie27.jpg";
-import movie28 from "@/assets/movies/movie28.jpg";
-import movie29 from "@/assets/movies/movie29.jpg";
-import movie30 from "@/assets/movies/movie30.jpg";
-import movie31 from "@/assets/movies/movie31.jpg";
-import movie32 from "@/assets/movies/movie32.jpg";
-import movie33 from "@/assets/movies/movie33.jpg";
-import movie34 from "@/assets/movies/movie34.jpg";
-import movie35 from "@/assets/movies/movie35.jpg";
-import movie36 from "@/assets/movies/movie36.jpg";
-import movie37 from "@/assets/movies/movie37.jpg";
-import movie38 from "@/assets/movies/movie38.jpg";
-import movie39 from "@/assets/movies/movie39.jpg";
-import movie40 from "@/assets/movies/movie40.jpg";
-import movie41 from "@/assets/movies/movie41.jpg";
-import movie42 from "@/assets/movies/movie42.jpg";
-import movie43 from "@/assets/movies/movie43.jpg";
-import movie44 from "@/assets/movies/movie44.jpg";
+import miwa from "@/assets/actress/miwa.jpg";
+import milet from "@/assets/actress/milet.jpg";
+import aimer from "@/assets/actress/aimer.jpg";
+import lisa from "@/assets/actress/lisa.jpg";
+import yui from "@/assets/actress/yui.jpg";
+import radwimps from "@/assets/actress/radwimps.jpg";
+import kanaboon from "@/assets/actress/kanaboon.jpg";
+import okrock from "@/assets/actress/okrock.jpg";
+import asiankungfu from "@/assets/actress/asiankungfu.jpg";
+import kenshi from "@/assets/actress/kenshi.jpg";
+import doinfinity from "@/assets/actress/doinfinity.jpg";
 
-
-export default function TrendingHome() {
-  let scrl = useRef(null);
+const MusicList = () => {
+    let scrl = useRef(null);
   const shiftN = 230;
   const [scrollX, setscrollX] = useState(0);
   const [scrolEnd, setscrolEnd] = useState(false);
@@ -82,118 +48,95 @@ export default function TrendingHome() {
     }
   };
 
-  const movieData = [
-    {
-      title: "the penthouse",
-      img: movie1,
-      year: 2020
-    },
-    {
-      title: "long time no sex",
-      img: movie2,
-      year: 2020
-    },
-    {
-      title: "a shop for killer",
-      img: movie3,
-      year: 2020
-    },
-    {
-      title: "marry my husband",
-      img: movie4,
-      year: 2020
-    },
-    {
-      title: "taxi driver",
-      img: movie5,
-      year: 2020
-    },
-    {
-      title: "knight flower",
-      img: movie6,
-      year: 2020
-    },
-    {
-      title: "sweet home",
-      img: movie7,
-      year: 2020
-    },
-    {
-      title: "gyeongseong creature",
-      img: movie8,
-      year: 2020
-    },
-    {
-      title: "the worst of evil",
-      img: movie9,
-      year: 2020
-    },
-    {
-      title: "vincenzo",
-      img: movie10,
-      year: 2020
-    },
-    {
-      title: "killing vote",
-      img: movie11,
-      year: 2020
-    },
-    {
-      title: "moving",
-      img: movie12,
-      year: 2020
-    },
-    {
-      title: "revenant",
-      img: movie13,
-      year: 2020
-    },
-    {
-      title: "lies hidden in my garden",
-      img: movie14,
-      year: 2020
-    },
-    {
-      title: "the glory",
-      img: movie15,
-      year: 2020
-    },
-    {
-      title: "connect",
-      img: movie16,
-      year: 2020
-    },
-    {
-      title: "hospital playlist",
-      img: movie17,
-      year: 2020
-    },
-    {
-      title: "the queen umbrella",
-      img: movie18,
-      year: 2020
-    },
-    {
-      title: "one dollar lawyer",
-      img: movie19,
-      year: 2020
-    },
-    {
-      title: "my name",
-      img: movie20,
-      year: 2020
-    },
-  ]
+    const musicData = [
+        {
+            id: 1,
+            title: "mix miwa",
+            artist: "miwa",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: miwa
+        },
+        {
+            id: 2,
+            title: "mix milet",
+            artist: "milet",
+            description: "inside you, us, fly high and many more",
+            image: milet
+        },
+        {
+            id: 3,
+            title: "mix aimer",
+            artist: "aimer",
+            description: "black bird, stand alone, stars in the rain and many more",
+            image: aimer
+        },
+        {
+            id: 4,
+            title: "mix lisa",
+            artist: "lisa",
+            description: "gurenge and many more",
+            image: lisa
+        },
+        {
+            id: 5,
+            title: "do as infinity",
+            artist: "do as infinity",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: doinfinity
+        },
+        {
+            id: 6,
+            title: "mix radwimps",
+            artist: "radwimps",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: radwimps
+        },
+        {
+            id: 7,
+            title: "mix kana boon",
+            artist: "kana boon",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: kanaboon
+        },
+        {
+            id: 8,
+            title: "mix one ok rock",
+            artist: "one ok rock",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: okrock
+        },
+        {
+            id: 9,
+            title: "mix asian kungfu generation",
+            artist: "asian kungfu generation",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: asiankungfu
+        },
+        {
+            id: 10,
+            title: "mix yui",
+            artist: "yui",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: yui
+        },
+        {
+            id: 11,
+            title: "mix kenshi yonezu",
+            artist: "kenshi yonezu",
+            description: "change, don't cry anymore, hikarie and many more",
+            image: kenshi
+        }
+    ]
 
   return (
     <>
-       <div className="flex w-full mt-12 md:mt-0 py-6 px-5 bg-[#0a1016]">
+        <div className="flex w-full mt-0 md:mt-0 py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
             <div className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"> 
               <div className="flex">
               <p className=" text-lg font-bold md:text-2xl lg:text-2xl">
-              Trending
+              Musics
               </p>
               <div className="pl-1 items-end pb-1.5 flex group-hover:hidden">
               <svg
@@ -291,7 +234,7 @@ export default function TrendingHome() {
               ref={scrl}
               onScroll={scrollCheck}
             >
-              {movieData.map((data, index) => {
+              {musicData.map((data, index) => {
                 return (
                   <div
                   className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
@@ -299,20 +242,20 @@ export default function TrendingHome() {
                 >
                   <div className="flex w-[160px] md:w-[230px] ">
                     <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                      <Link href="/breeds/angora" className="relative">
+                      <Link href="/musics/angora" className="relative w-[200px] h-[140px] md:w-[250px] md:h-[250px]">
                         <Image
-                          src={data.img}
+                          src={data.image}
                           alt=""
-                          className="w-[300px] object-cover"
+                          className="w-full h-full object-cover"
                         />{" "}
                         <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                       </Link>{" "}
                       <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                        <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
-                          <Link href="/movies/one">{data.title}</Link>
+                        <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words md:text-lg text-white leading-tight md:leading-tight font-semibold capitalize">
+                          <Link href="/musics/one">{data.title}</Link>
                         </h3>{" "}
-                        <div className="font-mabry text-xs text-white">
-                          {data.year}
+                        <div className="font-mabry text-sm capitalize text-white leading-tight">
+                          {data.artist}
                         </div>
                       </div>
                     </div>
@@ -326,5 +269,7 @@ export default function TrendingHome() {
         </div>
       </div>
     </>
-  );
+  )
 }
+
+export default MusicList

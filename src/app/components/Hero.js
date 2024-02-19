@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import product from "@/assets/details/hero.png";
+import hero from "@/assets/details/hero.png";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
               }}
             >
               <Image
-                src={product}
+                src={hero}
                 alt=""
                 className="object-cover h-full w-full"
               />

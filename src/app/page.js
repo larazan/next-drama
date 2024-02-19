@@ -11,6 +11,7 @@ import CookieConsent from "./components/CookieConsent";
 import TrendingHome from "./components/TrendingHome";
 import NewRelease from "./components/NewRelease";
 import ActressList from "./components/ActressList";
+import MusicList from "./components/MusicList";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
     <TrendingHome />
     <NewRelease />
     <ActressList />
+    <MusicList />
     <SubscribeForm />
     <CookieConsent />
     <Footer />
