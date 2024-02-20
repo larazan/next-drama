@@ -308,9 +308,11 @@ export default function NewRelease() {
                         <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                       </Link>{" "}
                       <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                        <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
-                          <Link href="/movies/one">{data.title}</Link>
-                        </h3>{" "}
+                        <div className="w-[197px]">
+                          <h3 className="my-[0.25em] mx-[0em] md:text-md text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
+                            <Link href="/movies/one">{data.title}</Link>
+                          </h3>{" "}
+                        </div>
                         <div className="font-mabry text-xs text-white">
                           {data.year}
                         </div>

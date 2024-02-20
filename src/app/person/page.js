@@ -131,7 +131,7 @@ export default function Person() {
       </div>
       <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div>
 
-      <div className="flex-col min-h-screen relative bg-white  px-4 md:px-8 md:pt-3 pb-10">
+      <div className="flex-col min-h-screen relative bg-[#0a1016]  px-4 md:px-8 md:pt-3 pb-10">
         <div className="py-5">
           <div className="flex flex-col md:flex-row md:space-x-4">
             <div className="w-full md:w-1/3">
@@ -144,7 +144,7 @@ export default function Person() {
                   />
                 </div>
                 <div className="py-3 md:hidden text-center">
-                  <span className="text-3xl font-semibold text-black">Kim Ji-won</span>
+                  <span className="text-3xl font-semibold text-white">Kim Ji-won</span>
                 </div>
                 <div className="md:hidden flex justify-center space-x-3 px-10 mb-4">
                   <div className="border hover:bg-[#1877f2] w-10 h-10 fill-[#1877f2] hover:fill-white border-[#5aa3ed] rounded-full flex items-center justify-center shadow-xl hover:shadow-blue-500/50 cursor-pointer">
@@ -183,7 +183,7 @@ export default function Person() {
                   </div>
                 </div>
               </div>
-              <div className="flex-col py-2 md:py-4">
+              <div className="flex-col py-2 md:py-4 text-white">
                 <span className="text-xl font-semibold">Tentang</span>
                 <div className="flex-col space-y-2 md:space-y-3 pt-2 md:pt-4">
                   <div className="flex-col">
@@ -199,7 +199,7 @@ export default function Person() {
                       <span className="font-semibold">Jenis kelamin</span>
                     </div>
                     <div>
-                      <span className="text-sm">Pria</span>
+                      <span className="text-sm">Wanita</span>
                     </div>
                   </div>
                   <div className="flex-col">
@@ -235,7 +235,7 @@ export default function Person() {
               </div>
             </div>
             <div className="w-full md:w-2/3 md:pl-3">
-              <div>
+              <div className="text-white">
                 <div className="hidden md:block">
                   <span className="text-3xl font-bold">Kim Ji-won</span>
                 </div>

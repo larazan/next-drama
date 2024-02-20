@@ -12,6 +12,8 @@ import TrendingHome from "./components/TrendingHome";
 import NewRelease from "./components/NewRelease";
 import ActressList from "./components/ActressList";
 import MusicList from "./components/MusicList";
+import ProductShop from "./components/ProductShop";
+import AdsModal from "./components/AdsModal";
 
 export default function Home() {
   return (
@@ -31,8 +33,11 @@ export default function Home() {
     <NewRelease />
     <ActressList />
     <MusicList />
+    <ProductShop />
+
     <SubscribeForm />
     <CookieConsent />
+    <AdsModal />
     <Footer />
     </>
   );

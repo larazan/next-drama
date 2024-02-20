@@ -133,7 +133,7 @@ const MusicList = () => {
         <div className="flex w-full mt-0 md:mt-0 py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
-            <div className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"> 
+            <Link href={"/musics"} className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"> 
               <div className="flex">
               <p className=" text-lg font-bold md:text-2xl lg:text-2xl">
               Musics
@@ -172,7 +172,7 @@ const MusicList = () => {
                     />
                   </svg>
             </div>
-            </div>
+            </Link>
             
             <div className="flex space-x-0">
               <div
@@ -250,10 +250,12 @@ const MusicList = () => {
                         />{" "}
                         <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                       </Link>{" "}
-                      <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                        <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words md:text-lg text-white leading-tight md:leading-tight font-semibold capitalize">
-                          <Link href="/musics/one">{data.title}</Link>
-                        </h3>{" "}
+                      <div className="px-3 py-2 flex flex-col leading-tight2">
+                        <div className="w-[197px]">
+                          <h3 className="my-[0.25em] mx-[0em] md:text-lg text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
+                            <Link href="/musics/one">{data.title}</Link>
+                          </h3>{" "}
+                        </div>
                         <div className="font-mabry text-sm capitalize text-white leading-tight">
                           {data.artist}
                         </div>

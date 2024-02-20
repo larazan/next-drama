@@ -42,7 +42,7 @@ export default function Detail() {
         </div>
         <div className="md:relative md:mt-12 md:pb-20 bottom-0 z-10 h-full flex flex-col rounded justify-center bg-black/50 items-center text-center  xs:my-[12px] md:my-[48px] px-[12px] md:px-[30px] mx-auto md:w-full  xs:items-center xs:text-center xs:justify-center md:items-start md:text-left md:justify-center">
           <div className="flex-row md:flex px-4 md:px-6 md:space-x-7 w-full justify-between">
-            <div className="hidden flex w-full md:block md:w-1/3 ">
+            <div className="hidden flex2 w-full md:block md:w-1/3 ">
               <div className="mx-auto w-full">
                 <Image src={driver} className="" alt="" />
               </div>

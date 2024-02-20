@@ -46,24 +46,15 @@ useEffect(() => {
 
   return (
     <>
-      <header className={` ${!navState ? 'absolute opacity-100 bg-gradient-to-r from-[#081118]/15 via-green-400/20 to-[#081118]/10' : 'fixed bg-[#081118] border-b border-[#00dc89]'} z-20 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between  shadow2`}>
+      <header className={` ${!navState ? 'absolute opacity-100 bg-gradient-to-r from-[#081118]/15 via-green-400/20 to-[#081118]/10' : 'fixed bg-[#081118] border-b border-[#00dc89]'} z-40 flex h-10 md:h-14 w-full top-0 md:m-0 px-4 md:px-6 py-6 md:py-3  items-center justify-between  shadow2`}>
         <div className="flex w-full md:w-1/5 justify-between ">
           <div className="flex justify-between w-full md:w-[100px]">
             <div className="w-2/6">
               <button className=" h-8 w-8 md:hidden2 text-white" onClick={clickMenu}>
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  ></path>
-                </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+
               </button>
               
             </div>

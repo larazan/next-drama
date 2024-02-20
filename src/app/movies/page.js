@@ -7,6 +7,9 @@ import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import GoTop from "@/app/components/GoTop";
 import NewsFeed from "../components/NewsFeed";
+import FilterMovie from "../components/FilterMovie";
+import SubscribeForm from "../components/SubscribeForm";
+import PaginateMovie from "../components/PaginateMovie";
 
 import movie1 from "@/assets/movies/movie1.jpg";
 import movie2 from "@/assets/movies/movie2.jpg";
@@ -52,10 +55,7 @@ import movie41 from "@/assets/movies/movie41.jpg";
 import movie42 from "@/assets/movies/movie42.jpg";
 import movie43 from "@/assets/movies/movie43.jpg";
 import movie44 from "@/assets/movies/movie44.jpg";
-import FilterMovie from "../components/FilterMovie";
-import SubscribeForm from "../components/SubscribeForm";
-import Pagination from "../components/Pagination";
-import PaginateMovie from "../components/PaginateMovie";
+
 
 export default function Movies() {
   const movieData = [
@@ -187,7 +187,7 @@ export default function Movies() {
                   >
                     <div className="flex w-[200px] ">
                       <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                        <Link href="/breeds/angora" className="relative">
+                        <Link href="/movies/angora" className="relative">
                           <Image
                             src={data.img}
                             alt=""
@@ -196,9 +196,11 @@ export default function Movies() {
                           <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                         </Link>{" "}
                         <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                          <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
+                        <div className="w-[197px]">
+                          <h3 className="my-[0.25em] mx-[0em] md:text-md text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
                             <Link href="/movies/one">{data.title}</Link>
                           </h3>{" "}
+                        </div>
                           <div className="font-mabry text-xs text-white">
                             {data.year}
                           </div>
