@@ -72,13 +72,13 @@ const SortStatus = () => {
             
           </span>
           {isOpen && (
-            <div className="min-w-[100px] absolute top-5 py-2 right-0 z-10 mt-4 origin-top-right rounded border border-gray-200 bg-white shadow-lg">
+            <div className="min-w-[100px] absolute top-5 py-2 right-0 z-10 mt-4 origin-top-right rounded border border- bg-[#474645] shadow-lg">
               {options.map((option, index) => (
                 <div className="px-2" key={index}>
                   <button
                     // type="button"
                     onClick={onOptionClicked(option)}
-                    className="flex py-1 px-2 w-full uppercase rounded text-[11px] text-gray-500 no-underline hover:bg-blue-600 hover:text-white"
+                    className="flex py-1 px-2 w-full uppercase rounded text-[11px] text-[#d8d9d9] no-underline hover:bg-blue-600 hover:text-white"
                   >
                     <span>{option}</span>
                   </button>

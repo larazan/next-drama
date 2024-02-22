@@ -156,7 +156,7 @@ const Casts = () => {
                   >
                     <div className="flex w-[90px] md:w-[140px] ">
                       <div className="rounded bg-transparent  group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                        <Link href="/actress/kim-ji-won" className="relative">
+                        <Link href="/person" className="relative">
                           <Image
                             src={data.img}
                             alt=""

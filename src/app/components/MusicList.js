@@ -130,7 +130,7 @@ const MusicList = () => {
 
   return (
     <>
-        <div className="flex w-full mt-0 md:mt-0 py-6 px-5 bg-[#0a1016]">
+        <div className="flex w-full mt-0 py-0 md:py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
             <Link href={"/musics"} className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"> 
@@ -190,7 +190,7 @@ const MusicList = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-5 h-5 md:w-6 md:h-6"
+                    className="w-4 h-4 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -215,7 +215,7 @@ const MusicList = () => {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-5 h-5 md:w-6 md:h-6"
+                    className="w-4 h-4 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -240,28 +240,28 @@ const MusicList = () => {
                   className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                   key={index}
                 >
-                  <div className="flex w-[160px] md:w-[230px] ">
-                    <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                      <Link href="/musics/angora" className="relative w-[200px] h-[140px] md:w-[250px] md:h-[250px]">
+                  <div className="flex w-[160px] md:w-[200px] ">
+                      <div className="rounded bg-[#1e2429] border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
+                      <Link href="/musics/angora" className="relative w-[160px] h-[140px] md:w-[200px] md:h-[200px]">
                         <Image
                           src={data.image}
                           alt=""
-                          className="w-full h-full object-cover"
+                          className="w-full h-full rounded-lg object-cover px-3 pt-3 "
                         />{" "}
                         <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                       </Link>{" "}
-                      <div className="px-3 py-2 flex flex-col leading-tight2">
+                        <div className="px-3 py-2 flex flex-col justify-between leading-tight">
                         <div className="w-[197px]">
-                          <h3 className="my-[0.25em] mx-[0em] md:text-lg text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
-                            <Link href="/musics/one">{data.title}</Link>
+                          <h3 className="my-[0.25em] mx-[0em] md:text-md text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
+                            <Link href="/movies/one">{data.title}</Link>
                           </h3>{" "}
                         </div>
                         <div className="font-mabry text-sm capitalize text-white leading-tight">
                           {data.artist}
                         </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                 </div>
 
                 );

@@ -186,7 +186,7 @@ export default function TrendingHome() {
 
   return (
     <>
-      <div className="flex w-full mt-12 md:mt-0 py-6 px-5 bg-[#0a1016]">
+      <div className="flex w-full py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
             <Link href={"/movies"} className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]">
@@ -248,7 +248,7 @@ export default function TrendingHome() {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-5 h-5 md:w-6 md:h-6"
+                    className="w-4 h-4 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -273,7 +273,7 @@ export default function TrendingHome() {
                     viewBox="0 0 24 24"
                     strokeWidth={5}
                     stroke="currentColor"
-                    className="w-5 h-5 md:w-6 md:h-6"
+                    className="w-4 h-4 md:w-6 md:h-6"
                   >
                     <path
                       strokeLinecap="round"
@@ -298,13 +298,13 @@ export default function TrendingHome() {
                     className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                     key={index}
                   >
-                    <div className="flex w-[160px] md:w-[230px] ">
-                      <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                        <Link href="/breeds/angora" className="relative">
+                    <div className="flex w-[160px] md:w-[190px] ">
+                      <div className="rounded bg-transparent border border-transparent hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
+                        <Link href="/movies/angora" className="relative shadow-sm  shadow-[#282d32]">
                           <Image
                             src={data.img}
                             alt=""
-                            className="w-[300px] object-cover"
+                            className="w-full object-cover border rounded border-[#282d32]"
                           />{" "}
                           <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                         </Link>{" "}

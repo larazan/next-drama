@@ -80,18 +80,13 @@ export default function Person() {
             </div>
           </div>
         </div>
-        {/* <div className="md:relative md:mt-12 md:pb-20 bottom-0 z-10 h-full flex flex-col rounded justify-center bg-black/50 items-center text-center  xs:my-[12px] md:my-[48px] px-[12px] md:px-[30px] mx-auto md:w-full  xs:items-center xs:text-center xs:justify-center md:items-start md:text-left md:justify-center">
+        <div className="md:relative md:mt-12 md:pb-20 bottom-0 z-10 h-full flex flex-col rounded justify-center  items-center text-center  xs:my-[12px] md:my-[48px] px-[12px] md:px-[30px] mx-auto md:w-full  xs:items-center xs:text-center xs:justify-center md:items-start md:text-left md:justify-center">
           <div className="flex-row md:flex px-4 md:px-6 md:space-x-7 w-full justify-between">
-            <div className="hidden flex w-full md:block md:w-1/3 ">
-              <div className="mx-auto w-full">
-                <Image src={jiwon} className="" alt="" />
-              </div>
-            </div>
             <div className="flex-col mx-auto2 w-full md:w-2/3 justify-center ">
-              <div className="flex flex-col space-y-6 items-center2">
-                <div className="flex justify-between">
+              <div className="flex flex-col space-y-0 items-center2">
+                <div className="flex justify-center md:justify-start">
                   <div>
-                    <div className="flex items-center text-white space-x-2">
+                    <div className="flex items-center text-black ">
                       <div className="">
                         <span className="text-3xl md:text-4xl font-bold">
                           Kim Ji-won
@@ -99,35 +94,41 @@ export default function Person() {
                       </div>
                     </div>
                   </div>
-                  <div className="block md:hidden">
-                    <div className="mx-auto w-24">
-                      <Image src={jiwon} className="" alt="" />
-                    </div>
-                  </div>
                 </div>
 
-                <div className="flex-col space-y-1 md:space-y-2">
-                  <div>
-                    <span className="text-xl font-bold text-white">
-                      Biografi
-                    </span>
+                <section className="py-2 bg-transparent md:text-sm">
+                  <div className="grid-container px-0 lg:px-0">
+                    <nav aria-label="breadcrumbs">
+                      <div className="relative w-full">
+                        <ul className="scrollbar-fix flex flex-row flex-nowrap justify-start overflow-x-scroll no-scrollbar">
+                        <li className='before:inline before:px-0 before:text-sm before:content-[""] text-black text-[11px] font-medium capitalize leading-3 tracking-[2px] opacity-100'>
+                            <span className="whitespace-nowrap text-sm font-semibold text-black text-[11px] capitalize leading-3 tracking-[2px] opacity-100">
+                              Actress
+                            </span>
+                          </li>
+
+                          <li className='before:inline before:px-1 before:text-sm before:content-["・"] text-black text-[11px] font-medium capitalize leading-3 tracking-[2px] opacity-100'>
+                            <span className="whitespace-nowrap text-sm font-semibold text-black text-[11px] capitalize leading-3 tracking-[2px] opacity-100">
+                              Producer
+                            </span>
+                          </li>
+
+                          <li className='before:inline before:px-1 before:text-sm before:content-["・"] text-black text-[11px] font-medium capitalize leading-3 tracking-[2px] opacity-100'>
+                            <span className="whitespace-nowrap text-sm font-semibold text-black text-[11px] capitalize leading-3 tracking-[2px] opacity-100">
+                              Director
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
                   </div>
-                  <div className="leading-tight">
-                    <span className="text-white ">
-                      Kim Ji-won (Hangul: 김지원; Hanja: 金智媛; born October
-                      19, 1992) is a South Korean actress. She gained attention
-                      through her roles in television series To the Beautiful
-                      You (2012), The Heirs (2013), Descendants of the Sun
-                      (2016), and Fight For My Way (2017).
-                    </span>
-                  </div>
-                </div>
+                </section>
               </div>
             </div>
           </div>
 
           <div className="flex gap-3"></div>
-        </div> */}
+        </div>
       </div>
       <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div>
 
@@ -135,7 +136,7 @@ export default function Person() {
         <div className="py-5">
           <div className="flex flex-col md:flex-row md:space-x-4">
             <div className="w-full md:w-1/3">
-              <div className="flex flex-col md:no-flex relative block overflow-hidden2 md:bg-white md:shadow md:rounded">
+              <div className="flex flex-col md:no-flex relative overflow-hidden2 md:bg-white md:shadow md:rounded">
                 <div className="hidden md:flex justify-center mx-auto w-36 md:w-full">
                   <Image
                     src={jiwon}
@@ -144,7 +145,9 @@ export default function Person() {
                   />
                 </div>
                 <div className="py-3 md:hidden text-center">
-                  <span className="text-3xl font-semibold text-white">Kim Ji-won</span>
+                  <span className="text-3xl font-semibold text-white">
+                    Kim Ji-won
+                  </span>
                 </div>
                 <div className="md:hidden flex justify-center space-x-3 px-10 mb-4">
                   <div className="border hover:bg-[#1877f2] w-10 h-10 fill-[#1877f2] hover:fill-white border-[#5aa3ed] rounded-full flex items-center justify-center shadow-xl hover:shadow-blue-500/50 cursor-pointer">
@@ -243,7 +246,11 @@ export default function Person() {
                   <div className="text-lg font-semibold">Biografi</div>
                   <div className="py-2 text-md">
                     <span>
-                    Kim Ji-won (Hangul: 김지원; Hanja: 金智媛; born October 19, 1992) is a South Korean actress. She gained attention through her roles in television series To the Beautiful You (2012), The Heirs (2013), Descendants of the Sun (2016), and Fight For My Way (2017).
+                      Kim Ji-won (Hangul: 김지원; Hanja: 金智媛; born October
+                      19, 1992) is a South Korean actress. She gained attention
+                      through her roles in television series To the Beautiful
+                      You (2012), The Heirs (2013), Descendants of the Sun
+                      (2016), and Fight For My Way (2017).
                     </span>
                   </div>
                 </div>
@@ -258,7 +265,7 @@ export default function Person() {
                           className="flex-col justify-center w-32 space-y-2"
                           key={id}
                         >
-                          <div className="relative block overflow-hidden bg-white shadow flex rounded">
+                          <div className="relative  overflow-hidden bg-white shadow flex rounded">
                             <Image
                               src={role.image}
                               alt=""
@@ -292,6 +299,7 @@ export default function Person() {
         </div>
       </div>
 
+      <SubscribeForm />
       <Footer />
     </>
   );

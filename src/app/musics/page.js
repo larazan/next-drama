@@ -23,6 +23,7 @@ import asiankungfu from "@/assets/actress/asiankungfu.jpg";
 import kenshi from "@/assets/actress/kenshi.jpg";
 import doinfinity from "@/assets/actress/doinfinity.jpg";
 import FilterMusic from '../components/FilterMusic';
+import NewsReel from '../components/NewsReel';
 
 export default function Musics() {
     const musicData = [
@@ -115,7 +116,7 @@ export default function Musics() {
 
       <Header />
       <GoTop />
-      <NewsFeed />
+      <NewsReel />
 
       <main className="w-full bg-[#0a1016]">
         <div className="mx-auto max-w-4xl">
@@ -127,16 +128,16 @@ export default function Musics() {
               <section className="grid w-full grid-cols-2 gap-2 md:grid-cols-4 md:gap-2 xl:grid-cols-4 xl:gap-4">
                 {musicData.map((data, index) => (
                   <div
-                    className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
+                    className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110 "
                     key={index}
                   >
                     <div className="flex w-[200px] ">
-                      <div className="rounded bg-transparent border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                      <Link href="/musics/angora" className="relative w-[200px] h-[140px] md:w-[200px] md:h-[200px]">
+                      <div className="rounded bg-[#1e2429] border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
+                      <Link href="/musics/angora" className="relative w-[200px]  h-[140px] md:w-[200px] md:h-[200px]">
                         <Image
                           src={data.image}
                           alt=""
-                          className="w-full h-full object-cover"
+                          className="w-full h-full rounded-lg object-cover px-3 pt-3 "
                         />{" "}
                         <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                       </Link>{" "}

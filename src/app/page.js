@@ -14,6 +14,7 @@ import ActressList from "./components/ActressList";
 import MusicList from "./components/MusicList";
 import ProductShop from "./components/ProductShop";
 import AdsModal from "./components/AdsModal";
+import LatestNews from "./components/LatestNews";
 
 export default function Home() {
   return (
@@ -29,11 +30,14 @@ export default function Home() {
     <Hero />
     <Chat />
 
+    <LatestNews />
     <TrendingHome />
     <NewRelease />
     <ActressList />
     <MusicList />
+    
     <ProductShop />
+
 
     <SubscribeForm />
     <CookieConsent />
