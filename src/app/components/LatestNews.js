@@ -315,7 +315,7 @@ const LatestNews = () => {
             <div className="pt-8 px-4 py-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:pb-16 md:grid-cols-3 lg:grid-cols-4 ">
                 <div>
                   <Link
-                    className="hover:underline text-white"
+                    className=""
                     href="/blogs/celebrating-two-years"
                   >
                     <div className="relative block h-48 w-full overflow-hidden rounded-lg">
@@ -338,7 +338,7 @@ const LatestNews = () => {
                     </div>
                   </div>
                   <Link
-                    className="hover:underline text-white"
+                    className="hover:underline text-white underline-offset-2"
                     href="/blogs/celebrating-two-years"
                   >
                     <h3 className="line-clamp-2 text-xl font-extrabold leading-6">
@@ -368,7 +368,7 @@ const LatestNews = () => {
                 </div>
                 <div>
                   <Link
-                    className="hover:underline text-white"
+                    className=""
                     href="/blogs/celebrating-two-years"
                   >
                     <div className="relative block h-48 w-full overflow-hidden rounded-lg">
@@ -391,7 +391,7 @@ const LatestNews = () => {
                     </div>
                   </div>
                   <Link
-                    className="hover:underline text-white"
+                    className="hover:underline text-white underline-offset-2"
                     href="/blogs/celebrating-two-years"
                   >
                     <h3 className="line-clamp-2 text-xl font-extrabold leading-6">
@@ -421,7 +421,7 @@ const LatestNews = () => {
                 </div>
                 <div>
                   <Link
-                    className="hover:underline text-white"
+                    className=""
                     href="/blogs/celebrating-two-years"
                   >
                     <div className="relative block h-48 w-full overflow-hidden rounded-lg">
@@ -444,7 +444,7 @@ const LatestNews = () => {
                     </div>
                   </div>
                   <Link
-                    className="hover:underline text-white"
+                    className="hover:underline text-white underline-offset-2"
                     href="/blogs/celebrating-two-years"
                   >
                     <h3 className="line-clamp-2 text-xl font-extrabold leading-6">
@@ -474,7 +474,7 @@ const LatestNews = () => {
                 </div>
                 <div>
                   <Link
-                    className="hover:underline text-white"
+                    className=""
                     href="/blogs/celebrating-two-years"
                   >
                     <div className="relative block h-48 w-full overflow-hidden rounded-lg">
@@ -497,7 +497,7 @@ const LatestNews = () => {
                     </div>
                   </div>
                   <Link
-                    className="hover:underline text-white"
+                    className="hover:underline text-white underline-offset-2"
                     href="/blogs/celebrating-two-years"
                   >
                     <h3 className="line-clamp-2 text-xl font-extrabold leading-6">
@@ -580,7 +580,7 @@ const LatestNews = () => {
                 </div>
                 <div>
                   <Link
-                    className="hover:underline text-white"
+                    className=""
                     href="/blogs/celebrating-two-years"
                   >
                     <div className="relative block h-48 w-full overflow-hidden rounded-lg">
@@ -603,7 +603,7 @@ const LatestNews = () => {
                     </div>
                   </div>
                   <Link
-                    className="hover:underline text-white"
+                    className="hover:underline text-white underline-offset-2"
                     href="/blogs/celebrating-two-years"
                   >
                     <h3 className="line-clamp-2 text-xl font-extrabold leading-6">

@@ -52,15 +52,15 @@ const Player = () => {
             <button className="w-5 h-5 text-gray-100 mr-1 md:mr-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-arrows-shuffle-2"
+                className="icon icon-tabler icon-tabler-arrows-shuffle-2"
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M18 4l3 3l-3 3"></path>
@@ -99,15 +99,15 @@ const Player = () => {
             <button className="w-5 h-5 text-gray-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="icon icon-tabler icon-tabler-repeat"
+                className="icon icon-tabler icon-tabler-repeat"
                 width="20"
                 height="20"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M4 12v-3a3 3 0 0 1 3 -3h13m-3 -3l3 3l-3 3"></path>

@@ -122,11 +122,11 @@ const RelatedArticle = () => {
                           </span>
                         </Link>
                         <div className="flex flex-col space-y-1 ">
-                          <div class="flex items-center space-x-2 relative">
+                          <div className="flex items-center space-x-2 relative">
                             <Image
                               src={ava}
                               alt=""
-                              class="w-7 h-7 rounded-full object-cover"
+                              className="w-7 h-7 rounded-full object-cover"
                             />
                             <p className="text-sm font-semibold text-[#757575]">
                               By Brigitt Earley

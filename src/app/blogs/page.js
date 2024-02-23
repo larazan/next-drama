@@ -527,7 +527,7 @@ export default function Blogs() {
                         <svg
                           stroke="currentColor"
                           fill="currentColor"
-                          stroke-width="0"
+                          strokeWidth="0"
                           viewBox="0 0 16 16"
                           className="-mr-1 ml-2 h-4 w-4"
                           aria-hidden="true"
@@ -692,7 +692,7 @@ export default function Blogs() {
                               <svg
                                 stroke="currentColor"
                                 fill="currentColor"
-                                stroke-width="0"
+                                strokeWidth="0"
                                 viewBox="0 0 1024 1024"
                                 className="text-4xl"
                                 height="1em"

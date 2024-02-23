@@ -217,30 +217,30 @@ export default function Category() {
       <main className="">
         <div>
           <section className="pick-color bg-[#f5f6ff] min-h-screen pt-36 text-black">
-            <section class="wrapper !md:max-w-7xl relative h-full mx-auto w-11/12">
+            <section className="wrapper !md:max-w-7xl relative h-full mx-auto w-11/12">
               
-              <div class="md:hidden">
-                <div class="mb-6">
+              <div className="md:hidden">
+                <div className="mb-6">
                   <div
-                    class="relative z-10 inline-block w-full"
+                    className="relative z-10 inline-block w-full"
                     data-headlessui-state=""
                   >
                     <div>
                       <button
-                        class="inline-flex w-full items-center justify-between rounded-lg bg-pink-300 px-4 py-3 text-base font-medium text-black"
+                        className="inline-flex w-full items-center justify-between rounded-lg bg-pink-300 px-4 py-3 text-base font-medium text-black"
                         id="headlessui-menu-button-:r0:"
                         type="button"
                         aria-haspopup="menu"
                         aria-expanded="false"
                         data-headlessui-state=""
                       >
-                        <span class="capitalize opacity-70">All blogs</span>
+                        <span className="capitalize opacity-70">All blogs</span>
                         <svg
                           stroke="currentColor"
                           fill="currentColor"
-                          stroke-width="0"
+                          strokeWidth="0"
                           viewBox="0 0 16 16"
-                          class="-mr-1 ml-2 h-4 w-4"
+                          className="-mr-1 ml-2 h-4 w-4"
                           aria-hidden="true"
                           height="1em"
                           width="1em"
@@ -256,65 +256,65 @@ export default function Category() {
                   </div>
                 </div>
               </div>
-              <nav class="no-scrollbar mb-10 hidden grid-flow-col items-center justify-start gap-0 pb-3 md:grid md:gap-1 md:overflow-x-auto md:pb-0">
+              <nav className="no-scrollbar mb-10 hidden grid-flow-col items-center justify-start gap-0 pb-3 md:grid md:gap-1 md:overflow-x-auto md:pb-0">
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg  bg-black font-medium text-white hover:bg-[#212121]"
+                  className="whitespace-nowrap rounded-full px-4 py-1 capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg  bg-black font-medium text-white hover:bg-[#212121]"
                   href="/blog"
                 >
                   All News
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
+                  className="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/real-estate-investing"
                 >
                   TV/Film
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
+                  className="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/help-center"
                 >
                   Music
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
+                  className="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/announcements"
                 >
                   Celebs
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
+                  className="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/community"
                 >
                   Fashion
                 </a>
                 <a
-                  class="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
+                  className="whitespace-nowrap rounded-full px-4 py-1 text-base capitalize transition duration-300 ease-in-out hover:opacity-100 md:px-5 md:text-lg text-black/50 font-medium hover:bg-pink-300"
                   href="/blogs/guides"
                 >
                   Forum
                 </a>
               </nav>
             
-              <div class="py-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:pb-16 md:grid-cols-3 lg:grid-cols-4 divide-y md:divide-y-0 divide-gray-300">
+              <div className="py-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:pb-16 md:grid-cols-3 lg:grid-cols-4 divide-y md:divide-y-0 divide-gray-300">
                 {newsData.map((data,index) => (
                     <div className="pt-5 md:pt-0" key={index}>
                   <a
-                    class="hover:underline"
+                    className="hover:underline"
                     href="/blogs/celebrating-two-years"
                   >
-                    <div class="relative block h-48 w-full overflow-hidden rounded-lg">
+                    <div className="relative block h-48 w-full overflow-hidden rounded-lg">
                       <Image
                         src={data.img}
                         alt=""
-                        class="h-full w-full object-cover"
+                        className="h-full w-full object-cover"
                       />
                     </div>
                   </a>
-                  <div class="mb-2 mt-3">
-                    <div class="grid grid-flow-col justify-start gap-3">
+                  <div className="mb-2 mt-3">
+                    <div className="grid grid-flow-col justify-start gap-3">
                       <a href="/blogs/announcements">
-                        <div class="jutify-center flex h-[25px] w-full items-center rounded-full bg-pink-300 px-3.5 py-2 transition duration-300 ease-in-out hover:bg-pink-400">
-                          <span class="w-full text-[11px] font-medium uppercase leading-3 tracking-[2px] opacity-70">
+                        <div className="jutify-center flex h-[25px] w-full items-center rounded-full bg-pink-300 px-3.5 py-2 transition duration-300 ease-in-out hover:bg-pink-400">
+                          <span className="w-full text-[11px] font-medium uppercase leading-3 tracking-[2px] opacity-70">
                             news
                           </span>
                         </div>
@@ -322,23 +322,23 @@ export default function Category() {
                     </div>
                   </div>
                   <a
-                    class="hover:underline"
+                    className="hover:underline"
                     href="/blogs/celebrating-two-years"
                   >
-                    <h3 class="line-clamp-2 text-xl font-extrabold leading-6">
+                    <h3 className="line-clamp-2 text-xl font-extrabold leading-6">
                       {data.title}
                     </h3>
                   </a>
-                  <p class="mb-4 mt-3 line-clamp-2 text-gr-300 opacity-80 leading-tight">
+                  <p className="mb-4 mt-3 line-clamp-2 text-gr-300 opacity-80 leading-tight">
                     Looking for the best spas, restaurants, bars, and
                     experiences
                   </p>
                   <div className="flex flex-col space-y-1 ">
-                    <div class="flex items-center space-x-2 relative">
+                    <div className="flex items-center space-x-2 relative">
                       <Image
                         src={ava}
                         alt=""
-                        class="w-7 h-7 rounded-full object-cover"
+                        className="w-7 h-7 rounded-full object-cover"
                       />
                       <p className="text-sm font-semibold text-[#757575]">
                         By Brigitt Earley

@@ -10,6 +10,11 @@ import Footer from "@/app/components/Footer";
 import taxi from "@/assets/details/taxi.png";
 import driver from "@/assets/details/taxi_driver.jpg";
 import Casts from "@/app/components/Casts";
+import RecommendMovie from "@/app/components/RecommendMovie";
+import SubscribeForm from "@/app/components/SubscribeForm";
+import MovieNav from "@/app/components/MovieNav";
+import RateReview from "@/app/components/RateReview";
+import InfoMovie from "@/app/components/InfoMovie";
 
 export default function Detail() {
   return (
@@ -69,14 +74,48 @@ export default function Detail() {
                           <span className="font-semibold">R</span>
                         </div>
                         <span>30/05/2019 (KR)</span>
-                        <span className="hidden md:block text-[#0b89ff] font-semibold">
-                          Komedi, Cerita Seru, Drama
-                        </span>
+                        <div className='hidden md:block before:inline before:px-1 before:text-sm before:content-["・"] after:inline after:px-1 after:text-sm after:content-["・"] text-white text-[15px] font-medium capitalize leading-0 opacity-100 '>
+                          <Link
+                            href={""}
+                            className="text-[#0b89ff] font-semibold"
+                          >
+                            Komedi,
+                          </Link>{" "}
+                          <Link
+                            href={""}
+                            className="text-[#0b89ff] font-semibold"
+                          >
+                            Cerita Seru,
+                          </Link>{" "}
+                          <Link
+                            href={""}
+                            className="text-[#0b89ff] font-semibold"
+                          >
+                            Drama
+                          </Link>
+                        </div>
                         <span>2h 13m</span>
                       </div>
-                      <span className="block md:hidden">
-                        Komedi, Cerita Seru, Drama
-                      </span>
+                      <div className="md:hidden block text-[15px] font-medium capitalize leading-0  opacity-100 ">
+                        <Link
+                          href={""}
+                          className="text-[#0b89ff] font-semibold"
+                        >
+                          Komedi,
+                        </Link>{" "}
+                        <Link
+                          href={""}
+                          className="text-[#0b89ff] font-semibold"
+                        >
+                          Cerita Seru,
+                        </Link>{" "}
+                        <Link
+                          href={""}
+                          className="text-[#0b89ff] font-semibold"
+                        >
+                          Drama
+                        </Link>
+                      </div>
                     </div>
                     <div className="flex py-2 md:py-5">
                       <div className="flex items-center space-x-1.5 md:space-x-5">
@@ -85,11 +124,27 @@ export default function Detail() {
                           <button className="rounded-full bg-[#00dc89] p-2.5 md:p-3">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
-                              className="h-5 w-5"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
+                              className="icon icon-tabler icon-tabler-list"
+                              width="20"
+                              height="20"
+                              viewBox="0 0 24 24"
+                              stroke-width="3"
+                              stroke="currentColor"
+                              fill="none"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
                             >
-                              <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z" />
+                              <path
+                                stroke="none"
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path d="M9 6l11 0" />
+                              <path d="M9 12l11 0" />
+                              <path d="M9 18l11 0" />
+                              <path d="M5 6l0 .01" />
+                              <path d="M5 12l0 .01" />
+                              <path d="M5 18l0 .01" />
                             </svg>
                           </button>
                         </div>
@@ -210,7 +265,13 @@ export default function Detail() {
       </div>
       <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div>
 
-    <Casts />
+      <InfoMovie />
+      <Casts />
+      <MovieNav />
+      <RateReview />
+      <RecommendMovie />
+
+      <SubscribeForm />
       <Footer />
     </>
   );
