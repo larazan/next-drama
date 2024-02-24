@@ -3,6 +3,75 @@ import Link from 'next/link'
 
 
 const Riwayat = () => {
+  const riwayatData = [
+    {
+      title: "Queen of Tears",
+      episode: 16,
+      role: "Hong Hae-in",
+      year: 2024,
+    },
+    {
+      title: "My Liberation Notes",
+      episode: 16,
+      role: "Yeom Mi-jeong",
+      year: 2022,
+    },
+    {
+      title: "Lovestruck in the City",
+      episode: 17,
+      role: "Lee Eun-oh",
+      year: 2020,
+    },
+    {
+      title: "Arthdal Chronicles",
+      episode: 18,
+      role: "Tanya",
+      year: 2019,
+    },
+    {
+      title: "Mr. Sunshine",
+      episode: 1,
+      role: "Ae-Shin's mother",
+      year: 2018,
+    },
+    {
+      title: "Detective K: Secret of the Living Dead",
+      episode: false,
+      role: "Yeo-joo",
+      year: 2018,
+    },
+    {
+      title: "Fight For My Way",
+      episode: 16,
+      role: "Choi Ae-ra",
+      year: 2017,
+    },
+    {
+      title: "Descendants of the Sun",
+      episode: 16,
+      role: "Yoon Myung-joo",
+      year: 2016,
+    },
+    {
+      title: "One Sunny Day",
+      episode: 10,
+      role: "The Girl",
+      year: 2014,
+    },
+    {
+      title: "One Sunny Day",
+      episode: false,
+      role: "Kim Ji Ho",
+      year: 2014,
+    },
+    {
+      title: "Gap Dong",
+      episode: 20,
+      role: "Ma Ji-wool",
+      year: 2014,
+    },
+  ]
+
   return (
     <>
         <div className="w-full px-0">

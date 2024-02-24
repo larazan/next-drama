@@ -1,40 +1,56 @@
-"use client"
+"use client";
 
 import React, { useState, useRef, useEffect } from "react";
 
-const options = ["south korea", "china", "hong kong", "japan", "taiwan", "thailand", "philippines"];
-const countries = [
-    {
-      name: "south korea",
-      slug: "south_korea",
-    },
-    {
-      name: "china",
-      slug: "china",
-    },
-    {
-      name: "hong kong",
-      slug: "hong_kong",
-    },
-    {
-      name: "japan",
-      slug: "japan",
-    },
-    {
-      name: "taiwan",
-      slug: "taiwan",
-    },
-    {
-      name: "thailand",
-      slug: "thailand",
-    },
-    {
-      name: "philippines",
-      slug: "philippines",
-    },
-  ];
+// const options = ["2020", "2021", "2022", "2023", "2024"];
+const options = [
+  "Action",
+  "Adventure" ,
+  "Animals" ,
+  "Business" ,
+  "Comedy" ,
+  "Crime" ,
+  "Detective" ,
+  "Documentary" ,
+  "Drama" ,
+  "Family" ,
+  "Fantasy" ,
+  "Food" ,
+  "Friendship" ,
+  "Historical" ,
+  "Horror" ,
+  "Investigation" ,
+  "Law" ,
+  "Life" ,
+  "Manga" ,
+  "Martial Arts" ,
+  "Mature" ,
+  "Medical" ,
+  "Melodrama" ,
+  "Military" ,
+  "Music" ,
+  "Mystery" ,
+  "Political" ,
+  "Psychological" ,
+  "Romance" ,
+  "School" ,
+  "Sci-fi" ,
+  "Sitcom" ,
+  "Sports" ,
+  "Supernatural" ,
+  "Suspense" ,
+  "Thriller" ,
+  "Tokusatsu" ,
+  "Tragedy" ,
+  "Vampire" ,
+  "War" ,
+  "Western" ,
+  "Wuxia" ,
+  "Youth" ,
+  "Zombies" ,
+];
 
-const SortNation = () => {
+const SortGenreMusic = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
 
@@ -64,7 +80,7 @@ const SortNation = () => {
 
   return (
     <>
-    <div className="flex  z-30">
+      <div className="flex  z-30">
         <div
           className={`relative flex items-center justify-between px-0 border border-[#cccdce] ${
             isOpen
@@ -75,7 +91,7 @@ const SortNation = () => {
           onClick={toggling}
         >
           <button className="text-[13px]  font-bold uppercase pl-2 px-2 tracking-wide">
-            {selectedOption || "South Korea"}
+            {selectedOption || "Action"}
           </button>
           <span className="px-2">
             <svg
@@ -96,7 +112,7 @@ const SortNation = () => {
             </svg>
           </span>
           {isOpen && (
-            <div className="min-w-36 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645]">
+            <div className="min-w-36 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645] h-[400px] overflow-y-auto">
               {options.map((option, index) => (
                 <div className="px-0" key={index}>
                   <button
@@ -116,4 +132,4 @@ const SortNation = () => {
   );
 };
 
-export default SortNation;
+export default SortGenreMusic;

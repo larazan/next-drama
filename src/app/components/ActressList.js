@@ -131,7 +131,7 @@ const ActressList = () => {
       <div className="flex w-full py-0 md:py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
-            <Link href={"/celebs"} className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]">
+            <Link href={"/person"} className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]">
               <div className="flex">
                 <p className=" text-lg font-bold md:text-2xl lg:text-2xl">
                   Celebs
@@ -242,7 +242,7 @@ const ActressList = () => {
                   >
                     <div className="flex w-[90px] md:w-[140px] ">
                       <div className="rounded bg-transparent  group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                        <Link href="/actress/kim-ji-won" className="relative">
+                        <Link href="/person/kim-ji-won" className="relative">
                           <Image
                             src={data.img}
                             alt=""
@@ -252,7 +252,7 @@ const ActressList = () => {
                         </Link>{" "}
                         <div className="px-3 py-2 flex flex-col justify-center text-center leading-tight">
                           <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
-                            <Link href="/actress/kim-ji-won">{data.name}</Link>
+                            <Link href="/person/kim-ji-won">{data.name}</Link>
                           </h3>{" "}
                         </div>
                       </div>

@@ -80,7 +80,7 @@ const SortStatus = () => {
             </svg>
           </span>
           {isOpen && (
-            <div className="min-w-36 absolute top-6 py-2 right-0 z-10 mt-4 origin-top-right rounded  bg-[#474645]">
+            <div className="min-w-36 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645]">
               {options.map((option, index) => (
                 <div className="px-0" key={index}>
                   <button

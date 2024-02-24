@@ -1,13 +1,11 @@
 import React from "react";
 
-import SortSelect from "./SortSelect";
-import SortStatus from "./SortStatus";
 import SortNation from "./SortNation";
 import SortGeneral from "./SortGeneral";
 import SortGenre from "./SortGenre";
 import SortYear from "./SortYear";
 
-const FilterMusic = () => {
+const FilterPerson = () => {
   return (
     <>
       <div className="py-3 md:py-1 pt-5 md:pb-5 col-span-full col-start-1 flex flex-col  gap-4 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12 ">
@@ -32,4 +30,4 @@ const FilterMusic = () => {
   );
 };
 
-export default FilterMusic;
+export default FilterPerson;
