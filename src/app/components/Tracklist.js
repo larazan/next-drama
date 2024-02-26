@@ -103,7 +103,7 @@ const Tracklist = () => {
                                   </div>
                                 </div>
                                 <span className="title">
-                                  Don't Let Me Lose This Dream
+                                  Don&lsquo;t Let Me Lose This Dream
                                 </span>
                               </td>
                             </tr>
@@ -137,7 +137,7 @@ const Tracklist = () => {
                                     </span>
                                   </div>
                                 </div>
-                                <span className="title">Dr. Feelgood'</span>
+                                <span className="title">Dr. Feelgood</span>
                               </td>
                             </tr>
                             <tr>

@@ -474,7 +474,7 @@ export default function Detail() {
                   possible.&nbsp;&nbsp;
                 </p>
                 <p>
-                  We know exactly what it's like. You arrive in an incredible
+                  We know exactly what it&lsquo;s like. You arrive in an incredible
                   new town, and you’re excited to see the house! Or maybe you’re
                   cozied up in your warm bed, and never want to leave. Trust us,
                   we’ve been there, but in order to provide the best guest
@@ -497,7 +497,7 @@ export default function Detail() {
                 </p>
                 <p>
                   Cleaning is just the start. Things you love, like our&nbsp;
-                  kitchens, pools, and more that aren't available in hotel
+                  kitchens, pools, and more that aren&lsquo;t available in hotel
                   rooms, need specialized care to be scheduled. The maintenance
                   workers are local contractors who have their own schedules
                   with other clients, so if maintenance is scheduled in a gap,

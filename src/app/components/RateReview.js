@@ -116,7 +116,7 @@ const RateReview = () => {
               <div className="flex flex-col space-y-4 justify-center items-center p-3 border border-[#1d2428] rounded">
                 <div className="text-center">
                   <span className="text-[#bbbbbb] text-lg leading-tight">
-                    You Haven't Rated or Reviewed Reacher Yet
+                    You Haven&lsquo;t Rated or Reviewed Reacher Yet
                   </span>
                 </div>
                 <div className="flex justify-around space-x-4">
@@ -175,7 +175,7 @@ const RateReview = () => {
                       </div>
                     <p className="py-1 text-[15px] text-[#9c9da0] font-semibold leading-5 ">
                       What a great show. A truly incredible first season. I
-                      can't wait to dive into season 2!
+                      can&lsquo;t wait to dive into season 2!
                     </p>
                     <div className="flex space-x-2 items-center justify-between pt-1">
                       <div className="flex space-x-1 items-center cursor-pointer px-1 py-0.5 bg-[#1d2428] rounded border border-transparent">
@@ -243,7 +243,7 @@ const RateReview = () => {
                       </div>
                     <p className="py-1 text-[15px] text-[#9c9da0] font-semibold leading-5 ">
                       What a great show. A truly incredible first season. I
-                      can't wait to dive into season 2!
+                      can&lsquo;t wait to dive into season 2!
                     </p>
                     <div className="flex space-x-2 items-center justify-between pt-1">
                       <div className="flex space-x-1 items-center cursor-pointer px-1 py-0.5 bg-[#1d2428] rounded border border-transparent">
@@ -311,7 +311,7 @@ const RateReview = () => {
                       </div>
                     <p className="py-1 text-[15px] text-[#9c9da0] font-semibold leading-5 ">
                       What a great show. A truly incredible first season. I
-                      can't wait to dive into season 2!
+                      can&lsquo;t wait to dive into season 2!
                     </p>
                     <div className="flex space-x-2 items-center justify-between pt-1">
                       <div className="flex space-x-1 items-center cursor-pointer px-1 py-0.5 bg-[#1d2428] rounded border border-transparent">
