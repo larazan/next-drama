@@ -10,19 +10,18 @@ import SubscribeForm from "../components/SubscribeForm";
 import NewsFeed from "../components/NewsFeed";
 import Slideshow from "../components/Slideshow";
 
-import product1 from "@/assets/products/product1.png";
-import product2 from "@/assets/products/product2.png";
-import product3 from "@/assets/products/product3.png";
-import product4 from "@/assets/products/product4.png";
-import product5 from "@/assets/products/product5.png";
-import product6 from "@/assets/products/product6.png";
-import product7 from "@/assets/products/product7.png";
-import product8 from "@/assets/products/product8.png";
-import product9 from "@/assets/products/product9.png";
+import product1 from "@/assets/products/gallery1.png";
+import product2 from "@/assets/products/gallery2.png";
+import product3 from "@/assets/products/gallery3.png";
+import product4 from "@/assets/products/gallery4.png";
+import product5 from "@/assets/products/gallery5.png";
+import product6 from "@/assets/products/gallery6.png";
+import product7 from "@/assets/products/gallery7.png";
+import product8 from "@/assets/products/gallery8.png";
+import product9 from "@/assets/products/gallery9.png";
 
 
 import ProductShop from "../components/ProductShop";
-import Spareparts from "../components/Spareparts";
 
 export default function page() {
   const productData = [
@@ -114,7 +113,6 @@ export default function page() {
       <NewsFeed />
       <Slideshow />
 
-<Spareparts />
     
 
       <div className="max-w-full xl:max-w-[1800px] mx-auto  flex flex-col justify-center items-center bg-white">
