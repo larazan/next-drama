@@ -20,6 +20,9 @@ import host from "@/assets/movies/host.jpg";
 import lady from "@/assets/movies/lady.jpg";
 import taxi from "@/assets/movies/taxi.jpg";
 import thirst from "@/assets/movies/thirst.jpg";
+import PersonNav from "@/app/components/PersonNav";
+import ArticleRelated from "@/app/components/ArticleRelated";
+import RelatedArtist from "@/app/components/RelatedArtist";
 
 export default function Detail() {
   const roleData = [
@@ -130,7 +133,9 @@ export default function Detail() {
           <div className="flex gap-3"></div>
         </div>
       </div>
-      <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div>
+      {/* <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div> */}
+
+      <PersonNav />
 
       <div className="flex-col min-h-screen relative bg-[#0a1016]  px-4 md:px-8 md:pt-3 pb-10">
         <div className="py-5">
@@ -334,7 +339,9 @@ export default function Detail() {
           </div>
         </div>
       </div>
-
+      
+      <ArticleRelated />
+      <RelatedArtist />
       <SubscribeForm />
       <Footer />
     </>

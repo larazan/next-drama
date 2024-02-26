@@ -14,6 +14,7 @@ import SongList from '@/app/components/SongList';
 
 import AW from "@/assets/actress/AW.jpg"
 import Tracklist from '@/app/components/Tracklist';
+import NewsReel from '@/app/components/NewsReel';
 
 export default function Detail() {
   return (
@@ -26,8 +27,8 @@ export default function Detail() {
 
       <Header />
       <GoTop />
-      <NewsFeed />
 
+      <div className="flex h-12 md:h-14 bg-black w-full max-w-screen-xl"></div>
       <div className="relative flex min-h-screen w-full bg-[#0a1016]">
         <div className="w-full " >
           <div className='bg-[#d02838]'>

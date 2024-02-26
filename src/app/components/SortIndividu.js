@@ -1,36 +1,10 @@
-"use client";
+"use client"
 
 import React, { useState, useRef, useEffect } from "react";
 
-const options = [
-  "All",
-"Alternative Dance",
-"Alternative Rock",
-"Art Pop",
-"Black Metal",
-"Dance",
-"Death Metal",
-"Garage Rock",
-"Hardcore Punk",
-"Hip Hop",
-"Indie Pop",
-"Indie Rock",
-"Metal",
-"Pop",
-"Pop Punk",
-"Pop Rap",
-"Post-Punk",
-"Psychedelia",
-"Psychedelic Rock",
-"Punk",
-"Rock",
-"Singer-Songwriter",
-"Trap",
-"UK Hip Hop",
+const options = ["Actress", "Actors", "Group"];
 
-];
-
-const SortGenreMusic = () => {
+const SortIndividu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
 
@@ -60,7 +34,7 @@ const SortGenreMusic = () => {
 
   return (
     <>
-      <div className="flex  z-30">
+    <div className="flex  z-30">
         <div
           className={`relative flex items-center justify-between px-0 border border-[#cccdce] ${
             isOpen
@@ -71,7 +45,7 @@ const SortGenreMusic = () => {
           onClick={toggling}
         >
           <button className="text-[13px]  font-bold uppercase pl-2 px-2 tracking-wide">
-            {selectedOption || "All"}
+            {selectedOption || "Actress"}
           </button>
           <span className="px-2">
             <svg
@@ -92,7 +66,7 @@ const SortGenreMusic = () => {
             </svg>
           </span>
           {isOpen && (
-            <div className="min-w-36 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645] h-[400px] overflow-y-auto">
+            <div className="min-w-36 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645]">
               {options.map((option, index) => (
                 <div className="px-0" key={index}>
                   <button
@@ -112,4 +86,4 @@ const SortGenreMusic = () => {
   );
 };
 
-export default SortGenreMusic;
+export default SortIndividu;

@@ -50,8 +50,12 @@ body {
 tbody tr:nth-child(even) {
   background-color: #fafafa;
 }
-  tbody tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background-color: #ffffff;
+}
+
+tbody tr.riwayat {
+  background-color: #282d32;
 }
 
 
@@ -383,4 +387,29 @@ tbody tr:nth-child(even) {
   border-radius: 24px;
   border: 2px solid #191e25;
   background: #fff;
+}
+
+.bg-blue-violet {
+  background-image: linear-gradient(to top right,#2CD8E2,#580099);
+}
+.bg-red-orange {
+  background-image: linear-gradient(to top right,#E22C2C,#997F00);
+}
+.bg-purple-violet {
+  background-image: linear-gradient(to top right,#B31071,#7A09A7);
+}
+.bg-yellow-green {
+  background-image: linear-gradient(to top right,#E2D52C,#00996C);
+}
+.bg-blue-purple {
+  background-image: linear-gradient(to top right,#422CE2,#910099);
+}
+.bg-blue-green {
+  background-image: linear-gradient(to top right,#2CCDE2,#00991E);
+}
+.bg-orange-green {
+  background-image: linear-gradient(to top right,#E28A2C,#649900);
+}
+.bg-red-violet {
+  background-image: linear-gradient(to right top, rgb(226, 44, 44), rgb(153, 0, 150));
 }

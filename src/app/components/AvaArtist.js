@@ -1,6 +1,23 @@
+"use client"
+
 import React, { useRef, useEffect } from "react";
 
-function Ava({ username, width, height }) {
+function AvaArtist({ username, width, height }) {
+    const colorArray = [
+        'bg-blue-violet',
+        'bg-red-orange',
+        'bg-purple-violet',
+        'bg-yellow-green',
+        'bg-blue-purple',
+        'bg-blue-green',
+        'bg-orange-green',
+        'bg-red-violet',
+    ]
+
+    const randomColor = () => {
+        return colorArray[Math.floor(Math.random() * colorArray.length)];
+    }
+
     const  getRandomColor= () => {
         var letters = '0123456789ABCDEF';
         var color = '#';
@@ -44,27 +61,27 @@ function Ava({ username, width, height }) {
         </div>
       </div> */}
       <div
-        className={` sb-avatar sb-avatar--text `}
+        className={` sb-avatar sb-avatar--text w-[60px] h-[60px] md:w-[80px] md:h-[80px] `}
         style={{ 
             display: 'inline-block', 
             verticalAlign: 'middle', 
-            width: '30px', 
-            height: '30px', 
+            // width: '30px', 
+            // height: '30px', 
             borderRadius: '100%', 
             fontFamily: 'Helvetica, Arial, sans-serif',
         }}
       >
         <div
-          className={`sb-avatar__text w-[${width}px] h-[${height}px]`}
+          className={`sb-avatar__text w-[90px] h-[90px] md:w-[140px] md:h-[140px] ${randomColor()} `}
           style={{
-            width: '45px', 
-            height: '45px', 
-            lineHeight: 'initial', 
+            // width: '95px', 
+            // height: '95px', 
+            // lineHeight: 'initial', 
             textAlign: 'center',
             color: 'rgb(255, 255, 255)', 
             borderRadius: '100%', 
             // background: 'rgb(126, 55, 148)', 
-            background: getRandomColor()
+            // background: getRandomColor()
           }}
           title="Selena gomes"
         >
@@ -74,14 +91,14 @@ function Ava({ username, width, height }) {
             tableLayout: 'fixed', 
             width: '100%',
             height: '100%', 
-            fontSize: '15px' 
+            // fontSize: '15px' 
             }}
         >
             <span style={{
                 display: 'table-cell', 
                 verticalAlign: 'middle', 
                 whiteSpace: 'nowrap', }}>
-              <span className="font-bold">{getInitials(username)}</span>
+              <span className="font-bold text-[45px]">{getInitials(username)}</span>
               
             </span>
           </div>
@@ -91,4 +108,4 @@ function Ava({ username, width, height }) {
   );
 }
 
-export default Ava;
+export default AvaArtist;

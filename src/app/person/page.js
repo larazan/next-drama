@@ -9,7 +9,6 @@ import GoTop from "@/app/components/GoTop";
 import SubscribeForm from "../components/SubscribeForm";
 import NewsReel from "../components/NewsReel";
 import PaginateMovie from "../components/PaginateMovie";
-import FilterMovie from "../components/FilterMovie";
 
 import cast1 from "@/assets/actress/cast1.png";
 import cast2 from "@/assets/actress/cast2.png";
@@ -28,6 +27,8 @@ import cast14 from "@/assets/actress/cast14.png";
 import cast15 from "@/assets/actress/cast15.png";
 import cast16 from "@/assets/actress/cast16.png";
 import cast17 from "@/assets/actress/cast17.png";
+import FilterPerson from "../components/FilterPerson";
+import AvaArtist from "../components/AvaArtist";
 
 export default function Person() {
   const actressData = [
@@ -116,45 +117,53 @@ export default function Person() {
       <main className="w-full bg-[#0a1016]">
         <div className="mx-auto max-w-4xl">
           <div className="grid-container grid  w-full grid-cols-1 gap-3 md:grid-cols-12 xl:gap-4 px-3 pb-12 pt-0 md:pb-16 md:pt-6 lg:px-0">
-            <FilterMovie />
+            <FilterPerson />
 
             <div className="col-start-1 md:col-span-12 md:col-start-0 md:row-start-2 xl:col-start-4">
-              <section className="grid w-full grid-cols-2 gap-2 md:grid-cols-4 md:gap-4 xl:grid-cols-4 xl:gap-4">
+              <section className="grid w-full grid-cols-2 md:grid-cols-5 gap-2 md:gap-4 xl:grid-cols-4 xl:gap-4">
                 {actressData.map((data, index) => (
                   <div
                     className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                     key={index}
                   >
-                    <div className="flex w-[200px] ">
-                      <div className="rounded bg-transparent border border-transparent hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                        <Link href="/person/angora" className="relative shadow-sm  shadow-[#282d32]">
+                    <div className="flex w-[90px] md:w-[140px] ">
+                      <div className="rounded bg-transparent  group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
+                        <Link href="/person/kim-ji-won" className="relative">
                           <Image
                             src={data.img}
                             alt=""
-                            className="w-[300px] object-cover border rounded border-[#282d32]"
+                            className="w-[138px] object-cover rounded-full border-2 border-[#0c9bff]"
                           />{" "}
                           <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                         </Link>{" "}
-                        <div className="px-3 py-2 flex flex-col justify-between leading-tight">
-                        <div className="w-[197px]">
-                          <h3 className="my-[0.25em] mx-[0em] md:text-md text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
-                            <Link href="/person/one">{data.name}</Link>
+                        <div className="px-3 py-2 flex flex-col justify-center text-center leading-tight">
+                          <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
+                            <Link href="/person/kim-ji-won">{data.name}</Link>
                           </h3>{" "}
-                        </div>
-                          {/* <div className="font-mabry text-xs text-white">
-                            {data.year}
-                          </div> */}
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
+                <div className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110">
+                  <div className="flex w-[90px] md:w-[140px]">
+                    <div className=" flex flex-col transition duration-500 ease-in-out">
+                      <Link href="/person/kim-ji-won" className="flex w-[90px] h-[90px] md:w-[140px] md:h-[140px]">
+                        <AvaArtist username={"Malcolm Goodwin"} />
+                      </Link>
+                      <div className="px-3 py-2 flex flex-col justify-center text-center leading-tight">
+                        <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
+                          <Link href="/person/kim-ji-won">Malcolm Goodwin</Link>
+                        </h3>{" "}
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </section>
             </div>
           </div>
           <PaginateMovie />
         </div>
-        
       </main>
 
       <SubscribeForm />

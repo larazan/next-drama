@@ -64,7 +64,7 @@ export default function UserMenu() {
         </button>
 
         <Transition
-          className="origin-top-right z-30 absolute top-full shadow-menu2 right-0 -mr-2 md:-mr-2 sm:mr-0 min-w-52 w-48 bg-white rounded border border-slate-200 py-1.5  shadow-lg overflow-hidden mt-1.5 md:mt-1.5"
+          className="origin-top-right z-30 absolute top-full shadow-menu2 right-0 -mr-2 md:-mr-2 sm:mr-0 min-w-52 w-48 bg-[#262a2c] rounded border border-slate-700 py-1.5  shadow-lg overflow-hidden mt-1.5 md:mt-1.5"
           show={dropdownOpen}
           enter="transition ease-out duration-200 transform"
           enterStart="opacity-0 -translate-y-2"
@@ -79,21 +79,21 @@ export default function UserMenu() {
             onBlur={() => setDropdownOpen(false)}
           >
             <div className="flex bg-pink-501 justify-center w-full  py-2 pb-3 md:pr-1.5">
-              <Ava username={"Selena gomes"} size={45} />
+              <Ava username={"Selena gomes"} width={45} height={45} />
             </div>
-            <div className="flex flex-col text-sm font-semibold font-mabrybold text-slate-800 capitalize pt-1.5 pb-1 px-4">
+            <div className="flex flex-col text-sm font-semibold font-mabrybold text-white capitalize pt-1.5 pb-1 px-4">
               Selena gomes{" "}
-              <span className="text-slate-500 font-mabry">@selenagomes</span>
+              <span className="text-[#cecfd0] font-mabry">@selenagomes</span>
             </div>
             <ul>
-              <li className="border-b border-slate-200 last:border-0">
+              <li className="border-b-2 border-[#31373b] last:border-0">
                 <Link
-                  className="block py-2 px-4 hover:bg-blue-200"
+                  className="block py-2 px-4 hover:bg-[#42474b]"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={"/account/profile"}
                 >
-                  <span className="block text-xs mb-0 font-semibold">
-                    <span className="text-slate-900 capitalize font-mabrybold">
+                  <span className="block text-sm mb-0 font-semibold">
+                    <span className="text-[#cecfd0] capitalize font-semibold">
                       lihat profil
                     </span>
                   </span>
@@ -101,42 +101,42 @@ export default function UserMenu() {
               </li>
               <li className="last:border-0">
                 <Link
-                  className="block py-1.5 px-4 hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
+                  className="block py-1.5 px-4  hover:text-white text-[#cecfd0]  hover:bg-[#42474b]"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={""}
                 >
-                  <span className="block text-sm text-gray-500 font-semibold font-mabry mb-0">
+                  <span className="block text-sm font-semibold font-mabry mb-0">
                     Akun Seting
                   </span>
                 </Link>
               </li>
               <li className="last:border-0">
                 <Link
-                  className="block py-1.5 px-4  hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
+                  className="block py-1.5 px-4  hover:text-white text-[#cecfd0]  hover:bg-[#42474b] "
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={""}
                 >
-                  <span className="block text-sm text-gray-500 font-semibold font-mabry mb-0">
+                  <span className="block text-sm  font-semibold font-mabry mb-0">
                     Service status
                   </span>
                 </Link>
               </li>
-              <li className="border-b border-slate-00 last:border-0">
+              <li className="border-b border-[#31373b] last:border-0">
                 <Link
-                  className="block py-1.5 px-4  hover:text-white text-slate-500  hover:bg-blue-200 md:hover:text-gray-900"
+                  className="block py-1.5 px-4  hover:text-white text-[#cecfd0]  hover:bg-[#42474b]"
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   href={"/faqs"}
                 >
-                  <span className="block text-sm text-gray-500 font-semibold font-mabry mb-0">
+                  <span className="block text-sm font-semibold font-mabry mb-0">
                     Help
                   </span>
                 </Link>
               </li>
-              <li className="border-b border-slate-200 last:border-0">
+              <li className="border-b-2 border-[#31373b] last:border-0">
                 <div className="flex w-full items-center space-x-2 py-1.5 px-4 ">
                   <button
                     onClick={() => setDropdownOpen(!dropdownOpen)}
-                    className="flex w-full shadow-menu items-center justify-center rounded border border-gray-100 px-2 py-1.5 space-x-2 bg-[#e31c2d] opacity-90 hover:opacity-100"
+                    className="flex w-full shadow-menu items-center justify-center rounded px-2 py-1.5 space-x-2 bg-[#e31c2d] opacity-90 hover:opacity-100"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

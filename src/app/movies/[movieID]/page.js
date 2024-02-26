@@ -15,6 +15,7 @@ import SubscribeForm from "@/app/components/SubscribeForm";
 import MovieNav from "@/app/components/MovieNav";
 import RateReview from "@/app/components/RateReview";
 import InfoMovie from "@/app/components/InfoMovie";
+import ArticleRelated from "@/app/components/ArticleRelated";
 
 export default function Detail() {
   return (
@@ -263,12 +264,13 @@ export default function Detail() {
           <div className="flex gap-3"></div>
         </div>
       </div>
-      <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div>
-
+      {/* <div className="flex h-6 md:h-8 bg-[#0a1016] w-full max-w-screen-xl"></div> */}
+      <MovieNav />
       <InfoMovie />
       <Casts />
-      <MovieNav />
+      
       <RateReview />
+      <ArticleRelated />
       <RecommendMovie />
 
       <SubscribeForm />

@@ -6,6 +6,7 @@ import SortNation from "./SortNation";
 import SortGeneral from "./SortGeneral";
 import SortGenre from "./SortGenre";
 import SortYear from "./SortYear";
+import SortGenreMusic from "./SortGenreMusic";
 
 const FilterMusic = () => {
   return (
@@ -18,7 +19,7 @@ const FilterMusic = () => {
         <div className="py-3 md:py-1 pt-5 md:pb-5 col-span-full col-start-1 flex flex-wrap items-center justify-between gap-2 md:col-start-52 md:flex-nowrap xl:col-start-4 xl:col-end-12">
         <div className="flex space-x-2">
             <SortYear />
-            <SortGenre />
+            <SortGenreMusic />
             <SortNation />
         </div>
         
