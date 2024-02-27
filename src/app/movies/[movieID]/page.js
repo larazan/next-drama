@@ -268,7 +268,7 @@ export default function Detail() {
       <MovieNav />
       <InfoMovie />
       <Casts />
-      
+
       <RateReview />
       <ArticleRelated />
       <RecommendMovie />
