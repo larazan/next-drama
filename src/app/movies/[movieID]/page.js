@@ -120,7 +120,7 @@ export default function Detail() {
                     </div>
                     <div className="flex py-2 md:py-5">
                       <div className="flex items-center space-x-1.5 md:space-x-5">
-                        <div className="h-11 w-11 md:h-16 md:w-16 p-1 rounded-full bg-[#00dc89]"></div>
+                      <div><div className="flex shadow-menu h-11 w-11 md:h-12 md:w-12 p-1 items-center justify-center border border-gray-800 bg-[#00dc89] rounded-full px-2 py-2"><span className="text-lg font-bold text-gray-900 leading-tight">8.7</span></div></div>
                         <div className="text-black">
                           <button className="rounded-full bg-[#00dc89] p-2.5 md:p-3">
                             <svg

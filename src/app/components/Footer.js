@@ -92,22 +92,22 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/"
                     className="md:hover:underline"
                     rel="noreferrer noopener"
                   >
                     Payments
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="/"
                     className="md:hover:underline"
                     rel="noreferrer noopener"
                   >
                     Transport and delivery
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link className="md:hover:underline" href="/">
@@ -130,9 +130,9 @@ const Footer = () => {
               <span className="font-bold">About </span>
               <ul className="space-y-1">
                 <li>
-                  <a className="md:hover:underline" href="/">
+                  <Link className="md:hover:underline" href="/">
                     Giftcard
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <Link className="md:hover:underline" href="/about">
@@ -140,43 +140,43 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
                     href="/"
                   >
                     Sustainability
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
                     href="/"
                   >
                     Meet the creators
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/">
+                  <Link className="md:hover:underline" href="/">
                     B2b
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="md:hover:underline"
                     href="/"
                   >
                     Collaborations{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/">
+                  <Link className="md:hover:underline" href="/">
                     Press
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="md:hover:underline" href="/">
+                  <Link className="md:hover:underline" href="/">
                     Job opportunities
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -247,29 +247,29 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           className="md:hover:underline"
                           target="_blank"
                           rel="noreferrer noopener"
                         >
                           Payments
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href="/"
                           className="md:hover:underline"
                           target="_blank"
                           rel="noreferrer noopener"
                         >
                           Transport and delivery
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/">
+                        <Link className="md:hover:underline" href="/">
                           Guarantee
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <Link
@@ -292,12 +292,12 @@ const Footer = () => {
                   <div className="duration-300 px-0 pb-3">
                     <ul className="flex flex-col flex-nowrap justify-start gap-2 px-6 py-3 text-white">
                       <li>
-                        <a
+                        <Link
                           className="md:hover:underline text-white"
                           href="/"
                         >
                           Giftcard
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <Link className="md:hover:underline" href="/about">
@@ -305,43 +305,43 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="md:hover:underline"
                           href="/"
                         >
                           Sustainability
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="md:hover:underline"
                           href="/"
                         >
                           Meet the creators
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/">
+                        <Link className="md:hover:underline" href="/">
                           B2b
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           className="md:hover:underline"
                           href="/"
                         >
                           Collaborations{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/">
+                        <Link className="md:hover:underline" href="/">
                           Press
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="md:hover:underline" href="/">
+                        <Link className="md:hover:underline" href="/">
                           Job opportunities
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -361,7 +361,7 @@ const Footer = () => {
                 </div>
                 <ul className="flex flex-row flex-wrap justify-end gap-4 md:flex-nowrap md:justify-start">
                   <li>
-                    <a
+                    <Link
                       href="https://www.facebook.com/PLNTScom"
                       target="_blank"
                       rel="noreferrer noopener"
@@ -376,10 +376,10 @@ const Footer = () => {
                           <path d="M23.738.214v4.714h-2.804c-1.023 0-1.714.214-2.071.643s-.536 1.071-.536 1.929v3.375h5.232l-.696 5.286h-4.536v13.554h-5.464V16.161H8.309v-5.286h4.554V6.982c0-2.214.62-3.932 1.857-5.152S17.607 0 19.666 0c1.75 0 3.107.071 4.071.214z"></path>
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="https://www.pinterest.com/plnts_com/"
                       target="_blank"
                       rel="noreferrer noopener"
@@ -404,10 +404,10 @@ const Footer = () => {
                           <path d="M16.5 7.5l0 .01" />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="https://youtube.com/@plnts_com"
                       target="_blank"
                       rel="noreferrer noopener"
@@ -434,10 +434,10 @@ const Footer = () => {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href="https://www.tiktok.com/@plnts.com"
                       target="_blank"
                       rel="noreferrer noopener"
@@ -452,13 +452,13 @@ const Footer = () => {
                           <path d="M30,13.119C27.249,13.126 24.564,12.268 22.327,10.666L22.327,21.836C22.325,27.408 17.739,31.992 12.168,31.992C6.594,31.992 2.008,27.406 2.008,21.833C2.008,16.259 6.594,11.673 12.168,11.673C12.634,11.673 13.1,11.705 13.563,11.769L13.563,17.388C13.11,17.245 12.638,17.173 12.163,17.173C9.605,17.173 7.499,19.278 7.499,21.836C7.499,24.395 9.605,26.5 12.163,26.5C14.722,26.5 16.827,24.395 16.827,21.836C16.827,21.836 16.827,21.836 16.827,21.836L16.827,0L22.327,0C22.323,0.464 22.362,0.928 22.443,1.386C22.829,3.448 24.049,5.263 25.813,6.399C27.054,7.221 28.511,7.658 30,7.658L30,13.119Z"></path>
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <ul className="mb-3 flex flex-row flex-wrap justify-between gap-2 border-b border-primary pb-4 md:mb-0 md:flex-col md:justify-start md:gap-1 md:border-none md:pb-0">
                 <li>
-                  <a
+                  <Link
                     className="font-bold text-primary md:hover:underline"
                     href="https://www.instagram.com/explore/tags/plnts/"
                     target="_blank"
@@ -466,7 +466,7 @@ const Footer = () => {
                     aria-label="find all #PLNTS messages on instagram"
                   >
                     #AUTOCAR
-                  </a>
+                  </Link>
                 </li>
                 
               </ul>
@@ -491,71 +491,117 @@ const Footer = () => {
             © 2024 Wander.com, Inc.
           </p>
           <div className="flex gap-6 -order-1 mb-10 mt-24 lg:order-none items-center">
-            <a
+            <Link
               className="text-3xl hover:underline text-white"
               href="https://x.com/wander"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
-            </a>
-            <a
-            className="text-3xl hover:underline text-white"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-brand-x"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+              </svg>
+            </Link>
+            <Link
+              className="text-3xl hover:underline text-white"
               href="https://www.instagram.com/wander"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="26" height="26" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg>
-            </a>
-            <a
-            className="text-3xl hover:underline text-white"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-brand-instagram"
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg>
+            </Link>
+            <Link
+              className="text-3xl hover:underline text-white"
               href="https://www.tiktok.com/@wander"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Tiktok"
             >
               <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        className="icon icon-tiktok w-5 h-5"
-                        viewBox="0 0 448 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
-                        ></path>
-                      </svg>
-            </a>
-            <a
-            className="text-3xl hover:underline text-white"
+                aria-hidden="true"
+                focusable="false"
+                className="icon icon-tiktok w-5 h-5"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"
+                ></path>
+              </svg>
+            </Link>
+            <Link
+              className="text-3xl hover:underline text-white"
               href="https://www.youtube.com/c/WanderHQ"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="26" height="26" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" /><path d="M10 9l5 3l-5 3z" /></svg>
-            </a>
-            <a
-            className="text-3xl hover:underline text-white"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-brand-youtube"
+                width="26"
+                height="26"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                <path d="M10 9l5 3l-5 3z" />
+              </svg>
+            </Link>
+            <Link
+              className="text-3xl hover:underline text-white"
               href="https://www.linkedin.com/company/wandercom/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
               <svg
-                        aria-hidden="true"
-                        focusable="false"
-                        className="icon icon-facebook w-5 h-5"
-                        viewBox="0 0 320 512"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-                        ></path>
-                      </svg>
-            </a>
+                aria-hidden="true"
+                focusable="false"
+                className="icon icon-facebook w-5 h-5"
+                viewBox="0 0 320 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                ></path>
+              </svg>
+            </Link>
           </div>
         </div>
 
@@ -563,29 +609,29 @@ const Footer = () => {
           <div className="text-sm mb-4 text-white/60">FOR GUESTS</div>
           <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
-              <a href="/blog" target="_self">
+              <Link href="/blogs" target="_self">
                 Blog
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://www.wander.com/local" target="_blank">
+              <Link href="https://www.wander.com/local" target="_blank">
                 Local
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/help" target="_self">
+              <Link href="/faqs" target="_self">
                 FAQs
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/terms" target="_self">
+              <Link href="/terms" target="_self">
                 Terms
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="mailto:hello@wander.com" target="_blank">
+              <Link href="/contact" target="_self">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -593,29 +639,29 @@ const Footer = () => {
           <div className="text-sm mb-4 text-white/60">FOR PARTNERS</div>
           <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
-              <a href="/operated" target="_self">
-                Wander Operated
-              </a>
+              <Link href="/movies" target="_self">
+                TV Shows
+              </Link>
             </li>
             <li>
-              <a href="/own" target="_self">
-                Own With Wander
-              </a>
+              <Link href="/movies" target="_self">
+                Movies
+              </Link>
             </li>
             <li>
-              <a href="/events" target="_self">
-                Wander Events
-              </a>
+              <Link href="/person" target="_self">
+                Celebs
+              </Link>
             </li>
             <li>
-              <a href="/ambassadors" target="_self">
-                Ambassadors
-              </a>
+              <Link href="/category" target="_self">
+                Articles
+              </Link>
             </li>
             <li>
-              <a href="owner-faq" target="_self">
-                Owner FAQ
-              </a>
+              <Link href="/musics" target="_self">
+                Musics
+              </Link>
             </li>
           </ul>
         </div>
@@ -623,36 +669,26 @@ const Footer = () => {
           <div className="text-sm mb-4 text-white/60">FOR EVERYONE</div>
           <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
-              <a href="/about" target="_self">
+              <Link href="/about" target="_self">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/careers" target="_self">
+              <Link href="/careers" target="_self">
                 Careers
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/press" target="_self">
-                In the press
-              </a>
+              <Link href="/shop" target="_self">
+                Shop
+              </Link>
             </li>
             <li>
-              <a href="/privacy" target="_self">
+              <Link href="/privacy" target="_self">
                 Privacy
-              </a>
+              </Link>
             </li>
           </ul>
-          <button
-            className="mt-6 text-base"
-            type="button"
-            aria-haspopup="dialog"
-            aria-expanded="false"
-            aria-controls="radix-:Rv9mla:"
-            data-state="closed"
-          >
-            See more
-          </button>
         </div>
       </section>
     </>

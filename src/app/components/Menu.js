@@ -63,33 +63,50 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
         </div>
 
         <div className="h-4/6 pt-4">
-          
-          <Accordion title="Motorcycle" bg="f5f5f5">
+          <Accordion title="TV Shows" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-4 uppercase">
                 <Link
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href={"/plants"}
                 >
-                  News
+                  Top Shows
                 </Link>
                 <a
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href="#"
                 >
-                  Review
+                  Most Popular Shows
                 </a>
                 <a
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href="#"
                 >
-                  Advice
+                  Variety Shows
                 </a>
                 <a
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href="#"
                 >
-                  Shop
+                  Newest
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Upcoming
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Reviews
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Recommendations
                 </a>
               </div>
             </div>
@@ -102,86 +119,125 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
               <span className="text-sm">Guide & Advice</span>
             </Link>
           </div>
-          
-          <Accordion title="News" bg="f5f5f5">
+          <Accordion title="Movies" bg="f5f5f5">
+            <div className="overflow-hidden pb-0">
+              <div className="duration-300 px-4 uppercase">
+                <Link
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href={"/plants"}
+                >
+                  Top Movies
+                </Link>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Most Popular Movies
+                </a>
+               
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Newest
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Upcoming
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Reviews
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Recommendations
+                </a>
+              </div>
+            </div>
+          </Accordion>
+          <Accordion title="Musics" bg="f5f5f5">
+            <div className="overflow-hidden pb-0">
+              <div className="duration-300 px-4 uppercase">
+                <Link
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href={"/plants"}
+                >
+                  Top Musics
+                </Link>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Most Popular Musics
+                </a>
+               
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Newest
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Upcoming
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Reviews
+                </a>
+                <a
+                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  href="#"
+                >
+                  Recommendations
+                </a>
+              </div>
+            </div>
+          </Accordion>
+          <Accordion title="Celebs" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-4 uppercase">
                 <Link
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href={"/blogs"}
                 >
-                  Industry News
+                  Top Actress
                 </Link>
                 <a
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href="#"
                 >
-                  Auto Show
+                  Top Actors
                 </a>
                 <a
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href="#"
                 >
-                  Future Cars
+                  Top Artist
                 </a>
                 <a
                   className="flex items-center h-8 text-xs font-semibold text-gray-900 "
                   href="#"
                 >
-                  Sports Cars
+                  Top Groups
                 </a>
-                <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href="#"
-                >
-                  Green Cars
-                </a>
-                <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href="#"
-                >
-                  Truck
-                </a>
-                <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href="#"
-                >
-                  Technology
-                </a>
+               
               </div>
             </div>
           </Accordion>
 
-          <Accordion title="Racing" bg="f5f5f5">
-            <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-4 uppercase">
-                <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href={"/f1"}
-                >
-                  Formula 1
-                </Link>
-                <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href="#"
-                >
-                  MotoGP
-                </a>
-                <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href="#"
-                >
-                  NASCAR
-                </a>
-                <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
-                  href="#"
-                >
-                  Formula E
-                </a>
-              </div>
-            </div>
-          </Accordion>
+          
 
           <Accordion title="Shops" bg="f5f5f5">
             <div className="overflow-hidden pb-0">

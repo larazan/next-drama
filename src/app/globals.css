@@ -366,7 +366,7 @@ tbody tr.riwayat {
 
 .feature-circle {
   display: block;
-  width: 100px;
+  width: 30px;
   position: relative;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -433,4 +433,10 @@ tbody tr.riwayat {
   background: linear-gradient(to right top, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
   border-radius: 8px;
   /* border: 1px solid #fff; */
+}
+
+.shadow-menu {
+  box-shadow: 0 0 transparent,0 0 transparent,var(--tw-shadow)!important;
+  box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow)!important;
+  --tw-shadow: 2px 2px 0 #191a1b!important;
 }
