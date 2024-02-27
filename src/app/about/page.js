@@ -66,24 +66,34 @@ export default function About() {
       <section className="relative bg-[#0a1016] mx-auto  w-full flex  flex-col py-0">
         <div className="flex h-full w-full items-end !bg-[length:auto_833px] !bg-top min-[1129px]:!bg-[length:100%_auto]">
           <div className="to-1-black via-1-black w-full bg-gradient-to-b from-transparent via-40% py-12 pt-14 xl:pb-[104px]">
-          <div className="grid mx-auto w-full max-w-[50rem] gap-4 px-0 pt-2 py-10 text-left">
-          <h1 className="px-4 text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
+            <div className="grid mx-auto w-full max-w-[50rem] gap-4 px-4 md:px-0 pt-2 py-10 text-left">
+              <h1 className="px-4 text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
                 About us
               </h1>
               <p className="mx-auto px-4 text-lg font-normal text-white">
-              MyDramaList.com was first launched in April 2011 after several years of development and beta testing. Despite still being in Beta mode, the site has a wide database of Asian dramas, movies, and actors/actresses, thanks to the contributions of our users. We value your feedback and opinions, so please don't hesitate to share them with us at support@mydramalist.com.
+                MyDramaList.com was first launched in April 2011 after several
+                years of development and beta testing. Despite still being in
+                Beta mode, the site has a wide database of Asian dramas, movies,
+                and actors/actresses, thanks to the contributions of our users.
+                We value your feedback and opinions, so please don't hesitate to
+                share them with us at support@mydramalist.com.
               </p>
             </div>
-            <div className="grid mx-auto w-full max-w-[50rem] gap-4 px-0 pt-2 py-10 text-left">
+            <div className="grid mx-auto w-full max-w-[50rem] gap-4 px-4 md:px-0 pt-2 py-10 text-left">
               <h1 className="px-4 text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
                 Our Goal
               </h1>
               <p className="mx-auto px-4 text-lg font-normal text-white">
-              MyDramaList.com is a community-driven platform where Asian drama and movie fans can create their own lists, discuss their favorite shows and movies, discover new content, and make friends. Our goal is to provide a fun and engaging space for fans to connect and share their passion for Asian dramas and movies.
+                MyDramaList.com is a community-driven platform where Asian drama
+                and movie fans can create their own lists, discuss their
+                favorite shows and movies, discover new content, and make
+                friends. Our goal is to provide a fun and engaging space for
+                fans to connect and share their passion for Asian dramas and
+                movies.
               </p>
             </div>
-            
-            <div className="relative mx-auto grid w-fit gap-12 px-5 md:grid-cols-2 xl:grid-cols-3 text-white">
+
+            <div className="relative mx-auto grid w-fit gap-12 px-8 md:px-5 md:grid-cols-2 xl:grid-cols-3 text-white">
               <div className="w-full md:max-w-[355px]">
                 <p className="mb-2 text-xl font-medium">100% Wander operated</p>
                 <p className="text-w-3005">
