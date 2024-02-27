@@ -234,8 +234,7 @@ const MusicList = () => {
               ref={scrl}
               onScroll={scrollCheck}
             >
-              {musicData.map((data, index) => {
-                return (
+              {musicData.map((data, index) => (
                   <div
                   className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                   key={index}
@@ -264,8 +263,8 @@ const MusicList = () => {
                     </div>
                 </div>
 
-                );
-              })}
+                )
+            )}
             </div>
           </div>
         </div>

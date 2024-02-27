@@ -234,8 +234,7 @@ const RelatedArtist = () => {
               ref={scrl}
               onScroll={scrollCheck}
             >
-              {actressData.map((data, index) => {
-                return (
+              {actressData.map((data, index) => (
                   <div
                     className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                     key={index}
@@ -258,8 +257,8 @@ const RelatedArtist = () => {
                       </div>
                     </div>
                   </div>
-                );
-              })}
+                )
+              )}
             </div>
           </div>
         </div>

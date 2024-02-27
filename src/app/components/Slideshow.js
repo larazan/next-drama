@@ -40,11 +40,10 @@ const Slideshow = () => {
       <div className="max-w-[1400px] h-full w-full m-auto py-0 px-0 relative group overflow-hidden">
         <div className="w-full h-full rounded-2xl bg-center bg-cover2 object-cover duration-500">
           <Slider {...settings}>
-            {slides.map((data, index) => {
-              return (
+            {slides.map((data, index) => (
                 <Image src={data.url} alt="" className="md:h-full w-full" key={index} />
-              );
-            })}
+              )
+            )}
           </Slider>
         </div>
      

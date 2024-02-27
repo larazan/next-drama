@@ -291,8 +291,7 @@ export default function NewRelease() {
               ref={scrl}
               onScroll={scrollCheck}
             >
-              {movieData.map((data, index) => {
-                return (
+              {movieData.map((data, index) => (
                   <div
                   className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                   key={index}
@@ -321,8 +320,8 @@ export default function NewRelease() {
                   </div>
                 </div>
 
-                );
-              })}
+                )
+              )}
             </div>
           </div>
         </div>

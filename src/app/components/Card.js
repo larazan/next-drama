@@ -90,8 +90,7 @@ const Card = () => {
   return (
     <>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8 mb-8 mx-auto w-full px-3 md:px-0 md:w-11/12 ">
-        {gifts.map((data, index) => {
-          return (
+        {gifts.map((data, index) => (
             <div className="shadow-md hover:scale-105 " key={index}>
               <div className=" bg-white group flex flex-col overflow-hidden ">
                 <Link href="/detail" className="relative">
@@ -105,8 +104,8 @@ const Card = () => {
                 </div>
               </div>
             </div>
-          );
-        })}
+          )
+        )}
       </div>
       
     </>

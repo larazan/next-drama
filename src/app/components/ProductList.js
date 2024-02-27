@@ -107,8 +107,7 @@ const ProductList = () => {
     <>
       <div className="col-start-1 md:col-span-12 md:col-start-0 md:row-start-2 xl:col-start-4">
         <section className="grid w-full grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-4 xl:gap-4">
-          {productData.map((data, index) => {
-            return (
+          {productData.map((data, index) => (
               <article
                 className="relative overflow-hidden md:transform md:transition-all cursor-pointer"
                 key={index}
@@ -171,8 +170,8 @@ const ProductList = () => {
                   </section>
                 </Link>
               </article>
-            );
-          })}
+            )
+          )}
         </section>
         <Pagination />
       </div>

@@ -194,8 +194,7 @@ const TipsHome = () => {
             ref={scrl}
             onScroll={scrollCheck}
           >
-            {nailData.map((data, index) => {
-              return (
+            {nailData.map((data, index) => (
                 <div
                   className="transition-all duration-150 flex mr-[1em] "
                   key={index}
@@ -236,8 +235,7 @@ const TipsHome = () => {
                     </div>
                   </div>
                 </div>
-              );
-            })}
+              ))}
           </div>
         </div>
       </div>

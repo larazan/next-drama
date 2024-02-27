@@ -127,8 +127,7 @@ const ArticleHome = () => {
                   </div> */}
                   <div className="flex w-full space-x-4">
                     <div>
-                      {blogData.map((data, index) => {
-                        return (
+                      {blogData.map((data, index) => (
                           <div
                             className="text-tundora no-underline"
                             key={index}
@@ -194,8 +193,8 @@ const ArticleHome = () => {
                             </div>
                             <div className="h-px bg-mercury"></div>
                           </div>
-                        );
-                      })}
+                        )
+                      )}
                     </div>
                   </div>
                 </div>

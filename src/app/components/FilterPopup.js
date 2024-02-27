@@ -34,7 +34,7 @@ const FilterPopup = ({ isOpen, handleClose, setIsOpen }) => {
     "Dark Circles",
     "Dry Hair",
     "Dry Skin",
-  ]
+  ];
 
   const categoryData = [
     "Air filter",
@@ -62,11 +62,9 @@ const FilterPopup = ({ isOpen, handleClose, setIsOpen }) => {
     "Tires",
     "Velg",
     "Clean Kit",
-  ]
+  ];
 
-  const vendorData = [
-
-  ]
+  const vendorData = [];
 
   return (
     <>
@@ -78,7 +76,9 @@ const FilterPopup = ({ isOpen, handleClose, setIsOpen }) => {
       >
         <div className="flex w-full items-center justify-between py-4 border-b">
           <div className="w-1/2">
-            <span className="uppercase text-sm md:text-lg tracking-wide font-semibold text-[#001838]">Filters</span>
+            <span className="uppercase text-sm md:text-lg tracking-wide font-semibold text-[#001838]">
+              Filters
+            </span>
           </div>
 
           <div className="flex justify-end w-1/2">
@@ -176,51 +176,43 @@ const FilterPopup = ({ isOpen, handleClose, setIsOpen }) => {
               <div className="duration-300 px-0 pb-3">
                 <div className="space-y-1">
                   <ul className="flex flex-col flex-wrap justify-start space-y-2 px-2">
-                    {categoryData.map((data,index) => {
-                      return (
-                    <li key={index}>
-                      <span className="flex cursor-pointer justify-start text-gray-900 ">
-                        <button className="h-full w-full2 outline-none text-[13px] focus:outline-none">
-                        {data}
-                        </button>
-                      </span>
-                    </li>
-                      )
-                    })}
-                    
-                   
+                    {categoryData.map((data, index) => (
+                      <li key={index}>
+                        <span className="flex cursor-pointer justify-start text-gray-900 ">
+                          <button className="h-full w-full2 outline-none text-[13px] focus:outline-none">
+                            {data}
+                          </button>
+                        </span>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
             </div>
           </DropFilter>
-          
+
           <DropFilter title="Concern">
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-0 pb-3">
                 <ul>
-                  {concernData.map((data,index) => {
-                    return (
-                      <li className="pl-2" key={index}>
-                    <label className="flex h-8 flex-row items-center justify-start">
-                      <span className="grow">
-                        <span className="text-sm">{data} </span>
-                      </span>
-                      <label className="relative inline-block h-[22px] w-[45px] flex-none">
-                        <input
-                          className="peer h-0 w-0 opacity-0"
-                          type="checkbox"
-                          name="properties:air-purifying"
-                          value="367"
-                        />
-                        <span className="absolute bottom-0 left-0 right-0 top-0 cursor-pointer rounded-[22px] bg-white ring-1 ring-inset ring-sold-out duration-300 before:absolute before:bottom-[2px] before:left-[2px] before:h-[18px] before:w-[18px] before:rounded-full before:bg-sold-out before:duration-300 before:content-[''] peer-checked:bg-primary peer-checked:ring-primary peer-checked:before:translate-x-[23px] peer-checked:before:transform peer-checked:before:bg-white peer-checked:peer-disabled:bg-primary/50 peer-checked:peer-disabled:ring-0"></span>
+                  {concernData.map((data, index) => (
+                    <li className="pl-2" key={index}>
+                      <label className="flex h-8 flex-row items-center justify-start">
+                        <span className="grow">
+                          <span className="text-sm">{data} </span>
+                        </span>
+                        <label className="relative inline-block h-[22px] w-[45px] flex-none">
+                          <input
+                            className="peer h-0 w-0 opacity-0"
+                            type="checkbox"
+                            name="properties:air-purifying"
+                            value="367"
+                          />
+                          <span className="absolute bottom-0 left-0 right-0 top-0 cursor-pointer rounded-[22px] bg-white ring-1 ring-inset ring-sold-out duration-300 before:absolute before:bottom-[2px] before:left-[2px] before:h-[18px] before:w-[18px] before:rounded-full before:bg-sold-out before:duration-300 before:content-[''] peer-checked:bg-primary peer-checked:ring-primary peer-checked:before:translate-x-[23px] peer-checked:before:transform peer-checked:before:bg-white peer-checked:peer-disabled:bg-primary/50 peer-checked:peer-disabled:ring-0"></span>
+                        </label>
                       </label>
-                    </label>
-                  </li>
-                    )
-                  })}
-                  
-                
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -303,9 +295,7 @@ const FilterPopup = ({ isOpen, handleClose, setIsOpen }) => {
           </DropFilter>
           <DropFilter title="Price">
             <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-0 pb-3">
-                
-              </div>
+              <div className="duration-300 px-0 pb-3"></div>
             </div>
           </DropFilter>
           <div>

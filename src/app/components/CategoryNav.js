@@ -104,8 +104,7 @@ const CategoryNav = () => {
                 </div>
               </a>
             </li>
-            {categoryData.map((data, index) => {
-              return (
+            {categoryData.map((data, index) => (
                 <li key={index}>
               <Link href="/collections/polaroid-straps">
                 <div className="py-4 w-[109px] max-w-[109px] min-h-[64px] flex flex-col justify-center items-center h-full hover:bg-white">
@@ -118,7 +117,7 @@ const CategoryNav = () => {
               </Link>
             </li>
               )
-            })}
+            )}
             
             
             {/* <li>

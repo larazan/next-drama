@@ -20,7 +20,6 @@ import product7 from "@/assets/products/gallery7.png";
 import product8 from "@/assets/products/gallery8.png";
 import product9 from "@/assets/products/gallery9.png";
 
-
 import ProductShop from "../components/ProductShop";
 
 export default function page() {
@@ -97,7 +96,6 @@ export default function page() {
       category: "Anthurium",
       img: product9,
     },
-    
   ];
 
   return (
@@ -112,8 +110,6 @@ export default function page() {
       <GoTop />
       <NewsFeed />
       <Slideshow />
-
-    
 
       <div className="max-w-full xl:max-w-[1800px] mx-auto  flex flex-col justify-center items-center bg-white">
         <div className="w-11/12 mx-auto">
@@ -149,69 +145,64 @@ export default function page() {
 
                 <div className="overflow-x-auto overflow-hidden md:w-9/12 md:-mt-4 ">
                   <div>
-                    <div
-                      className="w-full"
-                    >
+                    <div className="w-full">
                       <div className="w-full table">
                         <div className="w-full  flex px-0 pb-6 -ml-2 md:px-4">
-                          {productData.map((data,index) => {
-                            return (
-<Link
-                            href="/product"
-                            className="h-full z-1 relative text-left"
-                            key={index}
-                          >
-                            <div className="absolute top-10 z-10 left-4 lg:left-10">
-                              <div className="flex gap-2 transition-opacity ease-in-out duration-300 opacity-0 min-h- 7 h-7 mb-3 md:mb-4 pointer-events-none"></div>
-                            </div>
-                            <div className="flex flex-col items-center h-full">
-                              <div className="relative lg:p-4 mb-10 lg:mb-0 hover:lg:shadow-sm lg:w-[342px] lg:min-h-[412px] p-2 h-full cursor-pointer">
-                                <div className="group/card">
-                                  <div className="relative h-[297px] w-[297px] lg:h-[306px] lg:w-[306px] bg-[#e9e9e9]">
-                                    <div className="absolute h-[80%] w-[80%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-2">
-                                      <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 opacity-100 group-hover/card:lg:opacity-0">
-                                        <div className="w-full h-full">
-                                          <div className="hidden2 md:block md:w-full md:h-full relative animate-[fadeIn_0.3s_ease-out]">
-                                            <Image src={data.img} alt="" className="object-cover" />
+                          {productData.map((data, index) => (
+                              <Link
+                                href="/product"
+                                className="h-full z-1 relative text-left"
+                                key={index}
+                              >
+                                <div className="absolute top-10 z-10 left-4 lg:left-10">
+                                  <div className="flex gap-2 transition-opacity ease-in-out duration-300 opacity-0 min-h- 7 h-7 mb-3 md:mb-4 pointer-events-none"></div>
+                                </div>
+                                <div className="flex flex-col items-center h-full">
+                                  <div className="relative lg:p-4 mb-10 lg:mb-0 hover:lg:shadow-sm lg:w-[342px] lg:min-h-[412px] p-2 h-full cursor-pointer">
+                                    <div className="group/card">
+                                      <div className="relative h-[297px] w-[297px] lg:h-[306px] lg:w-[306px] bg-[#e9e9e9]">
+                                        <div className="absolute h-[80%] w-[80%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-2">
+                                          <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 opacity-100 group-hover/card:lg:opacity-0">
+                                            <div className="w-full h-full">
+                                              <div className="hidden2 md:block md:w-full md:h-full relative animate-[fadeIn_0.3s_ease-out]">
+                                                <Image
+                                                  src={data.img}
+                                                  alt=""
+                                                  className="object-cover"
+                                                />
+                                              </div>
+                                            </div>
                                           </div>
-                                          
                                         </div>
                                       </div>
-                                      
+                                    </div>
+                                    <div className="pt-4 md:pt-4 flex justify-between w-[297px] lg:w-[306px]">
+                                      <div className="flex-1">
+                                        <p className="text-sm text-black font-semibold max-w-[75%] lg:max-w-[85%] line-clamp-2">
+                                          {data.title}
+                                        </p>
+                                      </div>
+                                      <div className="flex flex-col items-end basis-[40%]">
+                                        <p className="flex gap-2">
+                                          <span className="font-sans text-h6 text-right text-black">
+                                            {data.price}
+                                          </span>
+                                        </p>
+                                        <div className="flex mt-4 justify-end">
+                                          <button className="button bg-white text-black border-black hover:bg-black hover:text-white hover:border-black text-sm leading-none py-1 px-2 border font-sans rounded-full transition-[all] duration-300 ease-out border-solid disabled:cursor-default undefined">
+                                            Add to cart
+                                          </button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div className="pt-4 md:pt-4 flex justify-between w-[297px] lg:w-[306px]">
-                                  <div className="flex-1">
-                                    <p className="text-sm text-black font-semibold max-w-[75%] lg:max-w-[85%] line-clamp-2">
-                                      {data.title}
-                                    </p>
-                                  </div>
-                                  <div className="flex flex-col items-end basis-[40%]">
-                                    <p className="flex gap-2">
-                                      <span className="font-sans text-h6 text-right text-black">
-                                        {data.price}
-                                      </span>
-                                    </p>
-                                    <div className="flex mt-4 justify-end">
-                                      <button className="button bg-white text-black border-black hover:bg-black hover:text-white hover:border-black text-sm leading-none py-1 px-2 border font-sans rounded-full transition-[all] duration-300 ease-out border-solid disabled:cursor-default undefined">
-                                        Add to cart
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </Link>
+                              </Link>
                             )
-                          })}
-                          
-                        
+                          )}
                         </div>
                       </div>
                     </div>
-
-                   
                   </div>
                 </div>
               </div>

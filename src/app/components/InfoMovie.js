@@ -65,7 +65,7 @@ const InfoMovie = () => {
               <div className="flex items-center rounded-full p-2 transition duration-500 ease-in-out text-white hover:text-black hover:scale-1052 hover:bg-[#00dc89] cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-brand-x"
+                  className="icon icon-tabler icon-tabler-brand-x"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"

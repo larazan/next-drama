@@ -94,8 +94,7 @@ const RelatedArticle = () => {
 
           <div className="flex w-full space-x-4">
             <div>
-              {newsData.map((data, index) => {
-                return (
+              {newsData.map((data, index) => (
                   <div className="text-tundora no-underline" key={index}>
                     <div className="my-[1em] mx-[0em] flex md:items-center w-full bg-transparent leading-[1.25em]">
                       <div className=" flex w-8/12 md:max-w-[75%]2 flex-1 flex-col space-y-1 md:space-y-2">
@@ -154,8 +153,8 @@ const RelatedArticle = () => {
                     </div>
                     <div className="h-px bg-mercury"></div>
                   </div>
-                );
-              })}
+                )
+              )}
             </div>
           </div>
         </div>

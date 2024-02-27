@@ -46,8 +46,7 @@ const RelatedReview = () => {
         <p className="max-w-3xl mt-6 text-lg font-bold md:text-xl lg:text-2xl text-black">
             Further Reading
         </p>
-          {products.map((data, index) => {
-            return (
+          {products.map((data, index) => (
               <Link className="text-tundora no-underline" href="/" key={index}>
                 <div className="my-[1em] mx-[0em] flex md:items-center w-full bg-[#f9f9f9] leading-[1.25em]">
                   <Link
@@ -79,8 +78,8 @@ const RelatedReview = () => {
                 </div>
                 <div className="h-px bg-mercury"></div>
               </Link>
-            );
-          })}
+            )
+          )}
         </div>
       </div>
     </>

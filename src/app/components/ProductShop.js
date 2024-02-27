@@ -154,7 +154,8 @@ const ProductShop = () => {
                     <div>
                       <div>
                         <p className="font-sans">
-Discover buzzworthy brands creating innovative formulas with impressive results.
+                          Discover buzzworthy brands creating innovative
+                          formulas with impressive results.
                         </p>
                         <p className="font-sans"></p>
                       </div>
@@ -175,62 +176,58 @@ Discover buzzworthy brands creating innovative formulas with impressive results.
                     <div className="w-full">
                       <div className="w-full table">
                         <div className="w-full  flex px-0 pb-6 -ml-2 md:px-4">
-                          {productData.map((data,index) => {
-                            return (
-<Link
-                            href="/gallery"
-                            className="h-full z-1 relative text-left"
-                            key={index}
-                          >
-                            <div className="absolute top-10 z-10 left-4 lg:left-10">
-                              <div className="flex gap-2 transition-opacity ease-in-out duration-300 opacity-0 min-h- 7 h-7 mb-3 md:mb-4 pointer-events-none"></div>
-                            </div>
-                            <div className="flex flex-col items-center h-full">
-                              <div className="relative lg:p-4 mb-10 lg:mb-0 hover:lg:shadow-sm lg:w-[342px] lg:min-h-[412px] p-2 h-full cursor-pointer">
-                                <div className="group/card">
-                                  <div className="relative h-[227px] w-[227px] lg:h-[306px] lg:w-[306px] bg-[#e9e9e9]">
-                                    <div className="absolute h-[80%] w-[80%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-2">
-                                      <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 opacity-100 group-hover/card:lg:opacity-0">
-                                        <div className="w-full h-full">
-                                          <div className="hidden2 md:block md:w-full md:h-full relative animate-[fadeIn_0.3s_ease-out]">
-                                            <Image
-                                              src={data.img}
-                                              alt=""
-                                              className="object-cover"
-                                            />
+                          {productData.map((data, index) => (
+                            <Link
+                              href="/gallery"
+                              className="h-full z-1 relative text-left"
+                              key={index}
+                            >
+                              <div className="absolute top-10 z-10 left-4 lg:left-10">
+                                <div className="flex gap-2 transition-opacity ease-in-out duration-300 opacity-0 min-h- 7 h-7 mb-3 md:mb-4 pointer-events-none"></div>
+                              </div>
+                              <div className="flex flex-col items-center h-full">
+                                <div className="relative lg:p-4 mb-10 lg:mb-0 hover:lg:shadow-sm lg:w-[342px] lg:min-h-[412px] p-2 h-full cursor-pointer">
+                                  <div className="group/card">
+                                    <div className="relative h-[227px] w-[227px] lg:h-[306px] lg:w-[306px] bg-[#e9e9e9]">
+                                      <div className="absolute h-[80%] w-[80%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-2">
+                                        <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-opacity duration-500 opacity-100 group-hover/card:lg:opacity-0">
+                                          <div className="w-full h-full">
+                                            <div className="hidden2 md:block md:w-full md:h-full relative animate-[fadeIn_0.3s_ease-out]">
+                                              <Image
+                                                src={data.img}
+                                                alt=""
+                                                className="object-cover"
+                                              />
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                                </div>
-                                <div className="pt-4 md:pt-4 flex justify-between w-[227px] lg:w-[306px]">
-                                  <div className="flex-1">
-                                    <p className="text-sm text-white font-semibold max-w-[75%] lg:max-w-[85%] line-clamp-2">
-                                      Polaroid Now Generation 2 i-Type Instant
-                                      Camera
-                                    </p>
-                                  </div>
-                                  <div className="flex flex-col items-end basis-[40%]">
-                                    <p className="flex gap-2">
-                                      <span className="font-sans text-h6 text-right text-white">
-                                        €129.99
-                                      </span>
-                                    </p>
-                                    {/* <div className="flex mt-4 justify-end">
+                                  <div className="pt-4 md:pt-4 flex justify-between w-[227px] lg:w-[306px]">
+                                    <div className="flex-1">
+                                      <p className="text-sm text-white font-semibold max-w-[75%] lg:max-w-[85%] line-clamp-2">
+                                        Polaroid Now Generation 2 i-Type Instant
+                                        Camera
+                                      </p>
+                                    </div>
+                                    <div className="flex flex-col items-end basis-[40%]">
+                                      <p className="flex gap-2">
+                                        <span className="font-sans text-h6 text-right text-white">
+                                          €129.99
+                                        </span>
+                                      </p>
+                                      {/* <div className="flex mt-4 justify-end">
                                       <button className="button bg-[#00dc89] text-black border-black hover:bg-white hover:text-black hover:border-black text-sm leading-none py-1.5 px-3 border font-semibold rounded-full transition-[all] duration-300 ease-out border-solid disabled:cursor-default undefined">
                                         Add to cart
                                       </button>
                                     </div> */}
+                                    </div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </Link>
-                            )
-                          })}
-                          
-                          
+                            </Link>
+                          ))}
                         </div>
                       </div>
                     </div>

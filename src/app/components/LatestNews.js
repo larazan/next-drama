@@ -301,15 +301,14 @@ const LatestNews = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-2">
-              {news.map((data, index) => {
-                return (
+              {news.map((data, index) => (
                   <div className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white' key={index}>
                     <Link href={"/"} className="text-white  hover:text-[#0c9bff] leading-tight">
                     <span className="text-sm md:text-md">{data.title}</span>
                     </Link>
                   </div>
-                );
-              })}
+                )
+              )}
             </div>
 
             <div className="pt-8 px-4 py-4 grid grid-cols-1 gap-6 sm:grid-cols-2 md:pb-16 md:grid-cols-3 lg:grid-cols-4 ">

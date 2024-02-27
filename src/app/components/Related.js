@@ -77,8 +77,7 @@ const Related = () => {
           </p>
         </div>
         <div className=" w-full grid grid-cols-3 gap-3">
-          {gifts.map((data, index) => {
-            return (
+          {gifts.map((data, index) => (
               <Link className="text-tundora no-underline " href="/detail" key={index}>
               <div className=" mx-[0em] flex flex-col items-center2 space-y-2 w-full bg-white leading-[1.25em]">
                 <figure className="m-0 flex aspect-[10/9] md:aspect-[16/10] h-fit flex-1 items-center justify-center">
@@ -100,10 +99,8 @@ const Related = () => {
               {/* <div className="h-px bg-mercury"></div> */}
             </Link>
             )
-          })}
+          )}
           
-
-         
         </div>
       </div>
     </>

@@ -87,8 +87,7 @@ import gift12 from "@/assets/gift12.png";
             <span className="text-gray-900 text-2xl font-semibold">Hot Gifts</span>
           </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4  mb-8 mx-auto w-full px-3 md:px-0  ">
-        {gifts.map((data, index) => {
-          return (
+        {gifts.map((data, index) => (
             <div className="shadow-md hover:scale-105 " key={index}>
               <div className=" bg-white group flex flex-col overflow-hidden ">
                 <Link href="/detail" className="relative">
@@ -102,8 +101,8 @@ import gift12 from "@/assets/gift12.png";
                 </div>
               </div>
             </div>
-          );
-        })}
+          )
+        )}
       </div>
       <div className="mx-auto w-full px-3 md:px-0 md:w-8/12 pb-10">
         <div className="w-full rounded-2xl py-3 text-center bg-[#f2ffc2] hover:bg-[#e8f8b0] cursor-pointer">

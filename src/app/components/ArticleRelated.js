@@ -60,8 +60,7 @@ const ArticleRelated = () => {
                  
                   <div className="flex w-full space-x-4">
                     <div className='divide-y-2 divide-[#31373b]'>
-                      {newsData.map((data, index) => {
-                        return (
+                      {newsData.map((data, index) => (
                           <div
                             className="text-tundora no-underline"
                             key={index}
@@ -100,8 +99,8 @@ const ArticleRelated = () => {
                             </div>
                             {/* <div className="h-px bg-mercury"></div> */}
                           </div>
-                        );
-                      })}
+                        )
+                      )}
                     </div>
                   </div>
                 </div>
