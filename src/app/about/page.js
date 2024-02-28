@@ -75,7 +75,7 @@ export default function About() {
                 years of development and beta testing. Despite still being in
                 Beta mode, the site has a wide database of Asian dramas, movies,
                 and actors/actresses, thanks to the contributions of our users.
-                We value your feedback and opinions, so please don't hesitate to
+                We value your feedback and opinions, so please don&lsquo;t hesitate to
                 share them with us at support@mydramalist.com.
               </p>
             </div>

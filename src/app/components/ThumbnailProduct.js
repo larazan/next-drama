@@ -107,7 +107,7 @@ const ThumbnailProduct = () => {
           >
             {detailData.map((slide) => (
               <div className="slick-slide cursor-pointer" key={slide.id}>
-                <Image className="slick-slide-image px-1" src={slide.img} />
+                <Image className="slick-slide-image px-1" alt="" src={slide.img} />
               </div>
             ))}
           </Slider>

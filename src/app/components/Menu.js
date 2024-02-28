@@ -111,14 +111,7 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
               </div>
             </div>
           </Accordion>
-          <div className={` py-0 flex flex-col w-full uppercase`}>
-            <Link
-              href={"/blogs"}
-              className="flex items-center justify-between h-10 px-3 text-gray-900 text-xs md:text-[18px] font-semibold md:font-bold"
-            >
-              <span className="text-sm">Guide & Advice</span>
-            </Link>
-          </div>
+          
           <Accordion title="Movies" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-4 uppercase">

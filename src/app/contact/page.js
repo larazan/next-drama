@@ -124,14 +124,14 @@ export default function page() {
                   </h2>
                 </div>
                 <div className="flex flex-col max-w-md space-y-4 md:space-y-5">
-                  <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-2 mx-auto w-full">
+                  <div className="flex items-center flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-2 mx-auto w-full">
                     <div className="w-full md:w-1/2 flex flex-col space-y-1 ">
                       <p className="text-white text-[11px] font-semibold uppercase tracking-tight">
                         FIRST NAME
                       </p>
                       <div className="relative items-center">
                         <input
-                          className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-transparent text-white border-gray-300 rounded font-medium placeholder:font-normal"
+                          className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-[#29282d] text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
                           type="text"
                         />
                       </div>
@@ -141,8 +141,8 @@ export default function page() {
                         Last NAME
                       </p>
                       <div className="relative items-center">
-                        <input
-                          className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-transparent text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
+                      <input
+                          className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-[#29282d] text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
                           type="text"
                         />
                       </div>
@@ -154,7 +154,7 @@ export default function page() {
                     </p>
                     <input
                       type="text"
-                      className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-transparent text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
+                      className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-[#29282d] text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
                     />
                   </div>
                   <div className="relative w-full">
@@ -163,7 +163,7 @@ export default function page() {
                     </p>
                     <input
                       type="text"
-                      className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-transparent text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
+                      className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-[#29282d] text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
                     />
                   </div>
                   <div className="relative w-full">
@@ -173,7 +173,7 @@ export default function page() {
                     <textarea
                       rows="4"
                       cols="50"
-                      className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-transparent text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
+                      className="flex w-full px-2 py-2 md:px-2 md:py-2 border bg-[#29282d] text-sm text-white border-gray-300 rounded font-medium placeholder:font-normal"
                     ></textarea>
                   </div>
 

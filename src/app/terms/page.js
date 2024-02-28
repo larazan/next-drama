@@ -27,7 +27,7 @@ export default function Terms() {
           <div className="col-span-12 md:col-span-4 bg-brand-light px-6 py-10 lg:p-6">
             <nav className="sticky top-28">
               <ul className="grid gap-y-1">
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/warranty"
@@ -36,7 +36,7 @@ export default function Terms() {
                     Warranty Policy
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/policies/refund-policy"
@@ -44,7 +44,7 @@ export default function Terms() {
                     Refund &amp; Return policy
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/policies/terms-of-service"
@@ -52,7 +52,7 @@ export default function Terms() {
                     Terms Of Service
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white underline  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/policies/privacy-policy"
@@ -60,7 +60,7 @@ export default function Terms() {
                     Privacy Policy
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="https://risegardens.com/pages/shipping-policy"
@@ -68,7 +68,7 @@ export default function Terms() {
                     Shipping Policy
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/shipping-protection-terms-conditions"
@@ -76,7 +76,7 @@ export default function Terms() {
                     Shipping protection
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/membership-terms-conditions"
@@ -84,7 +84,7 @@ export default function Terms() {
                     Membership Terms
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/loyalty-terms-and-conditions"
@@ -92,7 +92,7 @@ export default function Terms() {
                     Loyalty Terms
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/email-sign-up-disc ml-6ount-terms-conditions"
@@ -100,7 +100,7 @@ export default function Terms() {
                     Email Sign Up disc ml-6ount
                   </a>
                 </li>
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/referral-program-terms-condition"
@@ -109,8 +109,7 @@ export default function Terms() {
                   </a>
                 </li>
                 
-                
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/accessibility-statement"
@@ -119,7 +118,7 @@ export default function Terms() {
                   </a>
                 </li>
                
-                <li>
+                <li className='flex before:inline items-center before:px-1.5  before:text-sm before:content-["►"] text-white'>
                   <a
                     className=" text-white  text-base lg:text-lg hover:text-[#00dc89]"
                     href="/pages/ccpa-opt-out"
