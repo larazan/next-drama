@@ -131,13 +131,13 @@ export default function Musics() {
                     className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110 "
                     key={index}
                   >
-                    <div className="flex w-[200px] ">
+                    <div className="flex w-[170px] md:w-[200px] ">
                       <div className="rounded bg-[#1e2429] border border-gray-800 hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                      <Link href="/musics/angora" className="relative w-[200px]  h-[140px] md:w-[200px] md:h-[200px]">
+                      <Link href="/musics/angora" className="relative w-[170px]  h-[140px] md:w-[200px] md:h-[200px]">
                         <Image
                           src={data.image}
                           alt=""
-                          className="w-full h-full rounded-lg object-cover px-3 pt-3 "
+                          className="md:w-full h-full rounded-lg object-cover px-3 pt-3 "
                         />{" "}
                         <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                       </Link>{" "}

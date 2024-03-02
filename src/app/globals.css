@@ -324,7 +324,7 @@ tbody tr.riwayat {
   overflow: hidden;
   transition: .3s ease-out;
   display: inline-block;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 
 .animated-underline:before {

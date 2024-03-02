@@ -42,7 +42,7 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
           <div className="flex justify-end w-1/2">
             <div
               onClick={clickMenu}
-              className="cursor-pointer w-8 h-8 flex justify-center items-center rounded-full bg-transparent hover:opacity-80"
+              className="cursor-pointer w-8 h-8 flex justify-center items-center rounded-full border bg-white hover:opacity-80"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,48 +65,62 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
         <div className="h-4/6 pt-4">
           <Accordion title="TV Shows" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-4 uppercase">
+              <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href={"/plants"}
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Top Shows
+                  </span>
                 </Link>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Most Popular Shows
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Variety Shows
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Newest
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Upcoming
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Reviews
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Recommendations
+                  </span>
                 </a>
               </div>
             </div>
@@ -114,40 +128,40 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
           
           <Accordion title="Movies" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-4 uppercase">
+              <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href={"/plants"}
                 >
                   Top Movies
                 </Link>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Most Popular Movies
                 </a>
                
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Newest
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Upcoming
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Reviews
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Recommendations
@@ -157,40 +171,40 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
           </Accordion>
           <Accordion title="Musics" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-4 uppercase">
+              <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href={"/plants"}
                 >
                   Top Musics
                 </Link>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Most Popular Musics
                 </a>
                
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Newest
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Upcoming
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Reviews
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Recommendations
@@ -200,27 +214,27 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
           </Accordion>
           <Accordion title="Celebs" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-4 uppercase">
+              <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href={"/blogs"}
                 >
                   Top Actress
                 </Link>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Top Actors
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Top Artist
                 </a>
                 <a
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="#"
                 >
                   Top Groups
@@ -234,34 +248,34 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
 
           <Accordion title="Shops" bg="f5f5f5">
             <div className="overflow-hidden pb-0">
-              <div className="duration-300 px-4 uppercase">
+              <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href={"/collection"}
                 >
                   Spareparts
                 </Link>
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href={"/collection"}
                 >
                   Oils
                 </Link>
                 
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href={"/collection"}
                 >
                   Clean & Care
                 </Link>
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="/shop"
                 >
                   Accessories
                 </Link>
                 <Link
-                  className="flex items-center h-8 text-xs font-semibold text-gray-900 "
+                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
                   href="/shop"
                 >
                   Gifts
@@ -273,17 +287,17 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
           <div className={` py-0 flex flex-col w-full `}>
             <Link
               href={"/blogs"}
-              className="flex items-center justify-between h-10 px-3 text-gray-900 text-xs md:text-[18px] font-semibold md:font-bold"
+              className="flex items-center justify-between h-10 px-2 text-gray-900 text-xs md:text-lg font-semibold md:font-bold"
             >
-              <span className="text-sm uppercase">Podcast</span>
+              <span className="text-sm md:text-lg uppercase">Podcast</span>
             </Link>
           </div>
           <div className={` py-0 flex flex-col w-full `}>
             <Link
               href={"/reviews"}
-              className="flex items-center justify-between h-10 px-3 text-gray-900 text-xs md:text-[18px] font-semibold md:font-bold"
+              className="flex items-center justify-between h-10 px-2 text-gray-900 text-xs md:text-lg font-semibold md:font-bold"
             >
-              <span className="text-sm uppercase">Reviews</span>
+              <span className="text-sm md:text-lg uppercase">Reviews</span>
             </Link>
           </div>
           {/* <div className={` py-0 flex flex-col w-full `}>

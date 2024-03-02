@@ -48,7 +48,7 @@ const SortStatus = () => {
 
   return (
     <>
-    <div className="flex  z-30">
+    <div className={`flex pr-2 pb-2 ${isOpen ? 'z-30' : 'z-20'}`}>
         <div
           className={`relative flex items-center justify-between px-0 border border-[#cccdce] ${
             isOpen

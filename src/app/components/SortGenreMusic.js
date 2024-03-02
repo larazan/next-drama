@@ -60,13 +60,13 @@ const SortGenreMusic = () => {
 
   return (
     <>
-      <div className="flex  z-30">
+      <div className={`flex pr-2 pb-2 ${isOpen ? 'z-30' : 'z-20'}`}>
         <div
           className={`relative flex items-center justify-between px-0 border border-[#cccdce] ${
             isOpen
               ? "bg-white text-black"
               : "bg-transparent text-[#ddd] hover:bg-[#31363b]"
-          }  rounded min-w-36 h-9 cursor-pointer`}
+          }  rounded min-w-40 h-9 cursor-pointer`}
           ref={autoRef}
           onClick={toggling}
         >
@@ -92,7 +92,7 @@ const SortGenreMusic = () => {
             </svg>
           </span>
           {isOpen && (
-            <div className="min-w-36 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645] h-[400px] overflow-y-auto">
+            <div className="min-w-40 absolute top-6 py-2 right-0 z-30 mt-4 origin-top-right rounded  bg-[#474645] h-[400px] overflow-y-auto">
               {options.map((option, index) => (
                 <div className="px-0" key={index}>
                   <button

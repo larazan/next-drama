@@ -98,7 +98,7 @@ function AvaArtist({ username, width, height }) {
                 display: 'table-cell', 
                 verticalAlign: 'middle', 
                 whiteSpace: 'nowrap', }}>
-              <span className="font-bold text-[45px]">{getInitials(username)}</span>
+              <span className="font-bold text-2xl md:text-[45px]">{getInitials(username)}</span>
               
             </span>
           </div>

@@ -34,7 +34,7 @@ const SortIndividu = () => {
 
   return (
     <>
-    <div className="flex  z-30">
+    <div className={`flex ${isOpen ? 'z-30' : 'z-20'}`}>
         <div
           className={`relative flex items-center justify-between px-0 border border-[#cccdce] ${
             isOpen

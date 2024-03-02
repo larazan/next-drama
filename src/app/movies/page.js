@@ -187,13 +187,13 @@ export default function Movies() {
                     className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
                     key={index}
                   >
-                    <div className="flex w-[200px] ">
+                    <div className="flex w-[170px] md:w-[200px] ">
                       <div className="rounded bg-transparent border border-transparent hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
                         <Link href="/movies/angora" className="relative shadow-sm  shadow-[#282d32]">
                           <Image
                             src={data.img}
                             alt=""
-                            className="w-[300px] object-cover border rounded border-[#282d32]"
+                            className="w-[200px] object-cover border rounded border-[#282d32]"
                           />{" "}
                           <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                         </Link>{" "}

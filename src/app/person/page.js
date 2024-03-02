@@ -120,7 +120,7 @@ export default function Person() {
             <FilterPerson />
 
             <div className="col-start-1 md:col-span-12 md:col-start-0 md:row-start-2 xl:col-start-4">
-              <section className="grid w-full grid-cols-2 md:grid-cols-5 gap-2 md:gap-4 xl:grid-cols-4 xl:gap-4">
+              <section className="grid w-full grid-cols-3 md:grid-cols-5 gap-2 md:gap-4 xl:grid-cols-4 xl:gap-4">
                 {actressData.map((data, index) => (
                   <div
                     className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
