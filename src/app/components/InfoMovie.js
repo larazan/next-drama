@@ -120,46 +120,7 @@ const InfoMovie = () => {
                 <Image src={hulu} alt="" className="w-10" />
                 <Image src={netflix} alt="" className="w-16" />
               </div>
-              <div className="flex flex-wrap px-2 md:px-4 py-2">
-                <div className="flex flex-wrap space-x-1.5 w-full">
-                  <Link
-                    href="#"
-                    className="m-1 flex flex-wrap items-center text-sm font-mabry md:text-sm text-[#bbbbbb] py-1.5 px-3 rounded-full bg-[#3D4449] opacity-80 hover:opacity-100 capitalize "
-                  >
-                    action
-                  </Link>
-                  <Link
-                    href="#"
-                    className="m-1 flex flex-wrap items-center text-sm font-mabry md:text-sm text-[#bbbbbb] py-1.5 px-3 rounded-full bg-[#3D4449] opacity-80 hover:opacity-100 capitalize "
-                  >
-                    adventure
-                  </Link>{" "}
-                  <Link
-                    href="#"
-                    className="m-1 flex flex-wrap items-center text-sm font-mabry md:text-sm text-[#bbbbbb] py-1.5 px-3 rounded-full bg-[#3D4449] opacity-80 hover:opacity-100 capitalize "
-                  >
-                    comedy
-                  </Link>{" "}
-                  <Link
-                    href="#"
-                    className="m-1 flex flex-wrap items-center text-sm font-mabry md:text-sm text-[#bbbbbb] py-1.5 px-3 rounded-full bg-[#3D4449] opacity-80 hover:opacity-100 capitalize "
-                  >
-                    crime
-                  </Link>{" "}
-                  <Link
-                    href="#"
-                    className="m-1 flex flex-wrap items-center text-sm font-mabry md:text-sm text-[#bbbbbb] py-1.5 px-3 rounded-full bg-[#3D4449] opacity-80 hover:opacity-100 capitalize "
-                  >
-                    thriller
-                  </Link>{" "}
-                  <Link
-                    href="#"
-                    className="m-1 flex flex-wrap items-center text-sm font-mabry md:text-sm text-[#bbbbbb] py-1.5 px-3 rounded-full bg-[#3D4449] opacity-80 hover:opacity-100 capitalize "
-                  >
-                    mistery
-                  </Link>{" "}
-                </div>
-              </div>
+              
               <div className="flex flex-wrap px-2 md:px-4 py-2">
                 <div className="flex flex-wrap space-x-1.5 w-full">
                   <Link

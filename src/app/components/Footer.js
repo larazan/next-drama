@@ -614,7 +614,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://www.wander.com/local" target="_blank">
+              <Link href="/collection" target="_self">
                 Local
               </Link>
             </li>
@@ -636,7 +636,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <div className="text-sm mb-4 text-white/60">FOR PARTNERS</div>
+          <div className="text-sm mb-4 text-white/70 uppercase">FOR everyone</div>
           <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
               <Link href="/movies" target="_self">
@@ -666,7 +666,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <div className="text-sm mb-4 text-white/60">FOR EVERYONE</div>
+          <div className="text-sm mb-4 text-white/70 uppercase">Company</div>
           <ul className="space-y-2 md:space-y-3  text-base text-white">
             <li>
               <Link href="/about" target="_self">

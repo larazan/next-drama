@@ -4,7 +4,7 @@ import Head from "next/head";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import GoTop from "@/app/components/GoTop";
-import NewsFeed from "../components/NewsFeed";
+import NewsReel from "../components/NewsReel";
 
 export default function page() {
   return (
@@ -17,7 +17,7 @@ export default function page() {
 
       <Header />
       <GoTop />
-      <NewsFeed />
+      <NewsReel />
 
       <div className="flex h-max py-8 md:py-20 bg-[#0a1016] ">
         <div className="flex  w-full2">

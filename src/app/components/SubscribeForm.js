@@ -19,7 +19,7 @@ import React from 'react'
                       type="email"
                       placeholder="Enter email here"
                     />
-                    <button className=" py-2 px-4 bg-[#00dc89] font-semibold text-sm tracking-wider rounded-r-full text-black border-y border-r border-[#00dc89] uppercase transition duration-200 hover:bg-white hover:border-gray-400 hover:text-black">
+                    <button className=" py-2 px-4 bg-[#00dc89] font-semibold text-sm md:tracking-wider rounded-r-full text-black border-y border-r border-[#00dc89] uppercase transition duration-200 hover:bg-white hover:border-gray-400 hover:text-black">
                       Subscribe
                     </button>
                   </div>

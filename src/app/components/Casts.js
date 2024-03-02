@@ -23,74 +23,38 @@ import cast17 from "@/assets/actress/cast17.png";
 const Casts = () => {
 
     const actressData = [
-        {
-          name: "jang hyuk jin",
-          img: cast1,
-        },
-        {
-          name: "kim ji won",
-          img: cast2,
-        },
+
         {
           name: "esom",
+          role: "Kang Ha-na",
           img: cast3,
         },
         {
           name: "kim eui sung",
+          role: "Jang Sung-cheol",
           img: cast4,
         },
         {
           name: "yoo seung mok",
+          role: "Jo Jin-woo",
           img: cast5,
         },
         {
-          name: "yoon eun hye",
-          img: cast6,
-        },
-        {
-          name: "seo jeong yeon",
-          img: cast7,
-        },
-        {
-          name: "lee ho chul",
-          img: cast8,
-        },
-        {
-          name: "gong yoo",
-          img: cast9,
-        },
-        {
-          name: "park shin hye",
-          img: cast10,
-        },
-        {
-          name: "lee yo joon",
-          img: cast11,
-        },
-        {
-          name: "park gyu young",
-          img: cast12,
-        },
-        {
           name: "lee je hoon",
+          role: "Kim Do-ki",
           img: cast13,
         },
         {
           name: "pyo ye jin",
+          role: "Ahn Go-eun",
           img: cast14,
         },
         {
-          name: "bae suzy",
-          img: cast15,
-        },
-        {
           name: "bae yoo ram",
+          role: "Park Jin-eon",
           img: cast16,
         },
-        {
-          name: "yeonwoo",
-          img: cast17,
-        },
+        
       ];
 
   return (
@@ -164,9 +128,10 @@ const Casts = () => {
                           <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
                         </Link>{" "}
                         <div className="px-3 py-2 flex flex-col justify-center text-center leading-tight">
-                          <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-semibold capitalize">
+                          <h3 className="my-[0.25em] mx-[0em] overflow-hidden break-words text-sm md:text-md text-white leading-tight md:leading-tight font-bold capitalize">
                             <Link href="/actress/kim-ji-won">{data.name}</Link>
                           </h3>{" "}
+                          <span className='text-white text-xs capitalize'>{data.role}</span>
                         </div>
                       </div>
                     </div>

@@ -135,7 +135,7 @@ const Recommended = () => {
                   scrollX !== 0
                     ? "bg-white cursor-pointer"
                     : "bg-white opacity-50 cursor-default"
-                } shadow-menu`}
+                }`}
               >
                 <span>
                   <svg

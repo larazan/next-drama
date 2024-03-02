@@ -130,41 +130,53 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href={"/plants"}
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Top Movies
+                  </span>
                 </Link>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Most Popular Movies
+                  </span>
                 </a>
                
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Newest
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Upcoming
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Reviews
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Recommendations
+                  </span>
                 </a>
               </div>
             </div>
@@ -173,41 +185,53 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href={"/plants"}
                 >
-                  Top Musics
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
+                  Top Songs
+                  </span>
                 </Link>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
-                  Most Popular Musics
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
+                  Most Popular Songs
+                  </span>
                 </a>
                
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Newest
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Upcoming
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Reviews
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Recommendations
+                  </span>
                 </a>
               </div>
             </div>
@@ -216,28 +240,36 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
             <div className="overflow-hidden pb-0">
               <div className="duration-300 px-4 pb-4 capitalize">
                 <Link
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href={"/blogs"}
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Top Actress
+                  </span>
                 </Link>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Top Actors
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Top Artist
+                  </span>
                 </a>
                 <a
-                  className="flex items-center h-6 text-md md:text-base font-semibold text-gray-900 "
+                  className="flex items-center w-full h-6 "
                   href="#"
                 >
+                  <span className="text-md md:text-base font-semibold text-gray-900 animated-underline hover:text-[#000] after:bg-[#f5f5f5] before:bg-[#000]">
                   Top Groups
+                  </span>
                 </a>
                
               </div>
@@ -287,17 +319,17 @@ const Menu = ({ openMenu, clickMenu, setOpenMenu }) => {
           <div className={` py-0 flex flex-col w-full `}>
             <Link
               href={"/blogs"}
-              className="flex items-center justify-between h-10 px-2 text-gray-900 text-xs md:text-lg font-semibold md:font-bold"
+              className="flex items-center justify-between h-10 px-2 text-black text-xs md:text-lg font-semibold md:font-bold"
             >
-              <span className="text-sm md:text-lg uppercase">Podcast</span>
+              <span className="text-base font-semibold md:text-lg uppercase">Articles</span>
             </Link>
           </div>
           <div className={` py-0 flex flex-col w-full `}>
             <Link
               href={"/reviews"}
-              className="flex items-center justify-between h-10 px-2 text-gray-900 text-xs md:text-lg font-semibold md:font-bold"
+              className="flex items-center justify-between h-10 px-2 text-black text-xs md:text-lg font-semibold md:font-bold"
             >
-              <span className="text-sm md:text-lg uppercase">Reviews</span>
+              <span className="text-base font-semibold md:text-lg uppercase">Reviews</span>
             </Link>
           </div>
           {/* <div className={` py-0 flex flex-col w-full `}>

@@ -419,7 +419,7 @@ tbody tr.riwayat {
 .custom-scrollbar::-webkit-scrollbar {
   background-color: transparent;
   /* width: 2px; */
-  height: 8px;
+  height: 9px;
 }
 
 /* background of the scrollbar except button or resizer */

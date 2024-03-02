@@ -56,11 +56,11 @@ export default function Detail() {
             <div className="flex-col mx-auto2 w-full md:w-2/3 justify-center ">
               <div className="items-center">
                 <div className="flex justify-between">
-                  <div>
+                  <div className="flex flex-col space-y-2">
                     <div className="flex items-center2 text-white space-x-2">
                       <div className="">
                         <span className="text-3xl md:text-4xl font-bold">
-                          Parasite
+                          Taxi Driver
                         </span>
                       </div>
                       <div className="flex items-end">
@@ -70,57 +70,70 @@ export default function Detail() {
                       </div>
                     </div>
                     <div className="flex-row md:flex-col text-white">
-                      <div className="flex space-x-2">
-                        <div className=" border rounded px-1">
-                          <span className="font-semibold">R</span>
+                      <div className="flex items-center space-x-2">
+                        <div className="flex justify-center items-center border rounded px-1 h-6">
+                          <span className="font-semibold text-sm md:text-base">
+                            R
+                          </span>
                         </div>
-                        <span>30/05/2019 (KR)</span>
-                        <div className='hidden md:block before:inline before:px-1 before:text-sm before:content-["・"] after:inline after:px-1 after:text-sm after:content-["・"] text-white text-[15px] font-medium capitalize leading-0 opacity-100 '>
-                          <Link
-                            href={""}
-                            className="text-[#0b89ff] font-semibold"
-                          >
-                            Komedi,
-                          </Link>{" "}
-                          <Link
-                            href={""}
-                            className="text-[#0b89ff] font-semibold"
-                          >
-                            Cerita Seru,
-                          </Link>{" "}
-                          <Link
-                            href={""}
-                            className="text-[#0b89ff] font-semibold"
-                          >
-                            Drama
-                          </Link>
+                        <span className="text-sm md:text-base">
+                          30/05/2019 (KR)
+                        </span>
+                       
+                        <div className='before:inline before:px-0 before:text-sm before:content-["・"] text-white text-[15px] font-medium'>
+                        <span className="text-sm md:text-base">2h 13m</span>
                         </div>
-                        <span>2h 13m</span>
                       </div>
-                      <div className="md:hidden block text-[15px] font-medium capitalize leading-0  opacity-100 ">
+                      <div className="pt-2 md:hidden block flex flex-wrap space-x-1.5 w-full">
                         <Link
-                          href={""}
-                          className="text-[#0b89ff] font-semibold"
+                          href="#"
+                          className="m-.5 flex flex-wrap items-center text-xs font-mabry md:text-sm text-[#bbbbbb] py-1 px-2 rounded-full bg-[#3D4449] opacity-90 hover:opacity-100 capitalize "
                         >
-                          Komedi,
-                        </Link>{" "}
-                        <Link
-                          href={""}
-                          className="text-[#0b89ff] font-semibold"
-                        >
-                          Cerita Seru,
-                        </Link>{" "}
-                        <Link
-                          href={""}
-                          className="text-[#0b89ff] font-semibold"
-                        >
-                          Drama
+                          action
                         </Link>
+                        <Link
+                          href="#"
+                          className="m-.5 flex flex-wrap items-center text-xs font-mabry md:text-sm text-[#bbbbbb] py-1 px-2 rounded-full bg-[#3D4449] opacity-90 hover:opacity-100 capitalize "
+                        >
+                          adventure
+                        </Link>{" "}
+                        <Link
+                          href="#"
+                          className="m-.5 flex flex-wrap items-center text-xs font-mabry md:text-sm text-[#bbbbbb] py-1 px-2 rounded-full bg-[#3D4449] opacity-90 hover:opacity-100 capitalize "
+                        >
+                          comedy
+                        </Link>{" "}
                       </div>
                     </div>
+                    <div className="pt-2 hidden  md:flex flex-wrap space-x-1.5 w-full">
+                        <Link
+                          href="#"
+                          className="m-.5 flex flex-wrap items-center text-xs font-mabry md:text-sm text-[#bbbbbb] py-1 px-2 rounded-full bg-[#3D4449] opacity-90 hover:opacity-100 capitalize "
+                        >
+                          action
+                        </Link>
+                        <Link
+                          href="#"
+                          className="m-.5 flex flex-wrap items-center text-xs font-mabry md:text-sm text-[#bbbbbb] py-1 px-2 rounded-full bg-[#3D4449] opacity-90 hover:opacity-100 capitalize "
+                        >
+                          adventure
+                        </Link>{" "}
+                        <Link
+                          href="#"
+                          className="m-.5 flex flex-wrap items-center text-xs font-mabry md:text-sm text-[#bbbbbb] py-1 px-2 rounded-full bg-[#3D4449] opacity-90 hover:opacity-100 capitalize "
+                        >
+                          comedy
+                        </Link>{" "}
+                      </div>
                     <div className="flex py-2 md:py-5">
                       <div className="flex items-center space-x-1.5 md:space-x-5">
-                      <div><div className="flex shadow-menu h-11 w-11 md:h-12 md:w-12 p-1 items-center justify-center border border-gray-800 bg-[#00dc89] rounded-full px-2 py-2"><span className="text-lg font-bold text-gray-900 leading-tight">8.7</span></div></div>
+                        <div>
+                          <div className="flex shadow-menu h-11 w-11 md:h-12 md:w-12 p-1 items-center justify-center border border-gray-800 bg-[#00dc89] rounded-full px-2 py-2">
+                            <span className="text-lg font-bold text-gray-900 leading-tight">
+                              8.7
+                            </span>
+                          </div>
+                        </div>
                         <div className="text-black">
                           <button className="rounded-full bg-[#00dc89] p-2.5 md:p-3">
                             <svg
@@ -220,19 +233,19 @@ export default function Detail() {
 
                 <div className="">
                   <div>
-                    <span className="text-gray-200 italic text-lg">
+                    <span className="text-gray-200 italic md:text-lg">
                       Act like you own the place.
                     </span>
                   </div>
                 </div>
                 <div className="flex-col space-y-1 md:space-y-2">
                   <div>
-                    <span className="text-xl font-bold text-white">
+                    <span className="md:text-xl font-bold text-white">
                       Kilasan Singkat
                     </span>
                   </div>
                   <div className="leading-tight">
-                    <span className="text-white ">
+                    <span className="text-sm md:text-base text-white leading-tight">
                       Semua menganggur, keluarga Ki-taek memiliki minat khusus
                       pada Taman kaya dan glamor untuk mata pencaharian mereka
                       sampai mereka terjerat dalam insiden tak terduga.

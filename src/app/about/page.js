@@ -67,10 +67,10 @@ export default function About() {
         <div className="flex h-full w-full items-end !bg-[length:auto_833px] !bg-top min-[1129px]:!bg-[length:100%_auto]">
           <div className="to-1-black via-1-black w-full bg-gradient-to-b from-transparent via-40% py-12 pt-14 xl:pb-[104px]">
             <div className="grid mx-auto w-full max-w-[50rem] gap-4 px-4 md:px-0 pt-2 py-10 text-left">
-              <h1 className="px-4 text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
+              <h1 className="px-4 text-2xl md:text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
                 About us
               </h1>
-              <p className="mx-auto px-4 text-lg font-normal text-white">
+              <p className="mx-auto px-4 text-base md:text-lg font-normal text-white leading-tight md:leading-snug">
                 MyDramaList.com was first launched in April 2011 after several
                 years of development and beta testing. Despite still being in
                 Beta mode, the site has a wide database of Asian dramas, movies,
@@ -80,10 +80,10 @@ export default function About() {
               </p>
             </div>
             <div className="grid mx-auto w-full max-w-[50rem] gap-4 px-4 md:px-0 pt-2 py-10 text-left">
-              <h1 className="px-4 text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
+              <h1 className="px-4 text-2xl md:text-3xl text-white mx-auto w-full font-semibold lg:w-auto">
                 Our Goal
               </h1>
-              <p className="mx-auto px-4 text-lg font-normal text-white">
+              <p className="mx-auto px-4 text-base md:text-lg font-normal text-white leading-tight md:leading-snug">
                 MyDramaList.com is a community-driven platform where Asian drama
                 and movie fans can create their own lists, discuss their
                 favorite shows and movies, discover new content, and make
@@ -96,7 +96,7 @@ export default function About() {
             <div className="relative mx-auto grid w-fit gap-12 px-8 md:px-5 md:grid-cols-2 xl:grid-cols-3 text-white">
               <div className="w-full md:max-w-[355px]">
                 <p className="mb-2 text-xl font-medium">100% Wander operated</p>
-                <p className="text-w-3005">
+                <p className="text-base">
                   We’ll never pass you off to a stranger. All of the locations
                   on our platform are operated by us and managed to the highest
                   possible standards to create an experience guests love.
@@ -104,7 +104,7 @@ export default function About() {
               </div>
               <div className="w-full md:max-w-[355px]">
                 <p className="mb-2 text-xl font-medium">Hand-picked quality</p>
-                <p className="text-w-3005">
+                <p className="text-base">
                   We’ll never not look like the pictures. We select homes in the
                   most beautiful destinations and pour our hearts into making
                   them magical so you can leave your stress at the door.
@@ -114,7 +114,7 @@ export default function About() {
                 <p className="mb-2 text-xl font-medium">
                   Hotel-grade amenities
                 </p>
-                <p className="text-w-3005">
+                <p className="text-base">
                   We’ll never leave you with nothing to do. From workstations
                   with super fast WiFi to fitness centers, pools, and saunas,
                   every Wander is set up for you to effortlessly blend work and
@@ -125,7 +125,7 @@ export default function About() {
                 <p className="mb-2 text-xl font-medium">
                   Smart home experience
                 </p>
-                <p className="text-w-3005">
+                <p className="text-base">
                   We’ll never let you feel disconnected. From opening the door
                   to adjusting the lights to turning on the fireplace, total
                   home control is at your fingertips through the Wander app.
@@ -133,7 +133,7 @@ export default function About() {
               </div>
               <div className="w-full md:max-w-[355px]">
                 <p className="mb-2 text-xl font-medium">Top-tier cleaning</p>
-                <p className="text-w-3005">
+                <p className="text-base">
                   We’ll never leave you with a dirty house or a to-do list. Our
                   cleaning teams are meticulous about quality and we won’t give
                   you a list of chores when you check out.
@@ -143,7 +143,7 @@ export default function About() {
                 <p className="mb-2 text-xl font-medium">
                   24/7 Wander Concierge
                 </p>
-                <p className="text-w-3005">
+                <p className="text-base">
                   We’ll never leave you on read. Our text-based concierge is
                   always available to make your trip special – from activity
                   recommendations to restaurant reservations and more.

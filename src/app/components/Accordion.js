@@ -9,7 +9,7 @@ const Accordion = (props) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex items-center justify-between h-10 md:h-12 px-2 group text-base md:text-[12px] font-semibold md:font-bold"
       >
-        <span className="text-black text-sm md:text-lg uppercase">{props.title}</span>
+        <span className="text-black text-base font-semibold md:text-lg uppercase">{props.title}</span>
         {accordionOpen ? (
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-black">
           <path fillRule="evenodd" d="M11.47 7.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 9.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z" clipRule="evenodd" />

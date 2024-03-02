@@ -59,7 +59,7 @@ export default function Search() {
                 </button>
               </div>
 
-              <div className="relative h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-[28px] lg:mt-[64px]">
+              <div className="relative h-full grid grid-cols-1 md:grid-cols-2 px-3 lg:grid-cols-2 mt-[28px] lg:mt-[64px]">
                 <div className="mb-[40px] lg:mb-0">
                   <div className="flex items-baseline">
                     <h4 className="font-bold text-lg text-white mr-[12px] lg:mr-[16px]">
@@ -74,7 +74,7 @@ export default function Search() {
                           className="z-[1]"
                           href="/products/i2-polaroid-camera"
                         >
-                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] pr-12">
+                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] md:pr-12">
                             <div className="relative grid grid-cols-[108px_1fr] gap-x-[16px] lg:gap-x-[36px] z-[10] hover:z-20 max-h-[108px] cursor-pointer">
                               <div className="relative h-[108px] w-[108px] bg-[#F0F0F0]">
                                 <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] animate-[fadeIn_0.2s_ease-in-out]">
@@ -92,9 +92,9 @@ export default function Search() {
                                   </div>
                                 </div>
                               </div>
-                              <div className="flex justify-between">
+                              <div className="w-full flex justify-between">
                                 <div className="flex-1">
-                                  <h6 className="text-[17px] text-white font-semibold max-w-[90%]">
+                                  <h6 className="text-[17px] text-white font-semibold max-w-[100%] md:max-w-[90%] leading-tight">
                                     Polaroid I-2 Instant Camera
                                   </h6>
                                   <p className="text-[15px] font-sans mt-[6px] lg:mt-[12px] text-white leading-tight">
@@ -113,7 +113,7 @@ export default function Search() {
                           className="z-[1]"
                           href="/products/i2-polaroid-camera"
                         >
-                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] pr-12">
+                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] md:pr-12">
                             <div className="relative grid grid-cols-[108px_1fr] gap-x-[16px] lg:gap-x-[36px] z-[10] hover:z-20 max-h-[108px] cursor-pointer">
                               <div className="relative h-[108px] w-[108px] bg-[#F0F0F0]">
                                 <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] animate-[fadeIn_0.2s_ease-in-out]">
@@ -133,7 +133,7 @@ export default function Search() {
                               </div>
                               <div className="flex justify-between">
                                 <div className="flex-1">
-                                  <h6 className="text-[17px] text-white font-semibold max-w-[90%]">
+                                  <h6 className="text-[17px] text-white font-semibold max-w-[100%] md:max-w-[90%] leading-tight">
                                     Polaroid I-2 Instant Camera
                                   </h6>
                                   <p className="text-[15px] font-sans mt-[6px] lg:mt-[12px] text-white leading-tight">
@@ -152,7 +152,7 @@ export default function Search() {
                           className="z-[1]"
                           href="/products/i2-polaroid-camera"
                         >
-                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] pr-12">
+                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] md:pr-12">
                             <div className="relative grid grid-cols-[108px_1fr] gap-x-[16px] lg:gap-x-[36px] z-[10] hover:z-20 max-h-[108px] cursor-pointer">
                               <div className="relative h-[108px] w-[108px] bg-[#F0F0F0]">
                                 <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] animate-[fadeIn_0.2s_ease-in-out]">
@@ -172,7 +172,7 @@ export default function Search() {
                               </div>
                               <div className="flex justify-between">
                                 <div className="flex-1">
-                                  <h6 className="text-[17px] text-white font-semibold max-w-[90%]">
+                                  <h6 className="text-[17px] text-white font-semibold max-w-[100%] md:max-w-[90%] leading-tight">
                                     Polaroid I-2 Instant Camera
                                   </h6>
                                   <p className="text-[15px] font-sans mt-[6px] lg:mt-[12px] text-white leading-tight">
@@ -191,7 +191,7 @@ export default function Search() {
                           className="z-[1]"
                           href="/products/i2-polaroid-camera"
                         >
-                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] pr-12">
+                          <div className="w-full max-w-full lg:h-[108px] mb-[25px] md:pr-12">
                             <div className="relative grid grid-cols-[108px_1fr] gap-x-[16px] lg:gap-x-[36px] z-[10] hover:z-20 max-h-[108px] cursor-pointer">
                               <div className="relative h-[108px] w-[108px] bg-[#F0F0F0]">
                                 <div className="absolute h-[100%] w-[100%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[1] animate-[fadeIn_0.2s_ease-in-out]">
@@ -211,7 +211,7 @@ export default function Search() {
                               </div>
                               <div className="flex justify-between">
                                 <div className="flex-1">
-                                  <h6 className="text-[17px] text-white font-semibold max-w-[90%]">
+                                  <h6 className="text-[17px] text-white font-semibold max-w-[100%] md:max-w-[90%] leading-tight">
                                     Polaroid I-2 Instant Camera
                                   </h6>
                                   <p className="text-[15px] font-sans mt-[6px] lg:mt-[12px] text-white leading-tight">

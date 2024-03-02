@@ -105,19 +105,19 @@ const NewsReel = () => {
   return (
     <>
       <div className="flex h-12 md:h-14 bg-[#081118] w-full max-w-screen-xl"></div>
-      <div className="bg-[#282d32]">
-        <div className="grid-container overflow-x-hidden px-3 py-2 md:py-3 lg:px-0 lg:py-4">
+      <div className="bg-[#282d32] w-full">
+        <div className="w-full grid-container overflow-x-hidden px-0 py-0 md:py-0 ">
           <div
           // style={{ transform: 'translateX(-200%)' }}
           // className="flex items-center transition-transform xl:gap-x-[4.5rem] xl:transition-none duration-[0ms]2 duration-500"
           >
-            <Slider {...settings} className="overflow-hidden">
+            <Slider {...settings} className="w-full overflow-hidden">
               {newsData.map((data, index) => (
-                <div className="w-full shrink-0 text-center text-xs before:mr-2 before:text-gray-900 before:content-['\2713'] md:text-sm xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left" key={index}>
-                  <span className="text-[#cccdce]">
-                    <a href="/" className="">
+                <div className="w-full pb-3 md:pb-4 text-center text-xs before:mr-2 before:text-gray-900 before:content-['\2713'] md:text-sm xl:flex xl:w-auto xl:items-center xl:justify-center xl:text-left" key={index}>
+                  <span className="flex justify-center ">
+                    <Link href="/" className="text-[#cccdce] hover:text-[#00dc89] max-w-[85%]  line-clamp-1">
                       {data.title}
-                    </a>
+                    </Link>
                   </span>
                 </div>
               ))}

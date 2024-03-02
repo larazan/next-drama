@@ -9,7 +9,7 @@ import Footer from "@/app/components/Footer";
 import AccordionItem from "@/app/components/AccordionItem";
 import GoTop from "@/app/components/GoTop";
 import SubscribeForm from "../components/SubscribeForm";
-import NewsFeed from "../components/NewsFeed";
+import NewsReel from "../components/NewsReel";
 
 export default function Page() {
   const [open, setOpen] = useState(false);
@@ -76,7 +76,8 @@ export default function Page() {
 
         <Header />
         <GoTop />
-        <NewsFeed />
+        <NewsReel />
+
         <div className="flex bg-[#0a1016] min-h-screen w-full  pt-10 pb-10 md:pt-[20px]">
           <div className="flex flex-row w-full">
             <div className="flex w-full flex-1 flex-col items-center justify-center relative">
@@ -102,7 +103,7 @@ export default function Page() {
                     })}
                   </dl>
                 </section>
-                <div className="py-20 text-white">
+                <div className="py-20 px-4 text-white">
                   <h1 className="py-2 text-2xl">
                     Can&lsquo;t find what you&lsquo;re looking for?
                   </h1>

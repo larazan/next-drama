@@ -47,16 +47,16 @@ import promo1 from "@/assets/promo/promo.jpeg"
             </button>
             
             <div className="p-4 text-center sm:p-6 md:col-span-2 lg:p-8">
-              <p className="text-sm font-semibold uppercase tracking-widest">
+              <p className="text-sm font-semibold uppercase md:tracking-widest text-black">
                 Run with the pack
               </p>
 
               <h2 className="mt-6 font-black capitalize">
-                <span className="text-3xl font-black sm:text-5xl lg:text-6xl">
+                <span className="text-3xl text-black sm:text-5xl lg:text-6xl">
                   Take 20% off Your Order
                 </span>
 
-                <span className="mt-2 block text-sm">
+                <span className="mt-2 block text-sm text-black">
                   On your next order over $50
                 </span>
               </h2>
@@ -68,7 +68,7 @@ import promo1 from "@/assets/promo/promo.jpeg"
                 Yes, Please!
               </a>
 
-              <p className="mt-8 text-xs font-medium uppercase text-gray-400">
+              <p className="mt-8 text-xs font-medium uppercase text-gray-600">
                 Offer valid until 24th March, 2021 *
               </p>
             </div>

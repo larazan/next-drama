@@ -189,7 +189,10 @@ export default function TrendingHome() {
       <div className="flex w-full py-6 px-5 bg-[#0a1016]">
         <div className="flex flex-col space-y-3 w-full">
           <div className="flex flex-row justify-between  items-center">
-            <Link href={"/movies"} className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]">
+            <Link
+              href={"/movies"}
+              className="flex items-end space-x-2 group cursor-pointer text-white hover:text-[#0c9bff]"
+            >
               <div className="flex">
                 <p className=" text-lg font-bold md:text-2xl lg:text-2xl">
                   Trending
@@ -293,35 +296,64 @@ export default function TrendingHome() {
               onScroll={scrollCheck}
             >
               {movieData.map((data, index) => (
-                  <div
-                    className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
-                    key={index}
-                  >
-                    <div className="flex w-[160px] md:w-[190px] ">
-                      <div className="rounded bg-transparent border border-transparent hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
-                        <Link href="/movies/angora" className="relative shadow-sm  shadow-[#282d32]">
-                          <Image
-                            src={data.img}
-                            alt=""
-                            className="w-full object-cover border rounded border-[#282d32]"
-                          />{" "}
-                          <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
-                        </Link>{" "}
-                        <div className="px-3 py-2 flex flex-col justify-between leading-tight">
+                <div
+                  className="transition-all duration-150 flex mr-[1em] mb-[1em] hover:scale-110"
+                  key={index}
+                >
+                  <div className="flex w-[160px] md:w-[190px] ">
+                    <div className="rounded bg-transparent border border-transparent hover:border-[#00dc89] group flex flex-col overflow-hidden  transition duration-500 ease-in-out">
+                      <Link
+                        href="/movies/angora"
+                        className="relative shadow-sm  shadow-[#282d32]"
+                      >
+                        <Image
+                          src={data.img}
+                          alt=""
+                          className="w-full object-cover border rounded border-[#282d32]"
+                        />{" "}
+                        <div className="absolute opacity-0 group-hover:opacity-75 z-20 inset-0 mix-blend-overlay w-full bg-gradient-to-br from-purple-hot to-teal"></div>
+                        <div className="absolute -bottom-5 left-2 flex shadow-menu h-11 w-11 md:h-12 md:w-12 p-1 items-center justify-center border border-gray-800 bg-[#00dc89] rounded-full px-2 py-2">
+                          <span className="text-lg font-bold text-gray-900 leading-tight">
+                            8.7
+                          </span>
+                        </div>
+                        <div className="absolute bottom-1 right-1 flex justify-end">
+                          <div className=" gap-[5px] flex flex-wrap  justify-end w-1/2">
+                            <Link
+                              href="#"
+                              className=" flex flex-wrap items-center text-[10px] font-mabry md:text-[11px] text-white py-[2px] px-[5px] rounded-full bg-[#da2f68] opacity-90 hover:opacity-100 capitalize "
+                            >
+                              action
+                            </Link>
+                            <Link
+                              href="#"
+                              className=" flex flex-wrap items-center text-[10px] font-mabry md:text-[11px] text-white py-[2px] px-[5px] rounded-full bg-[#da2f68] opacity-90 hover:opacity-100 capitalize "
+                            >
+                              adventure
+                            </Link>{" "}
+                            <Link
+                              href="#"
+                              className=" flex flex-wrap items-center text-[10px] font-mabry md:text-[11px] text-white py-[2px] px-[5px] rounded-full bg-[#da2f68] opacity-90 hover:opacity-100 capitalize "
+                            >
+                              comedy
+                            </Link>{" "}
+                          </div>
+                        </div>
+                      </Link>{" "}
+                      <div className="px-3 py-2 pt-5 flex flex-col justify-between leading-tight">
                         <div className="w-[197px]">
                           <h3 className="my-[0.25em] mx-[0em] md:text-md text-white leading-tight md:leading-tight font-semibold capitalize max-w-[85%] lg:max-w-[85%] line-clamp-1">
                             <Link href="/movies/one">{data.title}</Link>
                           </h3>{" "}
                         </div>
-                          <div className="font-mabry text-xs text-white">
-                            {data.year}
-                          </div>
+                        <div className="font-mabry text-xs text-white">
+                          {data.year}
                         </div>
                       </div>
                     </div>
                   </div>
-                )
-              )}
+                </div>
+              ))}
             </div>
           </div>
         </div>

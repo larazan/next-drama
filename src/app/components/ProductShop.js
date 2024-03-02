@@ -171,14 +171,14 @@ const ProductShop = () => {
                   </div>
                 </div>
 
-                <div className="overflow-x-auto overflow-hidden md:w-9/12 md:-mt-4 ">
+                <div className="overflow-x-auto overflow-hidden custom-scrollbar md:w-9/12 md:-mt-4 ">
                   <div>
                     <div className="w-full">
                       <div className="w-full table">
                         <div className="w-full  flex px-0 pb-6 -ml-2 md:px-4">
                           {productData.map((data, index) => (
                             <Link
-                              href="/gallery"
+                              href="/product"
                               className="h-full z-1 relative text-left"
                               key={index}
                             >
