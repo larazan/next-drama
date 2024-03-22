@@ -14,6 +14,7 @@ import product2 from "@/assets/img/product2.png";
 import product3 from "@/assets/img/product3.png";
 import product4 from "@/assets/img/product4.png";
 import polaroid from "@/assets/img/polaroid.png";
+import NewsReel from "../components/NewsReel";
 
 export default function Search() {
   return (
@@ -25,8 +26,8 @@ export default function Search() {
       </Head>
 
       <Header />
-      <NewsFeed />
       <GoTop />
+      <NewsReel />
 
       <div className="flex bg-[#0a1016] min-h-screen">
         <div className="max-w-full xl:max-w-[1800px] mx-auto flex flex-col justify-center items-center">
@@ -313,7 +314,6 @@ export default function Search() {
                             data-state="closed"
                             id="radix-27"
                             className="flex items-center justify-between w-full"
-                            data-radix-collection-item=""
                           >
                             <span className="text-h6-mobile leading-6 lg:text-[20px] lg:leading-10 font-sans text-left lg:text-center text-white">
                               {" "}
